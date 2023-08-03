@@ -1,0 +1,192 @@
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\bin\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\bin\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\bin\Debug\net7.0\Entities.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\bin\Debug\net7.0\Entities.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\bin\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\bin\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\bin\Debug\net7.0\Entities.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\bin\Debug\net7.0\Entities.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\bin\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\bin\Debug\net7.0\Entities.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\bin\Debug\net7.0\Entities.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\bin\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\bin\Debug\net7.0\Entities.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\bin\Debug\net7.0\Entities.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.dll
+C:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.pdb
+C:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Entities.dll
+C:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Entities.pdb
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.dll
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.pdb
+C:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.dll
+D:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.pdb
+D:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Entities.dll
+D:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Entities.pdb
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.dll
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.pdb
+D:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\ref\Domain.dll
+E:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.deps.json
+E:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.dll
+E:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Domain.pdb
+E:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Entities.dll
+E:\work\vex\ProjetoArq\backend\Domain\bin\Debug\net7.0\Entities.pdb
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.dll
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\refint\Domain.dll
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\Domain.pdb
+E:\work\vex\ProjetoArq\backend\Domain\obj\Debug\net7.0\ref\Domain.dll

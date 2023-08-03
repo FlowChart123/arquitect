@@ -1,0 +1,1101 @@
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\appsettings.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\appsettings.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\appsettings.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\appsettings.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\appsettings.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\appsettings.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Azure.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Humanizer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\appsettings.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Entities.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Infra.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Infra.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\bin\Debug\net7.0\Entities.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\appsettings.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Entities.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Infra.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Infra.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\bin\Debug\net7.0\Entities.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\appsettings.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Entities.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Infra.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Infra.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\bin\Debug\net7.0\Entities.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\appsettings.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Entities.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Infra.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Infra.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\bin\Debug\net7.0\Entities.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\appsettings.Development.json
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\appsettings.json
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.exe
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.deps.json
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.pdb
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Azure.Core.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Domain.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Entities.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Infra.dll
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Infra.pdb
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Domain.pdb
+D:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Entities.pdb
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.dll
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.pdb
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+D:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\appsettings.Development.json
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\appsettings.json
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.exe
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.deps.json
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\WebApi.pdb
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Azure.Core.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Azure.Identity.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Humanizer.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.CodeDom.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Memory.Data.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Domain.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Entities.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Infra.dll
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Infra.pdb
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Domain.pdb
+E:\work\vex\ProjetoArq\backend\WebApi\bin\Debug\net7.0\Entities.pdb
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.dll
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.pdb
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+E:\work\vex\ProjetoArq\backend\WebApi\obj\Debug\net7.0\ref\WebApi.dll

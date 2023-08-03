@@ -67,6 +67,10 @@ const routes: Routes = [
         loadChildren: () => import('./DemoPages/Tables/tables-main/tables-main.module').then(m => m.TablesMainModule)
       },
       {
+        path: 'pages/laila',
+        loadChildren: () => import('./Layout/laila/laila.module').then(m => m.LailaModule)
+      },
+      {
         path: '',
         redirectTo: 'dashboards/analytics',
         pathMatch: 'full'

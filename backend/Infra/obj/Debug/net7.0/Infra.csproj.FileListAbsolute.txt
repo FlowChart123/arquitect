@@ -1,0 +1,221 @@
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\ref\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte5\Infra\obj\Debug\net7.0\ref\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte7\Infra\obj\Debug\net7.0\ref\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte8\Infra\obj\Debug\net7.0\ref\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte9\Infra\obj\Debug\net7.0\ref\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Domain.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Entities.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Domain.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\bin\Debug\net7.0\Entities.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\Infra.pdb
+C:\PROJETO_FINANCEIRO\PROJETO_FINANCEIRO_AULA1\Financeiro_2023 - parte10\Infra\obj\Debug\net7.0\ref\Infra.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Infra.deps.json
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Infra.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Infra.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Entities.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\bin\Debug\net7.0\Entities.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\refint\Infra.dll
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\Infra.pdb
+D:\ProjetosNaoOficiais\ValdirFerreira\Financeiro\back-end\Infra\obj\Debug\net7.0\ref\Infra.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Infra.deps.json
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Infra.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Infra.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Domain.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Entities.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Domain.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\bin\Debug\net7.0\Entities.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\refint\Infra.dll
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\Infra.pdb
+D:\ProjetosNaoOficiais\Prototipo\back-end\Infra\obj\Debug\net7.0\ref\Infra.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Infra.deps.json
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Infra.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Infra.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Entities.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\bin\Debug\net7.0\Entities.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\refint\Infra.dll
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\Infra.pdb
+D:\Sistecno\Projetos\PrototipoTms\back-end\Infra\obj\Debug\net7.0\ref\Infra.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Infra.deps.json
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Infra.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Infra.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Domain.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Entities.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Domain.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\bin\Debug\net7.0\Entities.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\refint\Infra.dll
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\Infra.pdb
+D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Infra\obj\Debug\net7.0\ref\Infra.dll
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.dll
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.pdb
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Domain.dll
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Entities.dll
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Domain.pdb
+C:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Entities.pdb
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.dll
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.pdb
+C:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\ref\Infra.dll
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.deps.json
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.dll
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.pdb
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Domain.dll
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Entities.dll
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Domain.pdb
+D:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Entities.pdb
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.dll
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\refint\Infra.dll
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.pdb
+D:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\ref\Infra.dll
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.deps.json
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.dll
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Infra.pdb
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Domain.dll
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Entities.dll
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Domain.pdb
+E:\work\vex\ProjetoArq\backend\Infra\bin\Debug\net7.0\Entities.pdb
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.dll
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\refint\Infra.dll
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\Infra.pdb
+E:\work\vex\ProjetoArq\backend\Infra\obj\Debug\net7.0\ref\Infra.dll

@@ -101,6 +101,7 @@ import { NgbdSortableHeaderDirective } from './DemoPages/Tables/dynamic/demo/sor
 import { GaugeModule } from 'angular-gauge';
 import { TrendModule } from 'ngx-trend';
 
+
 // Angular Material
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
@@ -157,6 +158,7 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
 
     // Tables
     NgbdSortableHeaderDirective,
+     
 
   ],
   imports: [
