@@ -13,7 +13,7 @@ using WebApi.Token;
 using DataContext = Infra.Configuracao.DataContext;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.WebHost.UseUrls("https://localhost:7068", "http://192.168.2.1:7068");
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -91,7 +91,7 @@ x.AllowAnyOrigin()
 .AllowAnyHeader()
 .WithOrigins(devClient));
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

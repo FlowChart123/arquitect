@@ -4406,19 +4406,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wbell\\.nuget\\packages\\": {}
+    "C:\\Users\\crsal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\work\\vex\\ProjetoArq\\backend\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\WORK\\arquitect\\backend\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "E:\\work\\vex\\ProjetoArq\\backend\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
-      "outputPath": "E:\\work\\vex\\ProjetoArq\\backend\\WebApi\\obj\\",
+      "projectPath": "C:\\WORK\\arquitect\\backend\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
+      "outputPath": "C:\\WORK\\arquitect\\backend\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4433,8 +4437,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\work\\vex\\ProjetoArq\\backend\\Infra\\Infra.csproj": {
-              "projectPath": "E:\\work\\vex\\ProjetoArq\\backend\\Infra\\Infra.csproj"
+            "C:\\WORK\\arquitect\\backend\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\WORK\\arquitect\\backend\\Infra\\Infra.csproj"
             }
           }
         }

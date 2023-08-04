@@ -768,19 +768,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wbell\\.nuget\\packages\\": {}
+    "C:\\Users\\crsal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\work\\vex\\ProjetoArq\\backend\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "E:\\work\\vex\\ProjetoArq\\backend\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
-      "outputPath": "E:\\work\\vex\\ProjetoArq\\backend\\Entities\\obj\\",
+      "projectPath": "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
+      "outputPath": "C:\\WORK\\arquitect\\backend\\Entities\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
