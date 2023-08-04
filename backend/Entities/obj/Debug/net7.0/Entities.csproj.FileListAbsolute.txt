@@ -166,3 +166,15 @@ C:\WORK\arquitect\backend\Entities\obj\Debug\net7.0\Entities.dll
 C:\WORK\arquitect\backend\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\WORK\arquitect\backend\Entities\obj\Debug\net7.0\Entities.pdb
 C:\WORK\arquitect\backend\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\work\vex\arquitect\backend\Entities\bin\Debug\net7.0\Entities.deps.json
+C:\work\vex\arquitect\backend\Entities\bin\Debug\net7.0\Entities.dll
+C:\work\vex\arquitect\backend\Entities\bin\Debug\net7.0\Entities.pdb
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.dll
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\refint\Entities.dll
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.pdb
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\ref\Entities.dll
