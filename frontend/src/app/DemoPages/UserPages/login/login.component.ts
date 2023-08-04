@@ -53,10 +53,9 @@ export class LoginComponent implements OnInit {
 
     this.loading = true;
     this.loginService.login(this.dadosForm["email"].value, this.dadosForm["senha"].value, this.Error).subscribe(
-      token => {        
+      token => {      
         this.authService.setToken(token);
-        this.authService.UsuarioAutenticado(true);
-        this.router.navigate(['/dashboard']);        
+        this.router.navigate(['/']);        
       },
       err => {        
         this.loading = false;

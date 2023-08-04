@@ -24,36 +24,39 @@ export class AuthGuard implements CanActivate {
             | Promise<boolean | UrlTree>
             | boolean
             | UrlTree {
-            return new Promise(resolve =>              
-              this.authService.checkToken().then((x) => {   
-                                
-                this.authService.UsuarioEstaAutenticado().then(status => {
-                 // let redirect: string = state.root.queryParams['redirect'];
-                 let redirect='/';
-                  let blnUnAuthorize = false;                  
+            return new Promise(resolve =>        
+              {      
+              this.authService.UsuarioEstaAutenticado().then(status => {
+                 // let redirect: string = state.root.queryParams['returnUrl'];
 
-                  //validation
-                  if (status === false || this.authService.tokenExpirado()==true)
-                    blnUnAuthorize = true;
-        
-                  //redirect
-                  if (blnUnAuthorize && redirect != null && redirect.length > 0) {                    
-                    this.router.navigate(["./pages/login", { redirect }]);
-                  }
-                  else if (blnUnAuthorize) {                    
-                    this.router.navigate(["./pages/login"]);
-                  }
-        
-                  resolve(status);
-                }
+                // let redirect = "/";
+                let blnUnAuthorize = false;                  
                 
-                )
-                  .catch(() => {                    
-                    this.router.navigate(["login"]);
-                    resolve(false);
-                  })
-              }))
-        
-          }
+                 //validation
+                 if (status === false)
+                   blnUnAuthorize = true;
+       
+                 //redirect
+                //  if (blnUnAuthorize ) {                                                  
+                //    this.router.navigate(["./pages/login", { queryParams: { returnUrl: state.url }}]);
+                //  }
+                if (blnUnAuthorize) {                          
+                    this.router.navigate(["./pages/login"],{ queryParams: { returnUrl: state.url }});
+                 }
+                 else{
+                  //this.router.navigate([state.url]);
+                 }
+       
+                 resolve(status);
+               }
+               
+               )
+                 .catch(() => {                    
+                   this.router.navigate(["login"]);
+                   resolve(false);
+                 })
+             
 
+          });
+        }
 }

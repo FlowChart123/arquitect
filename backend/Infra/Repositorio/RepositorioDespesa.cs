@@ -2,17 +2,22 @@
 using Entities.Models;
 using Infra.Configuracao;
 using Infra.Repositorio.Generics;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using DataContext = Infra.Configuracao.DataContext;
 
 namespace Infra.Repositorio
 {
+   
     public class RepositorioDespesa : RepositoryGenerics<Despesa>, InterfaceDespesa
     {
 
@@ -23,7 +28,7 @@ namespace Infra.Repositorio
             _OptionsBuilder = new DbContextOptions<DataContext>();
         }
 
-        public async Task<IList<Despesa>> ListarDespesasUsuario(string emailUsuario)
+        public async Task<IList< Despesa>> ListarDespesasUsuario(string emailUsuario)
         {
             using (var banco = new DataContext(_OptionsBuilder))
             {
@@ -50,5 +55,12 @@ namespace Infra.Repositorio
                     select d).AsNoTracking().ToListAsync();
             }
         }
+
+
+
+       
     }
+
+   
+
 }

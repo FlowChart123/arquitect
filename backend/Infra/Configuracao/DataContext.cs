@@ -104,6 +104,8 @@ namespace Infra.Configuracao
 
         public  DbSet<RomaneioDocumento> RomaneioDocumentos { get; set; }
 
+        public DbSet<Supplement> Supplements { get; set; }
+
         public  DbSet<Tenant> Tenants { get; set; }
 
         public  DbSet<TipoContum> TipoConta { get; set; }
@@ -130,8 +132,13 @@ namespace Infra.Configuracao
 
         #endregion
 
+
+    
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+
+            //optionsBuilder.LogTo(Console.WriteLine);
+
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(GetOverlapConnection());
@@ -141,7 +148,10 @@ namespace Infra.Configuracao
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);            
+            builder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
+
+
+            builder.Entity<Supplement>().ToTable("Supplements").HasKey(t => t.Id);
 
             builder.Entity<Bairro>(entity =>
             {

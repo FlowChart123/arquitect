@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using WebApi.Token;
+using Entities.Models;
+using Domain.Interfaces.ISupplement;
 
 namespace WebApi.Extensions
 {
@@ -24,7 +26,10 @@ namespace WebApi.Extensions
             .AddSingleton<InterfaceDespesa, RepositorioDespesa>()
             .AddSingleton<InterfaceSistemaFinanceiro, RepositorioSistemaFinanceiro>()
             .AddSingleton<InterfaceUsuarioSistemaFinanceiro, RepositorioUsuarioSistemaFinanceiro>()
-            .AddScoped<IJWTManager, JWTMAnagerRepo>();
+            .AddScoped<IJWTManager, JWTMAnagerRepo>()
+            .AddScoped<ISupplement, RepositorioSupplements>();
+        
+        
 
         // SERVIÇO DOMINIO
         public static IServiceCollection RegisterDomains(this IServiceCollection services) => services

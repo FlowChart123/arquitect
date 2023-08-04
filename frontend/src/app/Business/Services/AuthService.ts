@@ -2,78 +2,80 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { JwtHelperService } from '@auth0/angular-jwt';
+import { Router } from '@angular/router';
 
 @Injectable({
     providedIn: 'root'
 })
 
 export class AuthService {
-    private usuarioAutenticadoPortal: boolean = false;
-    private token: any;
+    
     private user: any;
 
     constructor(private httpClient: HttpClient,
+        private router: Router,
         private jwtService: JwtHelperService) {
     }
 
-    checkToken() {
-        return Promise.resolve(true);
-    }
+    
 
-    UsuarioAutenticado(status: boolean) {
-        localStorage.setItem('user-arquitect', JSON.stringify(status));
-        
-        this.usuarioAutenticadoPortal = status;
-    }
+   
 
     UsuarioEstaAutenticado(): Promise<boolean> {
-        this.usuarioAutenticadoPortal = localStorage.getItem('user-arquitect') == 'true';
-        // return Promise.resolve(false);
-        return Promise.resolve(this.usuarioAutenticadoPortal);
+        let tokens = localStorage.getItem('token-arquitect');
+        if (tokens==null) Promise.resolve(false);
+        if (tokens=='') Promise.resolve(false);
+        
+        if (tokens!=null && tokens!="") {   
+            return Promise.resolve(true);         
+            // if (this.tokenExpirado(tokens)==true){                
+            //     return Promise.resolve(false)
+            // }
+            // else{                
+            //     return Promise.resolve(true)
+            // }
+        }        
+        else{            
+            return Promise.resolve(false)
+        }
     }
 
     setToken(token: string) {
-        localStorage.setItem('token-arquitect', token);
-        this.token = token;
+        localStorage.setItem('token-arquitect', token);        
     }
 
 
-    tokenExpirado()
+    tokenExpirado(token)
     {
         try {
-            const token = localStorage.getItem("token-arquitect");        
-            if (token==null) return true;
-            if (token && !this.jwtService.isTokenExpired(token)){
-                return true;
-            }
-            else{
-                return false;
-            }
-        }
-        catch(e)
-        {
+        if (token && !this.jwtService.isTokenExpired(token)){
             return true;
         }
+        else{
+            return false;
+        }
+    }
+    catch(e)
+    {
+        return false;
+    }
 
     }
 
     get getToken() {
-        this.token = localStorage.getItem('token-arquitect');
-        return this.token;
+        let token = localStorage.getItem('token-arquitect');
+        return token;
     }
 
-    limparToken() {
-        this.token = null;
+    Logout() {        
         this.user = null;
+        localStorage.setItem('token-arquitect',"");     
+        this.router.navigate(["./pages/login"]);
     }
 
-    limparDadosUsuario() {
-        this.UsuarioAutenticado(false);
-        this.limparToken();
+    limparDadosUsuario() {                
         localStorage.clear();
         sessionStorage.clear();
+        this.Logout();
     }
-
-
-
 }

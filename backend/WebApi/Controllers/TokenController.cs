@@ -43,8 +43,8 @@ namespace WebApi.Controllers
             {
 
                 var token = this.JWTManager
-                    .AddClaim("UsuarioAPINumero", "121")
-                    .AddClaim("Name", "Joseph")
+                    .AddClaim("UsuarioAPINumero", "1")
+                    .AddClaim("EmailUsuario", Input.Email)
                     .Builder();
 
                 //var token = this.JWTManager.GenerateToken();

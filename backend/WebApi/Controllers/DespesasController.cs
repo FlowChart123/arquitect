@@ -1,6 +1,9 @@
-﻿using Domain.Interfaces.ICategoria;
+﻿
+using Domain.Interfaces.Generics;
+using Domain.Interfaces.ICategoria;
 using Domain.Interfaces.IDespesa;
 using Domain.Interfaces.InterfaceServicos;
+using Domain.Interfaces.ISupplement;
 using Domain.Servicos;
 using Entities.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -16,10 +19,13 @@ namespace WebApi.Controllers
     {
         private readonly InterfaceDespesa _InterfaceDespesa;
         private readonly IDespesaServico _IDespesaServico;
-        public DespesasController(InterfaceDespesa InterfaceDespesa, IDespesaServico IDespesaServico)
+        private readonly ISupplement _Supplements;
+        public DespesasController(InterfaceDespesa InterfaceDespesa, IDespesaServico IDespesaServico, ISupplement Supplements)
         {
             _InterfaceDespesa = InterfaceDespesa;
             _IDespesaServico = IDespesaServico;
+            _Supplements = Supplements;
+        
         }
 
         [HttpGet("/api/ListarDespesasUsuario")]
@@ -83,6 +89,15 @@ namespace WebApi.Controllers
             return await _IDespesaServico.CarregaGraficos(emailUsuario);
         }
 
+        [HttpGet("/api/Teste")]
+        [Produces("application/json")]
+        [AllowAnonymous]
+        public async Task<object> CarregaTeste()
+        {
+            var result = await _Supplements.GetQueryable();
+            return result;
+
+        }
 
     }
 }

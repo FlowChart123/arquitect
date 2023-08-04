@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Models
+namespace Entities.Models
 {
-    internal class BaseRepository
+    public class Supplement
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

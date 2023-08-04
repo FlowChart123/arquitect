@@ -23,7 +23,8 @@ export class LoginService extends BaseService {
 
     private readonly baseUrl = environment["endPoint"];
 
-    login(Email: string, Password: string, onerr) : Observable<any> {        
+    login(Email: string, Password: string, onerr) : Observable<any> {    
+      console.log(Email,Password);    
         return this.httpClient.post<any>(`${this.baseUrl}/CreateToken`, { Email: Email, Password: Password })
         .pipe(catchError(this.handleError<NotificationResult>(null,null,onerr)));
     }

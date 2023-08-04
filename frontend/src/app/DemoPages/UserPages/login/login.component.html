@@ -60,7 +60,13 @@
                 <fieldset class="mb-3">
                   <div tabindex="-1" role="group">
                     <label for="lblEmail" class="form-label">Email</label>
-                    <input id="lblEmail" name="email" type="email" placeholder="Digite seu email" class="form-control">
+                    <input id="lblEmail" name="email" type="email" placeholder="Digite seu email" class="form-control"formControlName="email" required="">
+
+                    <label *ngIf="loginForm.get('email')?.errors?.['required'] &&  loginForm.get('email')?.touched"
+                        class="error-input">
+                        Campo Obrigatório!
+                    </label>
+                    
                   </div>
                 </fieldset>
               </div>
@@ -68,7 +74,14 @@
                 <fieldset class="">
                   <div tabindex="-1" role="group"><label for="lblPassword" class="form-label">Senha</label><input
                       id="lblPassword" name="lblPassword" type="password" placeholder="Password here..."
-                      class="form-control"></div>
+                      class="form-control"
+                      formControlName="senha" required="">
+
+                      <label *ngIf="loginForm.get('senha')?.errors?.['required'] &&  loginForm.get('senha')?.touched"
+                          class="error-input">
+                          Campo Obrigatório!
+                      </label>
+                      </div>
                 </fieldset>
               </div>
             </div>
