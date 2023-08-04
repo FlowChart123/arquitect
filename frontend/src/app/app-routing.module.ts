@@ -11,6 +11,7 @@ import { LoginBoxedComponent } from './DemoPages/UserPages/login-boxed/login-box
 import { LoginComponent } from './DemoPages/UserPages/login/login.component';
 import { RegisterBoxedComponent } from './DemoPages/UserPages/register-boxed/register-boxed.component';
 import { RegisterComponent } from './DemoPages/UserPages/register/register.component';
+import { AuthGuard } from './Business/Guards/AuthGuard';
 
 const routes: Routes = [
   {
@@ -19,9 +20,9 @@ const routes: Routes = [
     children: [
       {
         path: 'apps',
-        loadChildren: () => import('./DemoPages/Applications/Applications.module').then(m => m.ApplicationModule)
-      },
-    
+        canActivate:[AuthGuard],
+        loadChildren: ( ) => import('./DemoPages/Applications/Applications.module').then(m => m.ApplicationModule)
+      },     
       {
         path: 'components',
         loadChildren: () => import('./DemoPages/Components/Components.module').then(m => m.ComponentsDrawerModule)
@@ -68,6 +69,7 @@ const routes: Routes = [
       },
       {
         path: 'pages/laila',
+        // canActivate:[AuthGuard],
         loadChildren: () => import('./Layout/laila/laila.module').then(m => m.LailaModule)
       },
       {

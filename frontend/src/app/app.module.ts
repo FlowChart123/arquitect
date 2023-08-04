@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgReduxModule } from '@angular-redux/store';
@@ -10,7 +10,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { JWT_OPTIONS, JwtHelperService } from '@auth0/angular-jwt';
+
 import { AppComponent } from './app.component';
 
 // BOOTSTRAP COMPONENTS
@@ -46,7 +48,7 @@ import { DropzoneModule } from 'ngx-dropzone-wrapper';
 import { DROPZONE_CONFIG } from 'ngx-dropzone-wrapper';
 import { DropzoneConfigInterface } from 'ngx-dropzone-wrapper';
 import { ChartsModule } from 'ng2-charts';
-
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 // ANGULAR MATERIAL COMPONENTS
 
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -104,6 +106,12 @@ import { TrendModule } from 'ngx-trend';
 
 // Angular Material
 
+import { HTTPStatus, LoaderInterceptor } from './Business/Interceptor/Interceptor';
+import { AuthGuard } from './Business/Guards/AuthGuard';
+
+const RxJS = [LoaderInterceptor, HTTPStatus];
+
+
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
 };
@@ -114,6 +122,9 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
   maxFilesize: 50,
   acceptedFiles: 'image/*'
 };
+
+
+
 
 @NgModule({
   declarations: [
@@ -168,7 +179,7 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
     NgReduxModule,
     CommonModule,
     LoadingBarRouterModule,
-
+    MatProgressSpinnerModule,
     // Angular Bootstrap Components
 
     PerfectScrollbarModule,
@@ -217,6 +228,7 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
 
     MatCheckboxModule
   ],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA],
   providers: [
     {
       provide:
@@ -224,10 +236,16 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
       // DROPZONE_CONFIG,
       useValue:
         DEFAULT_PERFECT_SCROLLBAR_CONFIG,
-      // DEFAULT_DROPZONE_CONFIG,
+      // DEFAULT_DROPZONE_CONFIG,      
     },
     ConfigActions,
-    ThemeOptions
+    ThemeOptions,
+    AuthGuard,
+    JwtHelperService,
+    { provide: JWT_OPTIONS, useValue: JWT_OPTIONS },
+    RxJS,
+      { provide: HTTP_INTERCEPTORS, useClass: LoaderInterceptor, multi: true },
+    
   ],
   bootstrap: [AppComponent]
 })
