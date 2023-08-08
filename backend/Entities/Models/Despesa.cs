@@ -10,7 +10,7 @@ namespace Entities.Models
 {
 
     [Table("Despesa")]
-    public  class Despesa : Base
+    public  class Despesa : BaseEntity
     {
 
         public int Ano { get; set; }

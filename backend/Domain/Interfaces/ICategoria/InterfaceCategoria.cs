@@ -1,10 +1,9 @@
-﻿using Domain.Interfaces.Generics;
-using Entities.Models;
+﻿using Entities.Models;
 
 namespace Domain.Interfaces.ICategoria
 {
-    public interface InterfaceCategoria : InterfaceGeneric<Categoria>
-    {
-        Task<IList<Categoria>> ListarCategoriasUsuario(string emailUsuario);
-    }
+    //public interface InterfaceCategoria : InterfaceGeneric<Categoria>
+    //{
+    //    Task<IList<Categoria>> ListarCategoriasUsuario(string emailUsuario);
+    //}
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class PessoaOutro
+public partial class PessoaOutro : BaseEntity
 {
     public Guid Id { get; set; }
 

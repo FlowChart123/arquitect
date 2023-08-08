@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Pessoa
+public partial class Pessoa : BaseEntity
 {
     public DateTime DataCadastro { get; set; }
     public virtual ICollection<Documento> DocumentoDestinatarios { get; } = new List<Documento>();

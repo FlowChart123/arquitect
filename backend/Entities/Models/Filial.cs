@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Filial
+public partial class Filial : BaseEntity
 {
     public int Id { get; set; }
 

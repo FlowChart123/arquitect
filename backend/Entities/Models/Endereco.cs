@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Endereco
+public partial class Endereco : BaseEntity
 {
     public Guid Id { get; set; }
 

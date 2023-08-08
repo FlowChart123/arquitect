@@ -118,3 +118,15 @@ D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Helpers\obj\Debug\net7.0\Helpe
 D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Helpers\obj\Debug\net7.0\refint\Helpers.dll
 D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Helpers\obj\Debug\net7.0\Helpers.pdb
 D:\Sistecno\Projetos\PrototipoFacilityIO\back-end\Helpers\obj\Debug\net7.0\ref\Helpers.dll
+C:\work\vex\arquitect\backend\Helpers\bin\Debug\net7.0\Helpers.deps.json
+C:\work\vex\arquitect\backend\Helpers\bin\Debug\net7.0\Helpers.dll
+C:\work\vex\arquitect\backend\Helpers\bin\Debug\net7.0\Helpers.pdb
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.csproj.AssemblyReference.cache
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.AssemblyInfoInputs.cache
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.AssemblyInfo.cs
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.csproj.CoreCompileInputs.cache
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.dll
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\refint\Helpers.dll
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\Helpers.pdb
+C:\work\vex\arquitect\backend\Helpers\obj\Debug\net7.0\ref\Helpers.dll

@@ -1,5 +1,4 @@
-﻿using Domain.Interfaces.Generics;
-using Entities.Models;
+﻿using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces.ISistemaFinanceiro
 {
-    public interface InterfaceSistemaFinanceiro : InterfaceGeneric<SistemaFinanceiro>
-    {
-        Task<IList<SistemaFinanceiro>> ListaSistemasUsuario(string emailUsuario);
-    }
+    //public interface InterfaceSistemaFinanceiro : InterfaceGeneric<SistemaFinanceiro>
+    //{
+    //    Task<IList<SistemaFinanceiro>> ListaSistemasUsuario(string emailUsuario);
+    //}
 }

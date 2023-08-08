@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class DocumentoTotal
+public partial class DocumentoTotal : BaseEntity
 {
     public Guid Id { get; set; }
 

@@ -1,7 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Dto;
+using Domain.Interfaces.Repository;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,7 +19,15 @@ namespace Infra.Extensions
             return items.AsQueryable();
         }
 
-        
+
+
+        //public static Expression<Func<TEntity, DtoBase>> dtoConversor<TEntity>(this IQueryable TEntty)
+        //{
+        //    return x => (true);
+        //}
+
 
     }
 }
+
+

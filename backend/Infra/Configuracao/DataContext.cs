@@ -1,7 +1,6 @@
 ﻿using Entities.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Entities.Models;
 using System.Reflection.Metadata;
 using System.Reflection.Emit;
 using Infra.Mappings;
@@ -152,6 +151,8 @@ namespace Infra.Configuracao
 
 
             builder.Entity<Supplement>().ToTable("Supplements").HasKey(t => t.Id);
+
+        
 
             builder.Entity<Bairro>(entity =>
             {

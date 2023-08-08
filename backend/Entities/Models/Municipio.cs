@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Municipio
+public partial class Municipio : BaseEntity
 {
     public virtual ICollection<Bairro> Bairros { get; } = new List<Bairro>();
     public string? Cep { get; set; }

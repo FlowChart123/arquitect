@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class RomaneioCarga
+public partial class RomaneioCarga : BaseEntity
 {
     public Guid Id { get; set; }
 

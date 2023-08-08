@@ -9,7 +9,7 @@ namespace Entities.Models
 {
 
     [Table("Categoria")]
-    public class Categoria : Base
+    public class Categoria : BaseEntity
     {
         [ForeignKey("SistemaFinanceiro")]
         [Column(Order = 1)]

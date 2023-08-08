@@ -9,27 +9,27 @@ using System.Threading.Tasks;
 
 namespace Domain.Servicos
 {
-    public class CategoriaServico : ICategoriaServico
+    public class CategoriaServico //: ICategoriaServico
     {
 
-        private readonly InterfaceCategoria _interfaceCategoria;
-        public CategoriaServico(InterfaceCategoria interfaceCategoria)
-        {
-            _interfaceCategoria = interfaceCategoria;
-        }
+        //private readonly InterfaceCategoria _interfaceCategoria;
+        //public CategoriaServico(InterfaceCategoria interfaceCategoria)
+        //{
+        //    _interfaceCategoria = interfaceCategoria;
+        //}
 
-        public async Task AdicionarCategoria(Categoria catagoria)
-        {
-            var valido = catagoria.ValidarPropriedadeString(catagoria.Nome, "Nome");
-            if (valido)
-                await _interfaceCategoria.Add(catagoria);
-        }
+        //public async Task AdicionarCategoria(Categoria catagoria)
+        //{
+        //    var valido = catagoria.ValidarPropriedadeString(catagoria.Nome, "Nome");
+        //    if (valido)
+        //        await _interfaceCategoria.Add(catagoria);
+        //}
 
-        public async Task AtualizarCategoria(Categoria catagoria)
-        {
-            var valido = catagoria.ValidarPropriedadeString(catagoria.Nome, "Nome");
-            if (valido)
-                await _interfaceCategoria.Update(catagoria);
-        }
+        //public async Task AtualizarCategoria(Categoria catagoria)
+        //{
+        //    var valido = catagoria.ValidarPropriedadeString(catagoria.Nome, "Nome");
+        //    if (valido)
+        //        await _interfaceCategoria.Update(catagoria);
+        //}
     }
 }

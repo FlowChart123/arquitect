@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 
 namespace Domain.Servicos
 {
-    public class UsuarioSistemaFinanceiroServico : IUsuarioSistemaFinanceiroServico
+    public class UsuarioSistemaFinanceiroServico //: IUsuarioSistemaFinanceiroServico
     {
 
-        private readonly InterfaceUsuarioSistemaFinanceiro _interfaceUsuarioSistemaFinanceiro;
+        //private readonly InterfaceUsuarioSistemaFinanceiro _interfaceUsuarioSistemaFinanceiro;
 
-        public UsuarioSistemaFinanceiroServico(InterfaceUsuarioSistemaFinanceiro interfaceUsuarioSistemaFinanceiro)
-        {
-            _interfaceUsuarioSistemaFinanceiro = interfaceUsuarioSistemaFinanceiro;
-        }
+        //public UsuarioSistemaFinanceiroServico(InterfaceUsuarioSistemaFinanceiro interfaceUsuarioSistemaFinanceiro)
+        //{
+        //    _interfaceUsuarioSistemaFinanceiro = interfaceUsuarioSistemaFinanceiro;
+        //}
 
-        public async Task CadastrarUsuarioNoSistema(UsuarioSistemaFinanceiro usuarioSistemaFinanceiro)
-        {
-            await _interfaceUsuarioSistemaFinanceiro.Add(usuarioSistemaFinanceiro);
-        }
+        //public async Task CadastrarUsuarioNoSistema(UsuarioSistemaFinanceiro usuarioSistemaFinanceiro)
+        //{
+        //    await _interfaceUsuarioSistemaFinanceiro.Add(usuarioSistemaFinanceiro);
+        //}
     }
 }

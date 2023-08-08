@@ -9,7 +9,7 @@ namespace Entities.Models
 {
 
     [Table("SistemaFinanceiro")]
-    public class SistemaFinanceiro : Base
+    public class SistemaFinanceiro : BaseEntity
     {
         public int Mes { get; set; }
         public int Ano { get; set; }

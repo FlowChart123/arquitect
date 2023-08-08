@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    public class Supplement
+    public class Supplement : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

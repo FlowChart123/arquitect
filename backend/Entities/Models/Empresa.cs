@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Empresa
+public partial class Empresa : BaseEntity
 {
     public int Id { get; set; }
 

@@ -1191,6 +1191,13 @@ C:\WORK\arquitect\backend\WebApi\obj\Debug\net7.0\refint\WebApi.dll
 C:\WORK\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.pdb
 C:\WORK\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\WORK\arquitect\backend\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\appsettings.Development.json
 C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\appsettings.json
 C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\WebApi.staticwebassets.runtime.json
@@ -1270,13 +1277,6 @@ C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\Infra.dll
 C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\Infra.pdb
 C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\Domain.pdb
 C:\work\vex\arquitect\backend\WebApi\bin\Debug\net7.0\Entities.pdb
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
 C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props

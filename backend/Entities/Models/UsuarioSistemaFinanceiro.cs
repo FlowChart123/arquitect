@@ -9,7 +9,7 @@ namespace Entities.Models
 {
 
     [Table("UsuarioSistemaFinanceiro")]
-    public class UsuarioSistemaFinanceiro
+    public class UsuarioSistemaFinanceiro : BaseEntity
     {
         public int Id { get; set; }
         public string EmailUsuario { get; set; }

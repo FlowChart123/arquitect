@@ -30,7 +30,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
 
 //DependencyInjections Extensions
 builder.Services.RegisterRepositories();
-builder.Services.RegisterDomains();
+//builder.Services.RegisterDomains();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
       .AddJwtBearer(option =>

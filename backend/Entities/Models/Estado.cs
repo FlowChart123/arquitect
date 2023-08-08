@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Estado
+public partial class Estado : BaseEntity
 {
     public int Id { get; set; }
 
