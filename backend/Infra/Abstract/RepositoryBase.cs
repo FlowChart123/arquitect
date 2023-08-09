@@ -89,7 +89,7 @@ namespace Infra.Abstract
 
         }
 
-        public  Task<TEntity> Load(int id, string[]? includes = null)
+        public  Task<TEntity> Load(object id, string[]? includes = null)
         {
 
             return Task.FromResult(_context.Set<TEntity>().Find(id));
@@ -102,12 +102,7 @@ namespace Infra.Abstract
 
             // return Task.FromResult(tmp);
         }
-
-        public  Task<TEntity> Load(Guid id)
-        {
-            return Task.FromResult(_context.Set<TEntity>().Find(id));
-        }
-                
+     
 
         public virtual void Save()
         {
@@ -144,7 +139,16 @@ namespace Infra.Abstract
 
         public virtual void InsertOrUpdate(TEntity entity)
         {
-            throw new NotImplementedException();
+            var obj = _context.Entry(entity);
+            if (obj==null)
+            {
+                Insert(entity);
+            }
+            else
+            {
+                Update(entity);
+            }
+            _context.SaveChanges();
         }
           
     }

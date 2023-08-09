@@ -7,6 +7,7 @@ import { BaseService } from '../Services/BaseService';
 import { NotificationService } from '../Services/NotificationService';
 import { map, catchError } from 'rxjs/operators';
 import { NotificationResult } from '../Interfaces/NotificationResult';
+import { createUser } from './../Models/login';
 
 @Injectable({
     providedIn: 'root'
@@ -27,6 +28,10 @@ export class LoginService extends BaseService {
       console.log(Email,Password);    
         return this.httpClient.post<any>(`${this.baseUrl}/CreateToken`, { Email: Email, Password: Password })
         .pipe(catchError(this.handleError<NotificationResult>(null,null,onerr)));
+    }
+
+    createUser(obj: createUser) : Observable<any> {          
+        return this.httpClient.post<any>(`${this.baseUrl}/AdicionaUsuario`, obj);        
     }
    
 }

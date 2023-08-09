@@ -13,10 +13,10 @@ namespace WebApi.Controllers
     public class SupplementController : ControllerBase
     {
 
-        private readonly IRepositoy<SupplementDto, Supplement> _repo;
+        private readonly IRepositoy<Supplement> _repo;
         private readonly ISupplement _supplement;
 
-        public SupplementController(IRepositoy<SupplementDto, Supplement> repo, ISupplement sup)
+        public SupplementController(IRepositoy<Supplement> repo, ISupplement sup)
         {
             _repo = repo;
             _supplement = sup;

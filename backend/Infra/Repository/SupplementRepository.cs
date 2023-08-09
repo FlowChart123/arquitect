@@ -19,34 +19,17 @@ using System.Linq.Expressions;
 
 namespace Infra.Repositorio
 {
-    public class SupplementRepository : RepositoryBase<SupplementDto, Supplement>, ISupplement
+    public class SupplementRepository : RepositoryBase<Supplement>, ISupplement
     {
 
-        //INHERITS
-        public override SupplementDto entityToDto(Supplement T)
-        {            
-            return T.asSupplementResult();            
-        }
-
-        public override Supplement parseDto(SupplementDto dto)
-        {
-            var tmp = new Supplement()
-            {
-                Name = dto.name
-            };
-            return tmp;
-                                    
-        }
+     
 
 
         //ISUPLEMENT
         public IList<SupplementDto> Query()
         {
-            using (var c = GetContext())
-            {
-                var res = c.Supplements.Select(o=>o.asSupplementResult()).ToList();
-                return res;
-            }
+            var res = _context.Supplements.Select(o => o.asSupplementResult()).ToList();
+            return res;
         }
     }
 

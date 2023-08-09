@@ -13,8 +13,7 @@ namespace Domain.Interfaces.Repository
     public interface IRepositoy<TEntity> 
     {
         public Task<ResultPage<TEntity>> List(Expression<Func<TEntity, bool>> filter = null, string[] includes = null, int? page = 1, int? limit = null);
-        public Task<TEntity> Load(int id, string[]? includes = null);
-        public Task<TEntity> Load(Guid id);
+        public Task<TEntity> Load(object id, string[]? includes = null);        
         public void Insert(TEntity entity);
         public void Delete(int id);
         public void Delete(Guid id);

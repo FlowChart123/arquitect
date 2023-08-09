@@ -22,7 +22,7 @@ namespace WebApi.Extensions
 
         // INTERFACE E REPOSITORIO
         public static IServiceCollection RegisterRepositories(this IServiceCollection services) => services    
-            .AddScoped<IRepositoy<SupplementDto,Supplement>,SupplementRepository>()
+            .AddScoped<IRepositoy<Supplement>,SupplementRepository>()
             .AddScoped<ISupplement, SupplementRepository>()
             .AddScoped<IJWTManager, JWTMAnagerRepo>()
             .AddScoped<ISupplement, SupplementRepository>();
