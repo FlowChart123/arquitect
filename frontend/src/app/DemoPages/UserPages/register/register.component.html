@@ -7,6 +7,12 @@
           <div>Olá,</div>
           <span>Isso vai levar <span class="text-success">apenas alguns segundos</span></span>
         </h4>
+        <p>
+          A senha deve conter:<br>
+          * 6 dígitos ou mais <br> 
+          * Ao menos um caracter numérico
+          * Ao menos um caracter minúsculo
+        </p>
         <div>
           <form [formGroup]="myForm">
             <div class="row">
@@ -67,16 +73,29 @@
                 Accept our <a [routerLink]="">Terms and Conditions</a>.
               </label>
             </div> -->
-            <div class="mt-4 d-flex align-items-center">
-              <h5 class="mb-0">
+            <div class="mt-4 d-flex align-items-center" [hidden]="loading==true">
+              <h5 class="mb-0" >
                 Ja tem um cadastro?
                 <a routerLink="/pages/login" class="text-primary">Voltar ao login</a></h5>
               <div class="ms-auto">
                 <button type="button" (click)="Save()"
-                  class="btn btn-wide btn-pill btn-shadow btn-hover-shine btn-secondary btn-lg">CRIAR CONTA
+                  class="btn btn-wide btn-pill btn-shadow btn-hover-shine btn-secondary btn-lg" [hidden]="loading==true">CRIAR CONTA
                 </button>
+              </div>           
+            
+            </div>
+
+            <div clas="row">
+              <div style="text-align: left; color: red;">
+                  <ul>
+                    <li *ngFor="let i of errors">
+                        <span>{{i.desc}}</span>
+                    </li>
+                  </ul>
               </div>
-             
+            </div>
+            <div ng-show="loading==true" [hidden]="loading==false" style="width:300px; float: right;">
+              <mat-spinner ></mat-spinner>
             </div>
           </form>
         </div>
