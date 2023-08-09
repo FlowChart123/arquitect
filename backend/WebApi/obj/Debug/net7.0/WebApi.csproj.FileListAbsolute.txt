@@ -1291,3 +1291,11 @@ C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\refint\WebApi.dll
 C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.pdb
 C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\work\vex\arquitect\backend\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\WORK\arquitect\backend\WebApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

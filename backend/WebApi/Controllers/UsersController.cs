@@ -47,7 +47,13 @@ namespace WebApi.Controllers
 
             if(result.Errors.Any())
             {
-                return Ok(result.Errors);
+                var tmp = new
+                {
+                    status = false,
+                    user = result,
+                    messages = result.Errors
+                };
+                return Ok(tmp);
             }
 
             // Geração de confirmação caso precise 
@@ -61,11 +67,23 @@ namespace WebApi.Controllers
 
             if(respose_Retorn.Succeeded)
             {
-                return Ok("Usuário Adicionado!");
+                var tmp = new
+                {
+                    status = true,
+                    user = result,
+                    messages =  new string[] { "Usuário cadastrado"}
+                };
+                return Ok(tmp);
             }
             else
             {
-                return Ok("erro ao confirmar cadastro de usuário!");
+                var tmp = new
+                {
+                    status = false,
+                    user = result,
+                    messages = respose_Retorn.Errors
+                };
+                return Ok(tmp);
             }
 
         }

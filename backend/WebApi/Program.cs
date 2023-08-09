@@ -13,7 +13,9 @@ using WebApi.Token;
 using DataContext = Infra.Configuracao.DataContext;
 
 var builder = WebApplication.CreateBuilder(args);
-//builder.WebHost.UseUrls("https://localhost:7068", "http://192.168.2.1:7068");
+builder.WebHost.UseUrls("https://localhost:7068", "http://192.168.2.1:7068");
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -72,6 +74,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
               }
           };
       });
+builder.Services.Configure<IdentityOptions>(opt=>
+{
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequireUppercase = false;
+});
 
 var app = builder.Build();
 
