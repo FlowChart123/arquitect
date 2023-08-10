@@ -9,6 +9,6 @@ namespace Domain.Interfaces.Repository
 {
     public interface ISupplement
     {
-        public IList<SupplementDto> Query();
+        public IList<SupplementResult> Query();
     }
 }

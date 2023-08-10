@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WORK\\arquitect\\backend\\Domain\\Domain.csproj": {}
+    "C:\\work\\vex\\arquitect\\backend\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\WORK\\arquitect\\backend\\Domain\\Domain.csproj": {
+    "C:\\work\\vex\\arquitect\\backend\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WORK\\arquitect\\backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\work\\vex\\arquitect\\backend\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\WORK\\arquitect\\backend\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
-        "outputPath": "C:\\WORK\\arquitect\\backend\\Domain\\obj\\",
+        "projectPath": "C:\\work\\vex\\arquitect\\backend\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\vex\\arquitect\\backend\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj"
+              "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -72,20 +69,17 @@
         }
       }
     },
-    "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj": {
+    "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
-        "outputPath": "C:\\WORK\\arquitect\\backend\\Entities\\obj\\",
+        "projectPath": "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\vex\\arquitect\\backend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

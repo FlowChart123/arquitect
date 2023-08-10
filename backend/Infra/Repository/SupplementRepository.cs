@@ -13,20 +13,17 @@ using System.Collections.Immutable;
 using Infra.Abstract;
 using Domain.Dto;
 using Microsoft.AspNetCore.Mvc.Razor.Infrastructure;
-using Infra.Specs;
+using Domain.Specs;
 using Microsoft.CodeAnalysis.Operations;
 using System.Linq.Expressions;
 
 namespace Infra.Repositorio
 {
     public class SupplementRepository : RepositoryBase<Supplement>, ISupplement
-    {
-
-     
-
+    {     
 
         //ISUPLEMENT
-        public IList<SupplementDto> Query()
+        public IList<SupplementResult> Query()
         {
             var res = _context.Supplements.Select(o => o.asSupplementResult()).ToList();
             return res;

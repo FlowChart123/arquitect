@@ -4,6 +4,9 @@ using Entities.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using WebApi.Models;
+using Domain.Interfaces;
 
 namespace WebApi.Controllers
 {
@@ -13,23 +16,78 @@ namespace WebApi.Controllers
     public class SupplementController : ControllerBase
     {
 
-        private readonly IRepositoy<Supplement> _repo;
-        private readonly ISupplement _supplement;
+        private readonly ISupplementService _servico;
 
-        public SupplementController(IRepositoy<Supplement> repo, ISupplement sup)
+        public SupplementController(ISupplementService servico)
         {
-            _repo = repo;
-            _supplement = sup;
+            _servico = servico;
         }
 
-        [HttpGet("/api/Teste")]
+        [HttpGet("List")]
         [Produces("application/json")]
         [AllowAnonymous]
-        public async Task<object> CarregaTeste()
+        public async Task<IActionResult> Get()
         {
-            var result = _supplement.Query().OrderByDescending(p => p.id);
-            return result;
+            var result = await _servico.List();
+            return Ok(result);
 
+        }
+
+
+        [HttpPost("Insert")]
+        [AllowAnonymous]
+        public IActionResult Post([FromBody] SupplementInsertCommand model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var res = _servico.Insert(model);
+            return Ok(res);            
+        }
+
+        [HttpPost("Update")]
+        [AllowAnonymous]
+        public IActionResult Put([FromBody] SupplementUpdateCommand model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var modelo = _servico.Load(model.Id);
+
+            if (modelo == null)
+            {
+                return NotFound();
+            }
+
+            var res = _servico.Update(model);
+
+            return Ok(res);
+        }
+
+        [HttpDelete("Delete/{id}")]
+        [AllowAnonymous]
+        public  IActionResult Delete([FromRoute] int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            _servico.Delete(id);
+            return Ok($"Registro ${id} excluido!");
         }
     }
 }
+
+
+
+/*possiveis retornos
+ * 
+ * 
+ * //return CreatedAtAction("Get", new { id = model.Id}, model);
+ * 
+ */

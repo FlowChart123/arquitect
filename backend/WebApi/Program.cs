@@ -13,7 +13,7 @@ using WebApi.Token;
 using DataContext = Infra.Configuracao.DataContext;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("https://localhost:7068", "http://192.168.2.1:7068");
+//builder.WebHost.UseUrls("https://localhost:7068", "http://192.168.2.1:7068");
 
 
 // Add services to the container.
@@ -32,6 +32,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
 
 //DependencyInjections Extensions
 builder.Services.RegisterRepositories();
+builder.Services.RegisterServices();
 //builder.Services.RegisterDomains();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

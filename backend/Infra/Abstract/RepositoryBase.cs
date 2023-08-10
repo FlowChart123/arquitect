@@ -26,23 +26,18 @@ namespace Infra.Abstract
             this._context = new DataContext(_OptionsBuilder);
         }
 
-        public virtual async void Delete(int id)
+        public virtual async void Delete(object id)
         {
-            var entity = await Load(id);
+            var entity =  Load(id);
             _context.Entry(entity).State = EntityState.Deleted;
-            Update(entity);
+            _context.SaveChanges();
         }
 
-        public virtual async void Delete(Guid id)
-        {
-            var entity = await Load(id);
-            _context.Entry(entity).State = EntityState.Deleted;
-            Update(entity);
-        }
-
-        public virtual void Insert(TEntity entity)
+        public virtual TEntity Insert(TEntity entity)
         {            
             _context.Add(entity);
+            _context.SaveChanges();
+            return entity;
 
         }
 
@@ -89,10 +84,15 @@ namespace Infra.Abstract
 
         }
 
-        public  Task<TEntity> Load(object id, string[]? includes = null)
+        public  TEntity Load(object id, string[]? includes = null)
         {
 
-            return Task.FromResult(_context.Set<TEntity>().Find(id));
+
+            var model = _context.Set<TEntity>().Find(id);
+            if (model == null) return null;
+
+            _context.Entry(model).State = EntityState.Detached;
+            return model;
 
             //var query = _context.Set<TEntity>().AsQueryable();
 
@@ -109,10 +109,12 @@ namespace Infra.Abstract
             _context.SaveChanges();
         }
 
-        public virtual void Update(TEntity entity)
+        public virtual TEntity Update(TEntity entity)
         {
             _context.Entry(entity).State = EntityState.Modified;
             _context.Update(entity);
+            _context.SaveChanges();
+            return entity;
         }
 
         public virtual void UpdateChildCollection<Tparent, Tid, Tchild>(Tparent dbItem, Tparent newItem, Func<Tparent, IEnumerable<Tchild>> selector, Func<Tchild, Tid> idSelector) where Tchild : class

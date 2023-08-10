@@ -14,21 +14,27 @@ using Entities.Models;
 using Domain.Interfaces.Repository;
 using Infra.Abstract;
 using Domain.Dto;
+using Domain.Interfaces;
+using Domain.Services;
 
 namespace WebApi.Extensions
 {
     public static class DependencyInjections
     {
 
-        // INTERFACE E REPOSITORIO
+        //  REPOSITORIOS
         public static IServiceCollection RegisterRepositories(this IServiceCollection services) => services    
             .AddScoped<IRepositoy<Supplement>,SupplementRepository>()
             .AddScoped<ISupplement, SupplementRepository>()
             .AddScoped<IJWTManager, JWTMAnagerRepo>()
             .AddScoped<ISupplement, SupplementRepository>();
-        
-        
-        
+
+
+        //SERVICOS
+        public static IServiceCollection RegisterServices(this IServiceCollection services) => services
+            .AddScoped<ISupplementService, SupplementService>();
+
+
 
         // SERVIÇO DOMINIO
         //public static IServiceCollection RegisterDomains(this IServiceCollection services) => services
