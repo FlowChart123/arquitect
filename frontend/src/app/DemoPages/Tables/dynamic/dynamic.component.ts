@@ -9,8 +9,8 @@ import { NgbdSortableHeaderDirective, SortEvent } from './demo/sortable.directiv
 // @ts-ignore
 @Component({
   selector: 'app-dynamic',
-  templateUrl: './dynamic.component.html',
-  providers: [CountryService, DecimalPipe]
+  templateUrl: './dynamic.component.html', 
+  providers: [CountryService, DecimalPipe] 
 })
 export class DynamicComponent {
 

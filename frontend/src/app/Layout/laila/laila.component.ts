@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { NotificationService } from 'src/app/Business/Services/NotificationService';
-import { QueryList, Renderer2, ViewChildren, VERSION } from '@angular/core';
+
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatSort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
+import { SelectionModel } from '@angular/cdk/collections';
 
 @Component({
   selector: 'app-laila',
@@ -8,17 +10,12 @@ import { QueryList, Renderer2, ViewChildren, VERSION } from '@angular/core';
   styleUrls: ['./laila.component.sass'],  
 })
 export class LailaComponent implements OnInit {
-
-  constructor(
-    private nota: NotificationService
-  ) { }
-
   ngOnInit(): void {
+    
   }
-
-  Notificar()
-  {
-    this.nota.openToast("O registro foi atualizado com sucesso","Atualizado!",'success');
-  }
-
+  heading = 'Bootstrap 5 Tables';
+  subheading = 'Tables are the backbone of almost all web applications.';
+  icon = 'pe-7s-drawer icon-gradient bg-happy-itmeo';
 }
+
+

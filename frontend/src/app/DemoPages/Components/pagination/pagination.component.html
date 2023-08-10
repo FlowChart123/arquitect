@@ -6,7 +6,7 @@
   <mat-datepicker #picker></mat-datepicker>
 </mat-form-field>
 
-
+ 
 <div class="row">
   <div class="col-md-6">
     <div class="card main-card mb-3">
@@ -17,7 +17,7 @@
         <h6>
           Default pagination:
         </h6>
-        <ngb-pagination [collectionSize]="70" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
+        <ngb-pagination [collectionSize]="70" [pageSize]="5" [(page)]="page" aria-label="Default pagination"></ngb-pagination>
         <div class="divider"></div>
         <h6>
           No direction links:
