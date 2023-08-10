@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Razor.Language.Intermediate;
+﻿//using Microsoft.AspNetCore.Razor.Language.Intermediate;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infra.Extensions
+namespace Helpers.Extensions
 {
 
     public static class QueryableExtensions

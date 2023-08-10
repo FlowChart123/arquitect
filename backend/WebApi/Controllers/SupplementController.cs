@@ -34,6 +34,18 @@ namespace WebApi.Controllers
         }
 
 
+        [HttpPost("Page")]
+        [Produces("application/json")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Page([FromBody]  InputPage model)
+        {
+            var result = await _servico.Page(model.page, model.size, model.ordeBy,model.orderDirection);
+            return Ok(result);
+
+        }
+
+
+
         [HttpPost("Insert")]
         [AllowAnonymous]
         public IActionResult Post([FromBody] SupplementInsertCommand model)

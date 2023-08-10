@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Helpers.Extensions;
 
 namespace Domain.Services
 {
@@ -36,6 +37,7 @@ namespace Domain.Services
 
         public Task<IQueryable<SupplementResult>> List()
         {
+            
             return Task.FromResult(_supplement.Query().OrderByDescending(p => p.id).AsQueryable());
         }
 
@@ -44,6 +46,17 @@ namespace Domain.Services
             var res = _repo.Load(id);
             return Task.FromResult(res.asSupplementResult());
 
+        }
+
+        public Task<IQueryable<SupplementResult>> Page(int page, int size, string? ordeBy="", string? orderDirection = "", string? search = "")
+        {
+            var result = _supplement.Query().OrderByDescending(p => p.id).AsQueryable().ToPage(page,size);
+            if (!string.IsNullOrEmpty(ordeBy))
+            {
+                string _direction = string.IsNullOrEmpty(orderDirection) ? "asc" : orderDirection;
+                result = result.AsQueryable().DynamicOrderBy(ordeBy, _direction).AsQueryable();
+            }
+            return Task.FromResult(result);
         }
 
         public Supplement Update(SupplementUpdateCommand model)

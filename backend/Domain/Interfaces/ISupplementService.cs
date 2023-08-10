@@ -10,6 +10,7 @@ namespace Domain.Interfaces
 {
     public interface ISupplementService
     {
+        public Task<IQueryable<SupplementResult>> Page(int page, int size, string? ordeBy="", string? orderDirection="", string? search="");
         public Task<IQueryable<SupplementResult>> List();
         public Task<SupplementResult> Load(object id);
         public Supplement Insert(SupplementInsertCommand model);
