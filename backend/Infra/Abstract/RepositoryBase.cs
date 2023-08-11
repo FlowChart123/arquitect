@@ -57,8 +57,8 @@ namespace Infra.Abstract
             {
                 if (limit > 0 && page == null)
                 {
-                    tmp.TotalItems = query.Count();                    
-                    tmp.Items = await query.Take((int)limit).ToListAsync();
+                    tmp.TotalItems = query.Count();
+                    tmp.Items = query.Take((int)limit).ToList().AsQueryable();
                     return tmp;
                 }
                 else if (limit > 0 && page >= 1)
@@ -66,8 +66,8 @@ namespace Infra.Abstract
                     int start = (Convert.ToInt32(page) - 1) * Convert.ToInt32(limit);
                     int qtd = Convert.ToInt32(limit);
 
-                    tmp.TotalItems = query.Count();                    
-                    tmp.Items = await query.Skip(start).Take((int)limit).ToListAsync();
+                    tmp.TotalItems = query.Count();
+                    tmp.Items = query.Skip(start).Take((int)limit).ToList().AsQueryable();
                     return tmp;
                 }
                 else
@@ -77,8 +77,8 @@ namespace Infra.Abstract
             }
             else
             {
-                tmp.TotalItems = query.Count();                
-                tmp.Items = await query.ToListAsync();
+                tmp.TotalItems = query.Count();
+                tmp.Items = query.ToList().AsQueryable();
                 return tmp;
             }
 

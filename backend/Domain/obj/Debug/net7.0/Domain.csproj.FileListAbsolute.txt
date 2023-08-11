@@ -222,3 +222,5 @@ C:\work\vex\arquitect\backend\Domain\obj\Debug\net7.0\Domain.pdb
 C:\work\vex\arquitect\backend\Domain\obj\Debug\net7.0\ref\Domain.dll
 C:\work\vex\arquitect\backend\Domain\bin\Debug\net7.0\Helpers.dll
 C:\work\vex\arquitect\backend\Domain\bin\Debug\net7.0\Helpers.pdb
+C:\WORK\arquitect\backend\Domain\bin\Debug\net7.0\Helpers.dll
+C:\WORK\arquitect\backend\Domain\bin\Debug\net7.0\Helpers.pdb

@@ -255,3 +255,5 @@ C:\work\vex\arquitect\backend\Infra\obj\Debug\net7.0\Infra.pdb
 C:\work\vex\arquitect\backend\Infra\obj\Debug\net7.0\ref\Infra.dll
 C:\work\vex\arquitect\backend\Infra\bin\Debug\net7.0\Helpers.dll
 C:\work\vex\arquitect\backend\Infra\bin\Debug\net7.0\Helpers.pdb
+C:\WORK\arquitect\backend\Infra\bin\Debug\net7.0\Helpers.dll
+C:\WORK\arquitect\backend\Infra\bin\Debug\net7.0\Helpers.pdb

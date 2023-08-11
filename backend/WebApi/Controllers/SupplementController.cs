@@ -39,7 +39,7 @@ namespace WebApi.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Page([FromBody]  InputPage model)
         {
-            var result = await _servico.Page(model.page, model.size, model.ordeBy,model.orderDirection);
+            var result = await _servico.Page(model.page, model.size, model.orderBy,model.orderDirection,model.search);
             return Ok(result);
 
         }

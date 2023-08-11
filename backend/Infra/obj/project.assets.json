@@ -6408,6 +6408,7 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6575,6 +6576,7 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7355,6 +7357,7 @@
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7635,6 +7638,7 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7745,6 +7749,7 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7801,6 +7806,7 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8763,6 +8769,7 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9140,6 +9147,7 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9712,19 +9720,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wbell\\.nuget\\packages\\": {}
+    "C:\\Users\\crsal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\vex\\arquitect\\backend\\Infra\\Infra.csproj",
+      "projectUniqueName": "C:\\WORK\\arquitect\\backend\\Infra\\Infra.csproj",
       "projectName": "Infra",
-      "projectPath": "C:\\work\\vex\\arquitect\\backend\\Infra\\Infra.csproj",
-      "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\vex\\arquitect\\backend\\Infra\\obj\\",
+      "projectPath": "C:\\WORK\\arquitect\\backend\\Infra\\Infra.csproj",
+      "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
+      "outputPath": "C:\\WORK\\arquitect\\backend\\Infra\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9738,11 +9750,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\work\\vex\\arquitect\\backend\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\work\\vex\\arquitect\\backend\\Domain\\Domain.csproj"
+            "C:\\WORK\\arquitect\\backend\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\WORK\\arquitect\\backend\\Domain\\Domain.csproj"
             },
-            "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\work\\vex\\arquitect\\backend\\Entities\\Entities.csproj"
+            "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\WORK\\arquitect\\backend\\Entities\\Entities.csproj"
             }
           }
         }

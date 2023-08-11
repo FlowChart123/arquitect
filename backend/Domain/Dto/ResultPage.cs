@@ -9,7 +9,7 @@ namespace Domain.Dto
 {
     public class ResultPage<T>
     {
-        public int TotalItems { get; set; }
-        public IList<T> Items { get; set; }
+        public int TotalItems { get; set; }        
+        public IQueryable<T> Items { get; set; }
     }
 }

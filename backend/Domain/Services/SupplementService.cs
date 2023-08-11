@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Helpers.Extensions;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Domain.Services
 {
@@ -48,15 +49,32 @@ namespace Domain.Services
 
         }
 
-        public Task<IQueryable<SupplementResult>> Page(int page, int size, string? ordeBy="", string? orderDirection = "", string? search = "")
+        public Task<ResultPage<SupplementResult>> Page(int page, int size, string? ordeBy="", string? orderDirection = "", string? search = "")
         {
-            var result = _supplement.Query().OrderByDescending(p => p.id).AsQueryable().ToPage(page,size);
+            IQueryable<SupplementResult> result;
+                        
+            if (!string.IsNullOrEmpty(search) && search != "")
+            {
+                result = _supplement.Query().AsQueryable().Where(p => p.name.ToLower().Contains(search.ToLower()));
+            }
+            else
+            {
+                result = _supplement.Query().AsQueryable();
+            }
+            
             if (!string.IsNullOrEmpty(ordeBy))
             {
                 string _direction = string.IsNullOrEmpty(orderDirection) ? "asc" : orderDirection;
                 result = result.AsQueryable().DynamicOrderBy(ordeBy, _direction).AsQueryable();
             }
-            return Task.FromResult(result);
+
+            int qtd = result.Count();
+            result = result.OrderByDescending(p => p.id).AsQueryable().ToPage(page, size);
+            
+            ResultPage<SupplementResult> tmp = new ResultPage<SupplementResult>();
+            tmp.Items = result;
+            tmp.TotalItems = qtd;
+            return Task.FromResult(tmp);
         }
 
         public Supplement Update(SupplementUpdateCommand model)
