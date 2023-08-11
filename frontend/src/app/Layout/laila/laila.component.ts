@@ -8,7 +8,7 @@ import { SelectionModel } from '@angular/cdk/collections';
   selector: 'app-laila',
   templateUrl: './laila.component.html',
   styleUrls: ['./laila.component.sass'],  
-})
+}) 
 export class LailaComponent implements OnInit {
   ngOnInit(): void {
     

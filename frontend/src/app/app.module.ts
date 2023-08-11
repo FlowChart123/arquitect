@@ -108,10 +108,9 @@ import { TrendModule } from 'ngx-trend';
 
 import { HTTPStatus, LoaderInterceptor } from './Business/Interceptor/Interceptor';
 import { AuthGuard } from './Business/Guards/AuthGuard';
+import { PageTitleModule } from './Layout/Components/page-title/page-title.module';
 
 const RxJS = [LoaderInterceptor, HTTPStatus];
-
-
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
 };
@@ -170,6 +169,9 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
     // Tables
     NgbdSortableHeaderDirective,
      
+     
+     
+     
 
   ],
   imports: [
@@ -181,7 +183,7 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
     LoadingBarRouterModule,
     MatProgressSpinnerModule,
     // Angular Bootstrap Components
-
+    PageTitleModule,
     PerfectScrollbarModule,
     NgbModule,
     FontAwesomeModule,
@@ -197,6 +199,7 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
       provide: DateAdapter,
       useFactory: adapterFactory
     }),
+    
     // CountUpModule,
     // AgmCoreModule.forRoot({
     //   // please get your own API key here:

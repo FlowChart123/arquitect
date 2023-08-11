@@ -1,0 +1,73 @@
+<div class="card mb-3">
+    <div class="card-header-tab card-header">
+      <div class="card-header-title font-size-lg text-capitalize fw-normal">
+        <i class="header-icon lnr-laptop-phone me-3 text-muted opacity-6"> </i>
+        Supplements
+      </div>
+      <div class="btn-actions-pane-right">
+        <div role="group" class="btn-group-sm btn-group">
+          <button class="btn btn-shadow btn-sm btn-primary" (click)="toggleSelection()" *ngIf="stateEdit==true">
+            Opções
+          </button>
+          <button class="btn-shadow btn btn-dark" (click)="toggleSelection()" *ngIf="stateEdit==false">Opções</button>
+
+          <button class="btn-shadow btn btn-dark" (click)="refresh()">Atualizar</button>
+
+          <button type="button" class="btn-shadow btn btn-dark" [disabled]="!stateEdit || selecteds().length==0" (click)="Remove()">Remover</button>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div class="p-2">
+        <div class="row">
+          <label for="staticEmail" style="margin-left: 22px;" class="col-auto col-form-label">Pesquisa:</label>
+          <div class="col-auto" style="padding-left: 0px;">
+            <input type="text" style="margin-left: 0px !important;" class="form-control ms-2" name="searchTerm" [(ngModel)]="searchTerm">
+            <span class="ms-3" *ngIf="loading$ | async">Carregando...</span>
+          </div>
+        </div>
+      </div>
+      <table class="table table-striped">
+        <colgroup>          
+          <col style="width:60px; text-align: center;" [hidden]="!stateEdit" />
+          <col style="width:100px"  />
+          <col  />
+        </colgroup>
+        <thead>
+          <tr>
+            <th [hidden]="!stateEdit" style="width:60px !important"></th>
+            <th  scope="col" class="text-center">#</th>
+            <th scope="col" sortable="name"  >Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- records$ | async -->
+          <tr *ngFor="let item of data   ">
+
+            <!-- CONTROLS -->
+            <th [hidden]="!stateEdit" style="width:60px !important; text-align: center;">
+              <input type="checkbox" [(ngModel)]="item._selected" [ngModelOptions]="{standalone:true}" >
+              <i class="fa fa-fw fa-pencil" aria-hidden="true" style="float: left; cursor: pointer;"></i>
+            </th>
+
+            <th scope="row" class="text-center">{{ item.id }}</th>
+            <td>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg" class="me-2"
+                style="width: 20px">
+              <ngb-highlight [result]="item.name" [term]="searchTerm"></ngb-highlight>
+            </td>          
+          </tr>
+        </tbody>
+      </table>
+      <div class="card-footer pb-0">
+        <div class="d-flex w-100 justify-content-between">
+          <ngb-pagination [collectionSize]="total$ | async " [(page)]="page" [pageSize]="pageSize"></ngb-pagination>
+          <select class="custom-select form-select" style="width: auto" name="pageSize" [(ngModel)]="pageSize">
+            <option [ngValue]="5">5 itens por página</option>
+            <option [ngValue]="10">10 itens por página</option>
+            <option [ngValue]="15">15 itens por página</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>

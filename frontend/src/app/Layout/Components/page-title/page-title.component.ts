@@ -1,6 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
+
 
 
 @Component({
@@ -9,11 +10,17 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 })
 export class PageTitleComponent {
 
+  @Output() OnAdd= new EventEmitter<any>();
+
   faStar = faStar;
   faPlus = faPlus;
 
   @Input() heading;
   @Input() subheading;
   @Input() icon;
+
+  Add(){
+    this.OnAdd.emit([]);
+  }
 
 }

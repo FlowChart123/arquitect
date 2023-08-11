@@ -13,6 +13,7 @@ import { RegularModule } from 'src/app/DemoPages/Tables/regular/regular.module';
 import { TableDynamicModule } from '../Components/tables/dynamic/dynamic.module';
 
 
+
 @NgModule({  
   imports: [
     CommonModule,    

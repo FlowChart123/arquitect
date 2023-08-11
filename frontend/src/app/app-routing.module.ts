@@ -68,9 +68,12 @@ const routes: Routes = [
         loadChildren: () => import('./DemoPages/Tables/tables-main/tables-main.module').then(m => m.TablesMainModule)
       },
       {
-        path: 'pages/laila',
-        // canActivate:[AuthGuard],
+        path: 'pages/laila',        
         loadChildren: () => import('./Layout/laila/laila.module').then(m => m.LailaModule)
+      },
+      {
+        path: 'pages/rush',        
+        loadChildren: () => import('./Pages/rush/rush.module').then(m => m.RushModule)
       },
       {
         path: '',

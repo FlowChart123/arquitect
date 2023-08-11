@@ -7,14 +7,14 @@ import { NotificationService } from '../Services/NotificationService';
 import { map, catchError } from 'rxjs/operators';
 import { NotificationResult } from '../Interfaces/NotificationResult';
 import { createUser } from './../Models/login';
+import { Pager } from '../Models/pager';
 
 @Injectable({
     providedIn: 'root'
 })
 
-export class LoginService extends BaseService {
-      
-    
+export class SupplementService extends BaseService {
+          
   constructor(
     private httpClient: HttpClient,
     notificationService: NotificationService) {    
@@ -22,14 +22,8 @@ export class LoginService extends BaseService {
   }
 
     private readonly baseUrl = environment["endPoint"];
-
-    login(Email: string, Password: string, onerr) : Observable<any> {          
-        return this.httpClient.post<any>(`${this.baseUrl}/CreateToken`, { Email: Email, Password: Password })
-        .pipe(catchError(this.handleError<NotificationResult>(null,null,onerr)));
-    }
-
-    createUser(obj: createUser) : Observable<any> {          
-        return this.httpClient.post<any>(`${this.baseUrl}/AdicionaUsuario`, obj);        
+    Page(obj: Pager) : Observable<any> {          
+        return this.httpClient.post<any>(`${this.baseUrl}/Supplement/Page/`, obj);        
     }
    
 }

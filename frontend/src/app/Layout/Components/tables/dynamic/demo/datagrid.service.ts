@@ -1,10 +1,8 @@
 import { Injectable, PipeTransform } from '@angular/core';
 import { BehaviorSubject, forkJoin, Observable, of, Subject } from 'rxjs';
 import { DecimalPipe } from '@angular/common';
-import { debounceTime, delay, flatMap, mergeMap, switchMap, tap } from 'rxjs/operators';
+import { debounceTime, delay, mergeMap, switchMap, tap } from 'rxjs/operators';
 import { SortDirection } from './sortable.directive';
-import { COUNTRIES } from './countries';
-
 
 
 interface SearchResult {
