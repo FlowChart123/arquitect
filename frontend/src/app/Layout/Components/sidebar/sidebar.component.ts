@@ -45,8 +45,9 @@ export class SidebarComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.innerWidth = window.innerWidth;
+      this.globals.toggleSidebar = true;
       if (this.innerWidth < 1200) {
-        this.globals.toggleSidebar = true;
+        //this.globals.toggleSidebar = true;
       }
     });
 

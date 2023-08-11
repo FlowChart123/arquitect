@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { SupplementService } from 'src/app/Business/DataServices/SupplementService';
 import { Pager } from 'src/app/Business/Models/pager';
 import { SearchResultGrid } from 'src/app/Business/Models/search-result-grid';
 import { DatagridComponent } from 'src/app/Components/datagrid/datagrid.component';
+import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
+
 
 @Component({
   selector: 'app-rush-list',
@@ -12,8 +14,13 @@ import { DatagridComponent } from 'src/app/Components/datagrid/datagrid.componen
   providers: [SupplementService]
 })
 export class RushListComponent extends DatagridComponent implements OnInit {
+
+  
+
   data=[];
-  constructor(private _supService: SupplementService) {
+  constructor(
+    private _supService: SupplementService
+    ) {
     super();
     
     super.records$.subscribe(p=>{
@@ -52,12 +59,20 @@ export class RushListComponent extends DatagridComponent implements OnInit {
   {
     return this.data.filter(p=> {return p._selected==true});
   }
+
+  edit(l)
+  {
+    EventEmitterService.get('edit').emit(l);    
+  }
+
   refresh()
   {
     super._RefreshData();
   }
+
   Remove()
   {  
   }
+
   /********************************************* */
 }

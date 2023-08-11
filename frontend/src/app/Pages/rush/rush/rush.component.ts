@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { RushFormComponent } from './rush-form/rush-form.component';
+import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
 
 
 @Component({
@@ -7,12 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rush.component.sass']
 })
 export class RushComponent implements OnInit {
+  @ViewChild('dataForm', { static: true }) dataForm: RushFormComponent;
 
   constructor() {    
   }
 
   ngOnInit(): void {
-    
+    EventEmitterService.get('edit').subscribe(p=>{
+      this.dataForm.open(p.id);
+    })    
   }
 
   heading = 'Suplementos para teste de CRUD de dados';
@@ -21,6 +26,6 @@ export class RushComponent implements OnInit {
 
   Adding()
   {
-    alert(123);
+    this.dataForm.open(0);
   }
 }
