@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WORK\\arquitect\\backend\\Helpers\\Helpers.csproj": {}
+    "C:\\work\\vex\\arquitect\\backend\\Helpers\\Helpers.csproj": {}
   },
   "projects": {
-    "C:\\WORK\\arquitect\\backend\\Helpers\\Helpers.csproj": {
+    "C:\\work\\vex\\arquitect\\backend\\Helpers\\Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WORK\\arquitect\\backend\\Helpers\\Helpers.csproj",
+        "projectUniqueName": "C:\\work\\vex\\arquitect\\backend\\Helpers\\Helpers.csproj",
         "projectName": "Helpers",
-        "projectPath": "C:\\WORK\\arquitect\\backend\\Helpers\\Helpers.csproj",
-        "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
-        "outputPath": "C:\\WORK\\arquitect\\backend\\Helpers\\obj\\",
+        "projectPath": "C:\\work\\vex\\arquitect\\backend\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\vex\\arquitect\\backend\\Helpers\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

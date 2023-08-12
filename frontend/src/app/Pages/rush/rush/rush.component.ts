@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { RushFormComponent } from './rush-form/rush-form.component';
+import { RushModalComponent } from './rush-modal/rush-modal.component';
 import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
 
 
@@ -9,7 +9,7 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
   styleUrls: ['./rush.component.sass']
 })
 export class RushComponent implements OnInit {
-  @ViewChild('dataForm', { static: true }) dataForm: RushFormComponent;
+  @ViewChild('dataForm', { static: true }) dataForm: RushModalComponent;
 
   constructor() {    
   }
@@ -26,6 +26,6 @@ export class RushComponent implements OnInit {
 
   Adding()
   {
-    this.dataForm.open(0);
+    this.dataForm.open('');
   }
 }
