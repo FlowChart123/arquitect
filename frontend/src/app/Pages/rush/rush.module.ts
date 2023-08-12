@@ -8,15 +8,15 @@ import { RushComponent } from './rush/rush.component';
 import { PageTitleModule } from 'src/app/Layout/Components/page-title/page-title.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RushListComponent } from './rush/rush-list/rush-list.component';
+import { RushModalComponent } from './rush/rush-modal/rush-modal.component';
 import { RushFormComponent } from './rush/rush-form/rush-form.component';
-import { RushFormBaseComponent } from './rush/rush-form-base/rush-form-base.component';
 
 @NgModule({
   declarations: [
     RushComponent,
     RushListComponent,
-    RushFormComponent,
-    RushFormBaseComponent,    
+    RushModalComponent,
+    RushFormComponent,    
     
   ],
   imports: [

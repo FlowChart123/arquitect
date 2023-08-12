@@ -1,29 +1,49 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgbModal,  ModalDismissReasons, NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
+import {  EventEmitter, Component, Input, OnInit, Output } from '@angular/core';
+import { SupplementService } from 'src/app/Business/DataServices/SupplementService';
+import { Supplement } from 'src/app/Business/Models/supplement';
+
+
+
 
 @Component({
   selector: 'app-rush-form',
   templateUrl: './rush-form.component.html',
-  styleUrls: ['./rush-form.component.sass']
+  styleUrls: ['./rush-form.component.sass'],
+  providers: [SupplementService]
 })
 export class RushFormComponent implements OnInit {
-  @ViewChild('content', { static: true }) content: any;
   
-  private modal: NgbModalRef;
-  title='Suplemento';
+  @Output()  init= new EventEmitter<any>();
 
-  constructor(private modalService: NgbModal) { }
+  constructor(
+    private supplementService: SupplementService
+  ) { }
+  model:Supplement;
+
   ngOnInit(): void {
+    this.init.emit(this);
+  }
+  elementId:any;
+  
+  Initialize(id : any){    
+    if (id && id!=''){
+      this.elementId=id;
+      this._get_record(id)
+    }
   }
 
-  
-  open(id) {
-    this.title='Editar Suplemento';
-    this.modalService.open(this.content, {
-      size: 'lg',
-      windowClass:'modal-primary modal-large'
-    });
+  _get_newModel()
+  {
+    return {
+      name:'',
+      id:null      
+    } as Supplement;
   }
-  
+  _get_record(id)
+  {
+      this.supplementService.Load(this.elementId).subscribe(p=>{
+        console.log('registro:',p);
+      })
+  }
 
 }

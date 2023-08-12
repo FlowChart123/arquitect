@@ -3,6 +3,7 @@ import { HttpHeaders } from '@angular/common/http';
 import { environment } from './../../../environments/environment';
 import { Observable, of } from 'rxjs';
 import { NotificationService } from './NotificationService';
+import { TokenAuthentication } from '../Models/token-authentication';
 
 
 @Injectable()
@@ -32,4 +33,47 @@ export class BaseService {
       return of(result as T);
     };
   }
+
+  
+  protected getAuthHeaders(apiVersion = '1.0'): HttpHeaders {
+    let headers = this.getHeaders(apiVersion);
+    const authentication = this.getAuthentication();
+
+    if (authentication) {
+      headers = headers.set('Authorization', `Bearer ${authentication.access_token}`);
+    }
+
+    return headers;
+  }
+
+  
+  
+  protected getHeaders(apiVersion = '1.0'): HttpHeaders {
+    const headers = new HttpHeaders()
+      .set('Accept', 'application/json')            
+    return headers;
+  }
+  
+  protected getAuthentication(): TokenAuthentication {
+    const key = 'authentication';
+    let authentication: TokenAuthentication = JSON.parse(localStorage.getItem(key));
+
+    if (!authentication) {
+      authentication = JSON.parse(sessionStorage.getItem(key));
+    }
+
+    return authentication;
+  }
+
+  protected setAuthentication(authentication: TokenAuthentication, remember: boolean) {
+    const key = 'authentication';
+
+    if (remember) {
+      localStorage.setItem(key, JSON.stringify(authentication));
+    } else {
+      sessionStorage.setItem(key, JSON.stringify(authentication));
+    }
+  }
+
+  
 }
