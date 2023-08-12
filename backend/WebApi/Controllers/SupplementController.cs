@@ -33,6 +33,16 @@ namespace WebApi.Controllers
 
         }
 
+        [HttpGet("Load/{id}")]
+        [Produces("application/json")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Load([FromRoute] int id)
+        {
+            var result = await _servico.Load(id);
+            return Ok(result);
+
+        }
+
 
         [HttpPost("Page")]
         [Produces("application/json")]

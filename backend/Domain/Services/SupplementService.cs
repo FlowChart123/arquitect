@@ -42,11 +42,10 @@ namespace Domain.Services
             return Task.FromResult(_supplement.Query().OrderByDescending(p => p.id).AsQueryable());
         }
 
-        public Task<SupplementResult> Load(object id)
-        {
+        public Task<SupplementResult> Load(int id)
+        {            
             var res = _repo.Load(id);
             return Task.FromResult(res.asSupplementResult());
-
         }
 
         public Task<ResultPage<SupplementResult>> Page(int page, int size, string? ordeBy="", string? orderDirection = "", string? search = "")

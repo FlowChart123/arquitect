@@ -26,7 +26,7 @@ namespace Infra.Abstract
             this._context = new DataContext(_OptionsBuilder);
         }
 
-        public virtual async void Delete(object id)
+        public virtual async void Delete(int id)
         {
             var entity =  Load(id);
             _context.Entry(entity).State = EntityState.Deleted;
@@ -84,25 +84,22 @@ namespace Infra.Abstract
 
         }
 
-        public  TEntity Load(object id, string[]? includes = null)
+        public  TEntity Load(int id, string[]? includes = null)
         {
-
-
             var model = _context.Set<TEntity>().Find(id);
             if (model == null) return null;
-
             _context.Entry(model).State = EntityState.Detached;
             return model;
-
-            //var query = _context.Set<TEntity>().AsQueryable();
-
-            // includes?.ToList().ForEach(navigation => query = query.Include(navigation));
-
-            // var tmp = query.First(p => p.Id == id);
-
-            // return Task.FromResult(tmp);
         }
-     
+
+        public TEntity Load(Guid id, string[]? includes = null)
+        {
+            var model = _context.Set<TEntity>().Find(id);
+            if (model == null) return null;
+            _context.Entry(model).State = EntityState.Detached;
+            return model;
+        }
+
 
         public virtual void Save()
         {
@@ -152,6 +149,11 @@ namespace Infra.Abstract
             }
             _context.SaveChanges();
         }
-          
+
+
+        public void Delete(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
