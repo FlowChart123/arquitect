@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { SupplementService } from 'src/app/Business/DataServices/SupplementService';
 import { Pager } from 'src/app/Business/Models/pager';
@@ -12,12 +12,12 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
   templateUrl: './rush-list.component.html',
   styleUrls: ['./rush-list.component.sass'],
   providers: [SupplementService]
-})
-export class RushListComponent extends DatagridComponent implements OnInit {
-
   
+})
+export class RushListComponent extends DatagridComponent implements OnInit {  
 
-  data=[];
+
+  //Inicializar o subject record$.subscribe(()) para trazer o registros
   constructor(
     private _supService: SupplementService
     ) {
@@ -26,14 +26,19 @@ export class RushListComponent extends DatagridComponent implements OnInit {
     super.records$.subscribe(p=>{
       this.data=p;
     })
+
   }
   
 
-  _search(): Observable<SearchResultGrid> {
+  _search(orderby:string,orderdir:string): Observable<SearchResultGrid> {
     //Em caso de vaios retornos utilizar o mergeMap!.
+    let order=orderby == "" ? "name":orderby;
+    let dir=orderdir == "" ? "asc":orderdir;
+
+    console.log(order,dir);
     let tmp = { items: [], total: 0 } as SearchResultGrid;
     let searcht = this._searchTerm != undefined ? this._searchTerm : '';
-    let input = { page: this._page, size: this._pageSize, orderBy: 'name', orderDirection: 'asc', search: searcht } as Pager;
+    let input = { page: this._page, size: this._pageSize, orderBy: order, orderDirection: dir, search: searcht } as Pager;
     this._supService.Page(input).subscribe(p => {
       tmp.total = p.totalItems;
       p.items.forEach(x => {
@@ -47,32 +52,32 @@ export class RushListComponent extends DatagridComponent implements OnInit {
 
 
   /************ AÇÕES DE INTERAÇÃO ************ */  
-  stateEdit=false;
-  toggleSelection()
-  {
-    this.stateEdit=!this.stateEdit;
-  }
+  
+
+
   ngOnInit(): void {
+    
   }
 
-  selecteds()
-  {
-    return this.data.filter(p=> {return p._selected==true});
-  }
 
-  edit(l)
+  _edit(l)
   {
     EventEmitterService.get('edit').emit(l);    
   }
 
-  refresh()
-  {
-    super._RefreshData();
+
+  _remove(obj)
+  {  
+      if (obj==null)
+      {
+        //remover items selecionados
+      }
+      else{
+        //remover item específico
+      }
   }
 
-  Remove()
-  {  
-  }
+  
 
   /********************************************* */
 }

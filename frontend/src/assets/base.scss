@@ -150,3 +150,28 @@
 // // DEMO
 @import "demo-ui/demo";
 
+
+
+.asc
+{
+    background-color: #f9f9f9 !important;
+    color:black;
+}
+.asc::before{    
+    content: "\25be";    
+    float:right;
+    color:gray;
+}
+.desc
+{
+    background-color:#f9f9f9 !important;
+    color:black;
+    
+}
+.desc::before
+{
+    // content: "\25be  or  \25bc  ?  ";
+    content: "\25b5";
+    float:right;
+    color:gray;
+}

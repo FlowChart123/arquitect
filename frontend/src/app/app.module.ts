@@ -94,7 +94,7 @@ import { RegisterComponent } from './DemoPages/UserPages/register/register.compo
 
 // Components
 
-import { NgbdSortableHeaderDirective } from './DemoPages/Tables/dynamic/demo/sortable.directive';
+// import { NgbdSortableHeaderDirective } from './DemoPages/Tables/dynamic/demo/sortable.directive';
 
 // Apex Charts
 // import { NgApexchartsModule } from 'ng-apexcharts';
@@ -109,6 +109,7 @@ import { TrendModule } from 'ngx-trend';
 import { HTTPStatus, LoaderInterceptor } from './Business/Interceptor/Interceptor';
 import { AuthGuard } from './Business/Guards/AuthGuard';
 import { PageTitleModule } from './Layout/Components/page-title/page-title.module';
+
 
 const RxJS = [LoaderInterceptor, HTTPStatus];
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
@@ -167,7 +168,8 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
     RegisterComponent,
 
     // Tables
-    NgbdSortableHeaderDirective,
+    // NgbdSortableHeaderDirective,
+     
      
      
      
@@ -250,6 +252,7 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
       { provide: HTTP_INTERCEPTORS, useClass: LoaderInterceptor, multi: true },
     
   ],
+  
   bootstrap: [AppComponent]
 })
 

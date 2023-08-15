@@ -6,7 +6,8 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
 @Component({
   selector: 'app-rush',
   templateUrl: './rush.component.html',
-  styleUrls: ['./rush.component.sass']
+  styleUrls: ['./rush.component.sass'],
+  
 })
 export class RushComponent implements OnInit {
   @ViewChild('dataForm', { static: true }) dataForm: RushModalComponent;
