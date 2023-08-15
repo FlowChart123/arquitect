@@ -68,7 +68,7 @@ namespace Domain.Services
             }
 
             int qtd = result.Count();
-            result = result.OrderByDescending(p => p.id).AsQueryable().ToPage(page, size);
+            result = result.AsQueryable().ToPage(page, size);
             
             ResultPage<SupplementResult> tmp = new ResultPage<SupplementResult>();
             tmp.Items = result;
