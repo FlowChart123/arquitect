@@ -22,6 +22,11 @@ export class NgbdSortableHeaderDirective {
   @Input() direction: SortDirection = '';
   @Output() sort = new EventEmitter<SortEvent>();
 
+
+  constructor()
+  {
+    
+  }
   rotate() {
     this.direction = rotate[this.direction];
     this.sort.emit({ column: this.sortable, direction: this.direction });

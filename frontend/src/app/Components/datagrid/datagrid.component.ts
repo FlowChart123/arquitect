@@ -5,6 +5,8 @@ import { debounceTime, delay, delayWhen, switchMap, tap } from 'rxjs/operators';
 import { Pager } from 'src/app/Business/Models/pager';
 import { SearchResultGrid } from 'src/app/Business/Models/search-result-grid';
 import { COUNTRIES } from 'src/app/DemoPages/Tables/dynamic/demo/countries';
+import { DtHeaderDirective } from './dt-header.directive';
+import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
 
 
 
@@ -22,13 +24,20 @@ export abstract class DatagridComponent implements OnInit {
   private _sortColuumn; //TODO>> Implementar
   private _sortDirection;
 
+
   _pageSize = 10;
   _page = 1;
+  _stateEdit=false;
+
+  data=[];
 
   private _search$ = new Subject<void>();
   private _results$ = new BehaviorSubject<any[]>([]);
   private _total$ = new BehaviorSubject<number>(0);
   private _loading$ = new BehaviorSubject<boolean>(true);
+
+  private _order="";
+  private _dir="";
 
   get records$() { return this._results$.asObservable(); }
   get total$() { return this._total$.asObservable(); }
@@ -49,6 +58,7 @@ export abstract class DatagridComponent implements OnInit {
   }
 
   dataRaw=[];
+  
 
   ngOnInit(): void { }
 
@@ -56,7 +66,7 @@ export abstract class DatagridComponent implements OnInit {
     this._search$.pipe(
       tap(() => this._loading$.next(true)),
       debounceTime(200),
-      switchMap(() => this._search()),
+      switchMap(() => this._search(this._order,this._dir)),
       delay(200),
       tap(() => this._loading$.next(false))
     ).subscribe(result => {      
@@ -72,7 +82,34 @@ export abstract class DatagridComponent implements OnInit {
     this._search$.next();
   }
 
-  abstract _search(): Observable<SearchResultGrid>;
+  _toggleSelection()
+  {
+   this._stateEdit=!this._stateEdit;
+  }
+  
+  selecteds()
+  {
+    return this.data.filter(p=> {return p._selected==true});
+  }
+
+  
+  refresh()
+  {
+    this._RefreshData();
+  }
+
+
+  _sort(evt)
+  {
+    this._order=evt.column;
+    this._dir=evt.direction;
+    this._search$.next();
+    EventEmitterService.get('sort').emit(evt);
+  }
+
+  abstract _search(orderby:string,orderdir:string): Observable<SearchResultGrid>;
+  abstract _edit(obj:any);
+  abstract _remove(obj:any);
 
 
 

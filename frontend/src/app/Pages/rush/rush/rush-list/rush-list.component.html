@@ -6,14 +6,14 @@
       </div>
       <div class="btn-actions-pane-right">
         <div role="group" class="btn-group-sm btn-group">
-          <button class="btn btn-shadow btn-sm btn-primary" (click)="toggleSelection()" *ngIf="stateEdit==true">
+          <button class="btn btn-shadow btn-sm btn-primary" (click)="_toggleSelection()" *ngIf="_stateEdit==true">
             Opções
           </button>
-          <button class="btn-shadow btn btn-dark" (click)="toggleSelection()" *ngIf="stateEdit==false">Opções</button>
+          <button class="btn-shadow btn btn-dark" (click)="_toggleSelection()" *ngIf="_stateEdit==false">Opções</button>
 
           <button class="btn-shadow btn btn-dark" (click)="refresh()">Atualizar</button>
 
-          <button type="button" class="btn-shadow btn btn-dark" [disabled]="!stateEdit || selecteds().length==0" (click)="Remove()">Remover</button>
+          <button type="button" class="btn-shadow btn btn-dark" [disabled]="!_stateEdit || selecteds().length==0" (click)="_remove(null)">Remover</button>
         </div>
       </div>
     </div>
@@ -23,21 +23,21 @@
           <label for="staticEmail" style="margin-left: 22px;" class="col-auto col-form-label">Pesquisa:</label>
           <div class="col-auto" style="padding-left: 0px;">
             <input type="text" style="margin-left: 0px !important;" class="form-control ms-2" name="searchTerm" [(ngModel)]="searchTerm">
-            <span class="ms-3" *ngIf="loading$ | async">Carregando...</span>
+            <span class="ms-3" *ngIf="loading$ | async" style="position: absolute; right: 100px; margin-top: -30px;">Carregando...</span>
           </div>
         </div>
       </div>
       <table class="table table-striped">
         <colgroup>          
-          <col style="width:75px; text-align: center;" [hidden]="!stateEdit" />
+          <col style="width:75px; text-align: center;" [hidden]="!_stateEdit" />
           <col style="width:100px"  />
           <col  />
         </colgroup>
         <thead>
           <tr>
-            <th [hidden]="!stateEdit" style="width:75px !important"></th>
-            <th  scope="col" class="text-center">#</th>
-            <th scope="col" sortable="name"  >Name</th>
+            <th [hidden]="!_stateEdit" style="width:75px !important"></th>
+            <th scope="col" class="text-center" dtHeader [grid]="'primary'"  (sort)="_sort($event)" [field]="'id'">#</th>
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'name'"  >Name</th>
           </tr>
         </thead>
         <tbody>
@@ -45,9 +45,9 @@
           <tr *ngFor="let item of data   ">
 
             <!-- CONTROLS -->
-            <th [hidden]="!stateEdit" style="width:75px !important; text-align: center;">
+            <th [hidden]="!_stateEdit" style="width:75px !important; text-align: center;">
               <input type="checkbox" [(ngModel)]="item._selected" [ngModelOptions]="{standalone:true}" >
-             <a class="btn" (click)="edit(item)"> <i class="fa fa-fw fa-pencil" aria-hidden="true" style="float: left; cursor: pointer;"></i></a>
+             <a class="btn" (click)="_edit(item)"> <i class="fa fa-fw fa-pencil" aria-hidden="true" style="float: left; cursor: pointer;"></i></a>
             </th>
 
             <th scope="row" class="text-center">{{ item.id }}</th>
