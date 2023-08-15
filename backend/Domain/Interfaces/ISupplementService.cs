@@ -16,5 +16,6 @@ namespace Domain.Interfaces
         public Supplement Insert(SupplementInsertCommand model);
         public Supplement Update(SupplementUpdateCommand model);
         public void Delete(object id);
+   
     }
 }

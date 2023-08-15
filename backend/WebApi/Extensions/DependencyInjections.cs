@@ -26,6 +26,10 @@ namespace WebApi.Extensions
         public static IServiceCollection RegisterRepositories(this IServiceCollection services) => services    
             .AddScoped<IRepositoy<Supplement>,SupplementRepository>()
             .AddScoped<ISupplement, SupplementRepository>()
+
+            .AddScoped<IRepositoy<Despesa>, DespesaRepository>()
+            .AddScoped<IDespesaRepository, DespesaRepository>()
+
             .AddScoped<IJWTManager, JWTMAnagerRepo>()
             .AddScoped<ISupplement, SupplementRepository>();
 
