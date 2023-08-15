@@ -7,19 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Models;
 using Domain.Interfaces;
-using Domain.Services;
 
 namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class SupplementsController : ControllerBase
+    public class DespesaController : ControllerBase
     {
 
-        private readonly ISupplementService _servico;
+        private readonly IDespesaService _servico;
 
-        public SupplementsController(SupplementService servico)
+        public DespesaController(IDespesaService servico)
         {
             _servico = servico;
         }
@@ -59,7 +58,7 @@ namespace WebApi.Controllers
 
         [HttpPost("Insert")]
         [AllowAnonymous]
-        public IActionResult Post([FromBody] SupplementInsertCommand model)
+        public IActionResult Post([FromBody] DespesaInsertCommand model)
         {
             if (!ModelState.IsValid)
             {
@@ -72,7 +71,7 @@ namespace WebApi.Controllers
 
         [HttpPost("Update")]
         [AllowAnonymous]
-        public IActionResult Put([FromBody] SupplementUpdateCommand model)
+        public IActionResult Put([FromBody] DespesaUpdateCommand model)
         {
             if (!ModelState.IsValid)
             {

@@ -14,7 +14,9 @@ namespace Domain.Specs
         {
             return new DespesaResult()
             {
+               Id = tmp.Id,
                Ano = tmp.Ano,
+               Nome = tmp.Nome,
                DataAlteracao = tmp.DataAlteracao,
                DespesaAntrasada = tmp.DespesaAntrasada,
                DataCadastro = tmp.DataCadastro,
@@ -33,6 +35,7 @@ namespace Domain.Specs
             return new Despesa()
             {
                 Ano = tmp.Ano,
+                Nome= tmp.Nome,
                 DataAlteracao = tmp.DataAlteracao,
                 DespesaAntrasada = tmp.DespesaAntrasada,
                 DataCadastro = tmp.DataCadastro,
@@ -50,6 +53,7 @@ namespace Domain.Specs
             return new Despesa()
             {                
                 Ano = tmp.Ano,
+                Nome = tmp.Nome,
                 DataAlteracao = tmp.DataAlteracao,
                 DespesaAntrasada = tmp.DespesaAntrasada,
                 DataCadastro = tmp.DataCadastro,

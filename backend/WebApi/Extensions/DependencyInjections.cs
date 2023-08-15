@@ -36,7 +36,9 @@ namespace WebApi.Extensions
 
         //SERVICOS
         public static IServiceCollection RegisterServices(this IServiceCollection services) => services
-            .AddScoped<ISupplementService, SupplementService>();
+            .
+            AddScoped<ISupplementService, SupplementService>()
+            .AddScoped<IDespesaService, DespesaService>();
 
 
 

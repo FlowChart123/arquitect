@@ -112,7 +112,7 @@ namespace Domain.Services
 
         public Task<IQueryable<DespesaResult>> List()
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_despesa.Query().AsQueryable());
         }
     }
 }

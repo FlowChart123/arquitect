@@ -27,7 +27,7 @@ namespace Domain.Dto
     }
     public class DespesaResult : DespesaDto
     {
-
+        public int Id { get; set; }
     
     }
 

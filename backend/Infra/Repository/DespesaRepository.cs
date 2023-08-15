@@ -33,6 +33,12 @@ namespace Infra.Repositorio
                where us.EmailUsuario.Equals(emailUsuario) && d.Mes < DateTime.Now.Month && !d.Pago
                select d.asDespesaResult()).AsNoTracking().ToListAsync();
         }
-        
+
+        public IList<DespesaResult> Query()
+        {
+
+            var res = _context.Despesa.Select(o => o.asDespesaResult()).ToList();
+            return res;
+        }
     }
 }
