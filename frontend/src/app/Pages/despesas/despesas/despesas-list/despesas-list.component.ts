@@ -1,25 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { SupplementService } from 'src/app/Business/DataServices/SupplementService';
 import { Pager } from 'src/app/Business/Models/pager';
 import { SearchResultGrid } from 'src/app/Business/Models/search-result-grid';
 import { DatagridComponent } from 'src/app/Components/datagrid/datagrid.component';
 import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
+import { DespesasService } from 'src/app/Business/DataServices/DespesasService';
 
 
 @Component({
-  selector: 'app-rush-list',
-  templateUrl: './rush-list.component.html',
-  styleUrls: ['./rush-list.component.sass'],
-  providers: [SupplementService]
+  selector: 'app-despesas-list',
+  templateUrl: './despesas-list.component.html',
+  styleUrls: ['./despesas-list.component.sass'],
+  providers: [DespesasService]
   
 })
-export class RushListComponent extends DatagridComponent implements OnInit {  
+export class DespesasListComponent extends DatagridComponent implements OnInit {  
 
 
   //Inicializar o subject record$.subscribe(()) para trazer o registros
   constructor(
-    private _supService: SupplementService
+    private _supService: DespesasService
     ) {
     super();
     
@@ -32,7 +32,7 @@ export class RushListComponent extends DatagridComponent implements OnInit {
 
   _search(orderby:string,orderdir:string): Observable<SearchResultGrid> {
     //Em caso de vaios retornos utilizar o mergeMap!.
-    let order=orderby == "" ? "name":orderby;
+    let order=orderby == "" ? "nome":orderby;
     let dir=orderdir == "" ? "asc":orderdir;
 
     console.log(order,dir);
@@ -53,6 +53,7 @@ export class RushListComponent extends DatagridComponent implements OnInit {
 
   /************ AÇÕES DE INTERAÇÃO ************ */  
   
+
 
   ngOnInit(): void {
     
@@ -76,7 +77,7 @@ export class RushListComponent extends DatagridComponent implements OnInit {
       }
   }
 
-  
+
 
   /********************************************* */
 }

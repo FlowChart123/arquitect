@@ -10,8 +10,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RushListComponent } from './rush/rush-list/rush-list.component';
 import { RushModalComponent } from './rush/rush-modal/rush-modal.component';
 import { RushFormComponent } from './rush/rush-form/rush-form.component';
-import { DtHeaderDirective } from 'src/app/Components/datagrid/dt-header.directive';
-import { NgbdSortableHeaderDirective } from 'src/app/DemoPages/Tables/dynamic/demo/sortable.directive';
+import { SharedModule } from 'src/app/Business/Shared/shared-module/shared.module';
+
+
 
 
 
@@ -20,10 +21,10 @@ import { NgbdSortableHeaderDirective } from 'src/app/DemoPages/Tables/dynamic/de
     RushComponent,
     RushListComponent,
     RushModalComponent,
-    RushFormComponent,    
-    DtHeaderDirective,NgbdSortableHeaderDirective
+    RushFormComponent,        
   ],
   imports: [
+    SharedModule,
     CommonModule,
     NgbPaginationModule,
     RushRoutingModule,
@@ -34,6 +35,6 @@ import { NgbdSortableHeaderDirective } from 'src/app/DemoPages/Tables/dynamic/de
     CommonModule, NgbModule, RegularModule,          
   ],
 
-  exports:[NgbPaginationModule, DtHeaderDirective, NgbdSortableHeaderDirective ]
+  exports:[NgbPaginationModule, SharedModule ]
 })
 export class RushModule { }

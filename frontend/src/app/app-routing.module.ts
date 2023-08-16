@@ -76,6 +76,10 @@ const routes: Routes = [
         loadChildren: () => import('./Pages/rush/rush.module').then(m => m.RushModule)
       },
       {
+        path: 'pages/despesas',        
+        loadChildren: () => import('./Pages/despesas/despesas.module').then(m => m.DespesasModule)
+      },
+      {
         path: '',
         redirectTo: 'dashboards/analytics',
         pathMatch: 'full'
