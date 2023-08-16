@@ -13,12 +13,12 @@ namespace WebApi.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class DespesaController : ControllerBase
+    public class DespesasController : ControllerBase
     {
 
         private readonly IDespesaService _servico;
 
-        public DespesaController(IDespesaService servico)
+        public DespesasController(IDespesaService servico)
         {
             _servico = servico;
         }
@@ -69,7 +69,7 @@ namespace WebApi.Controllers
             return Ok(res);            
         }
 
-        [HttpPost("Update")]
+        [HttpPut("Update")]
         [AllowAnonymous]
         public IActionResult Put([FromBody] DespesaUpdateCommand model)
         {

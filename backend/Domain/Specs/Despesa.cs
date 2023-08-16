@@ -34,12 +34,11 @@ namespace Domain.Specs
         {
             return new Despesa()
             {
+                
                 Ano = tmp.Ano,
-                Nome= tmp.Nome,
-                DataAlteracao = tmp.DataAlteracao,
+                Nome= tmp.Nome,                
                 DespesaAntrasada = tmp.DespesaAntrasada,
                 DataCadastro = tmp.DataCadastro,
-                DataPagamento = tmp.DataPagamento,
                 DataVencimento = tmp.DataVencimento,
                 IdCategoria = tmp.IdCategoria,
                 Mes = tmp.Mes,
@@ -52,6 +51,7 @@ namespace Domain.Specs
         {
             return new Despesa()
             {                
+                Id=tmp.Id,
                 Ano = tmp.Ano,
                 Nome = tmp.Nome,
                 DataAlteracao = tmp.DataAlteracao,

@@ -108,7 +108,7 @@ namespace Infra.Abstract
 
         public virtual TEntity Update(TEntity entity)
         {
-            _context.Entry(entity).State = EntityState.Modified;
+            _context.Entry(entity).State = EntityState.Modified;            
             _context.Update(entity);
             _context.SaveChanges();
             return entity;

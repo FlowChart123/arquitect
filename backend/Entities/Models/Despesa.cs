@@ -12,7 +12,7 @@ namespace Entities.Models
     [Table("Despesa")]
     public  class Despesa : BaseEntity
     {
-
+        public string Nome { get; set; }
         public int Ano { get; set; }
         public DateTime DataAlteracao { get; set; }
         public DateTime DataCadastro { get; set; }
@@ -25,7 +25,7 @@ namespace Entities.Models
 
         public int Mes { get; set; }
         public bool Pago { get; set; }
-        public EnumTipoDespesa TipoDespesa { get; set; }
+        public int TipoDespesa { get; set; }
         public decimal Valor { get; set; }
         //public virtual Categoria Categoria { get; set; }
     }

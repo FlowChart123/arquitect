@@ -22,7 +22,7 @@ namespace Domain.Dto
         public int IdCategoria { get; set; }
         public int Mes { get; set; }
         public bool Pago { get; set; }
-        public EnumTipoDespesa TipoDespesa { get; set; }
+        public int TipoDespesa { get; set; }
         public decimal Valor { get; set; }
     }
     public class DespesaResult : DespesaDto
@@ -31,9 +31,19 @@ namespace Domain.Dto
     
     }
 
-    public class DespesaInsertCommand : DespesaDto
+    public class DespesaInsertCommand 
     {
-        
+        public int Ano { get; set; }
+        public string Nome { get; set; }
+        public DateTime DataVencimento { get; set; }
+        public bool DespesaAntrasada { get; set; }
+        public int IdCategoria { get; set; }
+        public int Mes { get; set; }
+        public bool Pago { get; set; }
+        public int TipoDespesa { get; set; }
+        public decimal Valor { get; set; }
+        public DateTime DataCadastro { get; set; }
+
     }
     public class DespesaUpdateCommand : DespesaDto
     {

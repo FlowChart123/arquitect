@@ -14,12 +14,12 @@ namespace WebApi.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class SupplementsController : ControllerBase
+    public class SupplementController : ControllerBase
     {
 
         private readonly ISupplementService _servico;
 
-        public SupplementsController(SupplementService servico)
+        public SupplementController(ISupplementService servico)
         {
             _servico = servico;
         }
@@ -70,7 +70,7 @@ namespace WebApi.Controllers
             return Ok(res);            
         }
 
-        [HttpPost("Update")]
+        [HttpPut("Update")]
         [AllowAnonymous]
         public IActionResult Put([FromBody] SupplementUpdateCommand model)
         {
