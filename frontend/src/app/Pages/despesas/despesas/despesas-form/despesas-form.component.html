@@ -29,24 +29,21 @@
             </label>
           </div>
 
-           <!-- MES -->
-           <div class="position-relative mb-3">
+           <!-- MES -->          
+          <div class="position-relative mb-3" >                                                                     
             <label for="sleMes" class="form-label">Mês:</label>
-            <input name="mes" id="sleMes" placeholder="Mês" type="number" min="1" max="12"  class="form-control" formControlName="mes" required>
+            <select name="mes" id="sleMes" class="form-select" formControlName="mes">
+              <option *ngFor="let l of meses" value="{{l.id}}">{{l.name}}</option>
+            </select>
+          </div> 
 
-            <label *ngIf="form.get('mes')?.errors?.['required'] &&   submitted==true"
-              class="error-input">
-              Campo obrigatório!
-            </label>
-          </div>
+
 
           <!-- IDCATEGORIA -->
-            <div class="position-relative mb-3">                                                                     
+            <div class="position-relative mb-3" >                                                                     
               <label for="sleCategoria" class="form-label">Categoria:</label>
               <select name="idCategoria" id="sleCategoria" class="form-select" formControlName="idCategoria">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option *ngFor="let l of categorias" value="{{l.id}}">{{l.nome}}</option>
               </select>
             </div>                                
           
@@ -72,9 +69,7 @@
             <div class="position-relative mb-3">                                                                     
               <label for="sleTipoDespesa" class="form-label">Tipo de Despesa:</label>
               <select name="tipoDespesa" id="sleTipoDespesa" class="form-select" formControlName="tipoDespesa">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option *ngFor="let l of tipos_despesas" value="{{l.id}}">{{l.name}}</option>
               </select>
             </div> 
             

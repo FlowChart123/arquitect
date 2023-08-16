@@ -4,6 +4,7 @@ import { NgbCalendar } from '@ng-bootstrap/ng-bootstrap';
 import { DespesasService } from 'src/app/Business/DataServices/DespesasService';
 import { Despesa } from 'src/app/Business/Models/despesa';
 import { NgbInputDatepicker } from '@ng-bootstrap/ng-bootstrap'; 
+import { GenericListService } from 'src/app/Business/DataServices/GenericListService';
 
 const now = new Date();
 
@@ -11,7 +12,7 @@ const now = new Date();
   selector: 'app-despesas-form',
   templateUrl: './despesas-form.component.html',
   styleUrls: ['./despesas-form.component.sass'],
-  providers: [DespesasService],
+  providers: [DespesasService, GenericListService],
   styles: [`
   .custom-day {
     text-align: center;
@@ -42,16 +43,21 @@ export class DespesasFormComponent implements OnInit {
   
   submitted=false;
   form: FormGroup;  
+  categorias=[];
+  meses=[];
+  tipos_despesas=[];
 
   constructor(
     private despesasService: DespesasService,
     private calendar: NgbCalendar,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private genericLists: GenericListService
   ) { }
   model:Despesa;
 
   ngOnInit(): void {
     this.init.emit(this);
+    this.loadSelects();
   }
   elementId:any;
   
@@ -92,9 +98,6 @@ export class DespesasFormComponent implements OnInit {
     return this, this.form.controls;
   }
 
-
-
-
   _get_newModel()
   {
     let dt = new Date();
@@ -127,6 +130,15 @@ export class DespesasFormComponent implements OnInit {
       })
   }
 
+
+  loadSelects()
+  {    
+    this.genericLists.Get('Categorias','').subscribe(p=>{      
+      this.categorias=p;
+    })
+    this.meses=this.genericLists.Meses();
+    this.tipos_despesas=this.genericLists.TiposDespesa();
+  }
 
 }
 
