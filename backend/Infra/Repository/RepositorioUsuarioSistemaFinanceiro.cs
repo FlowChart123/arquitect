@@ -1,7 +1,7 @@
 ﻿using Domain.Interfaces.IUsuarioSistemaFinanceiro;
 using Entities.Models;
 using Infra.Configuracao;
-using Infra.Repositorio.Generics;
+
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

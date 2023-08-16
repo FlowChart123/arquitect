@@ -14,6 +14,7 @@ namespace Entities.Models
         [ForeignKey("SistemaFinanceiro")]
         [Column(Order = 1)]
         public int IdSistema { get; set; }
+        public String Nome { get; set; }
        // public virtual SistemaFinanceiro SistemaFinanceiro { get; set; }
     }
 }

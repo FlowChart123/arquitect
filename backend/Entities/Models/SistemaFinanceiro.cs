@@ -12,6 +12,7 @@ namespace Entities.Models
     public class SistemaFinanceiro : BaseEntity
     {
         public int Mes { get; set; }
+        public string Nome { get; set; }
         public int Ano { get; set; }
         public int DiaFechamento { get; set; }
         public bool GerarCopiaDespesa { get; set; }

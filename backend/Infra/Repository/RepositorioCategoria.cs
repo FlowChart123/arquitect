@@ -1,7 +1,7 @@
 ﻿//using Domain.Interfaces.ICategoria;
 using Entities.Models;
 using Infra.Configuracao;
-using Infra.Repositorio.Generics;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Repositorio

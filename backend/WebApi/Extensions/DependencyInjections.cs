@@ -16,6 +16,7 @@ using Infra.Abstract;
 using Domain.Dto;
 using Domain.Interfaces;
 using Domain.Services;
+using Infra.Repository.Generics;
 
 namespace WebApi.Extensions
 {
@@ -30,6 +31,12 @@ namespace WebApi.Extensions
             .AddScoped<IRepositoy<Despesa>, DespesaRepository>()
             .AddScoped<IDespesaRepository, DespesaRepository>()
 
+            .AddScoped<IRepositoy<SistemaFinanceiro>, SistemaFinanceiroRepository>()
+            .AddScoped<ISistemaFinanceiroRepository, SistemaFinanceiroRepository>()
+
+
+            .AddSingleton<GenericListRepository, GenericListRepository>()
+
             .AddScoped<IJWTManager, JWTMAnagerRepo>()
             .AddScoped<ISupplement, SupplementRepository>();
 
@@ -37,7 +44,8 @@ namespace WebApi.Extensions
         //SERVICOS
         public static IServiceCollection RegisterServices(this IServiceCollection services) => services
             .AddScoped<ISupplementService, SupplementService>()
-            .AddScoped<IDespesaService, DespesaService>();
+            .AddScoped<IDespesaService, DespesaService>()
+            .AddScoped<ISistemaFinanceiroService, SistemaFinanceiroService>();
 
 
 
