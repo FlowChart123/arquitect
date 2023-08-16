@@ -13,12 +13,12 @@ namespace WebApi.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class SistemaFinanceiroController : ControllerBase
+    public class CategoriaController : ControllerBase
     {
 
-        private readonly ISistemaFinanceiroService _servico;
+        private readonly ICategoriaService _servico;
 
-        public SistemaFinanceiroController(ISistemaFinanceiroService servico)
+        public CategoriaController(ICategoriaService servico)
         {
             _servico = servico;
         }
@@ -58,7 +58,7 @@ namespace WebApi.Controllers
 
         [HttpPost("Insert")]
         [AllowAnonymous]
-        public IActionResult Post([FromBody] SistemaFinanceiroInsertCommand model)
+        public IActionResult Post([FromBody] CategoriaInsertCommand model)
         {
             if (!ModelState.IsValid)
             {
@@ -71,7 +71,7 @@ namespace WebApi.Controllers
 
         [HttpPut("Update")]
         [AllowAnonymous]
-        public IActionResult Put([FromBody] SistemaFinanceiroUpdateCommand model)
+        public IActionResult Put([FromBody] CategoriaUpdateCommand model)
         {
             if (!ModelState.IsValid)
             {

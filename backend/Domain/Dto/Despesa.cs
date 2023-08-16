@@ -24,10 +24,11 @@ namespace Domain.Dto
         public bool Pago { get; set; }
         public int TipoDespesa { get; set; }
         public decimal Valor { get; set; }
+        public int Id { get; set; }
     }
     public class DespesaResult : DespesaDto
     {
-        public int Id { get; set; }
+        
     
     }
 
@@ -47,6 +48,6 @@ namespace Domain.Dto
     }
     public class DespesaUpdateCommand : DespesaDto
     {
-        public int Id { get; set; }
+        
     }
 }

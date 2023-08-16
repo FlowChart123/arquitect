@@ -34,6 +34,8 @@ namespace WebApi.Extensions
             .AddScoped<IRepositoy<SistemaFinanceiro>, SistemaFinanceiroRepository>()
             .AddScoped<ISistemaFinanceiroRepository, SistemaFinanceiroRepository>()
 
+            .AddScoped<IRepositoy<Categoria>, CategoriaRepository>()
+            .AddScoped<ICategoriaRepository, CategoriaRepository>()
 
             .AddSingleton<GenericListRepository, GenericListRepository>()
 
@@ -45,7 +47,8 @@ namespace WebApi.Extensions
         public static IServiceCollection RegisterServices(this IServiceCollection services) => services
             .AddScoped<ISupplementService, SupplementService>()
             .AddScoped<IDespesaService, DespesaService>()
-            .AddScoped<ISistemaFinanceiroService, SistemaFinanceiroService>();
+            .AddScoped<ISistemaFinanceiroService, SistemaFinanceiroService>()
+            .AddScoped<ICategoriaService, CategoriaService>();
 
 
 
