@@ -80,6 +80,14 @@ const routes: Routes = [
         loadChildren: () => import('./Pages/despesas/despesas.module').then(m => m.DespesasModule)
       },
       {
+        path: 'pages/categorias',        
+        loadChildren: () => import('./Pages/categoria/categoria.module').then(m => m.CategoriaModule)
+      },
+      {
+        path: 'pages/sf',        
+        loadChildren: () => import('./Pages/sf/sf.module').then(m => m.SFModule)
+      },
+      {
         path: '',
         redirectTo: 'dashboards/analytics',
         pathMatch: 'full'

@@ -7,4 +7,4 @@ export interface SistemaFinanceiro {
   gerarCopiaDespesa: boolean
   mesCopia: number
   anoCopia: number
-}
+} 
