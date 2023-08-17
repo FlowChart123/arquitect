@@ -18,7 +18,7 @@ namespace Domain.Dto
     }
     public class CategoriaResult : CategoriaDto
     {
-        public int Id { get; set; }    
+         
     }
 
     public class CategoriaInsertCommand : CategoriaDto

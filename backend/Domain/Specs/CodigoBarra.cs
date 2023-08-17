@@ -15,6 +15,10 @@ namespace Domain.Specs
             return new CodigoBarraResult()
             {
                Id = tmp.Id,
+               Altura = tmp.Altura,
+               CodigoBarras = tmp.CodigoBarras,
+               Comprimento = tmp.Comprimento,
+               Largura = tmp.Largura,
             };
         }
 
@@ -22,14 +26,22 @@ namespace Domain.Specs
         {
             return new CodigoBarra()
             {
-                
+                Id = tmp.Id,
+                Altura = tmp.Altura,
+                CodigoBarras = tmp.CodigoBarras,
+                Comprimento = tmp.Comprimento,
+                Largura = tmp.Largura,
             };
         }
         public static CodigoBarra asCodigoBarra(this CodigoBarraUpdateCommand tmp)
         {
             return new CodigoBarra()
-            {                
-                Id=tmp.Id
+            {
+                Id = tmp.Id,
+                Altura = tmp.Altura,
+                CodigoBarras = tmp.CodigoBarras,
+                Comprimento = tmp.Comprimento,
+                Largura = tmp.Largura,
             };
         }
 

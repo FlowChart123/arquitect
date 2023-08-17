@@ -15,6 +15,7 @@ namespace Domain.Specs
             return new PessoaResult()
             {
                Id = tmp.Id,
+               Nome = tmp.Nome,
             };
         }
 
@@ -22,14 +23,17 @@ namespace Domain.Specs
         {
             return new Pessoa()
             {
-                
+                Id = tmp.Id,
+                Nome = tmp.Nome,
+
             };
         }
         public static Pessoa asPessoa(this PessoaUpdateCommand tmp)
         {
             return new Pessoa()
-            {                
-                Id=tmp.Id,
+            {
+                Id = tmp.Id,
+                Nome = tmp.Nome,
             };
         }
 

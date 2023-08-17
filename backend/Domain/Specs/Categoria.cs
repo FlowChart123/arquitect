@@ -15,6 +15,7 @@ namespace Domain.Specs
             return new CategoriaResult()
             {
                Id = tmp.Id,
+               Nome = tmp.Nome
             };
         }
 
@@ -22,14 +23,16 @@ namespace Domain.Specs
         {
             return new Categoria()
             {
-                
+                Id = tmp.Id,
+                Nome = tmp.Nome
             };
         }
         public static Categoria asCategoria(this CategoriaUpdateCommand tmp)
         {
             return new Categoria()
-            {                
-                Id=tmp.Id,
+            {
+                Id = tmp.Id,
+                Nome = tmp.Nome
             };
         }
 

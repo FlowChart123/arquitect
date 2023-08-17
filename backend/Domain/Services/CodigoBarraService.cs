@@ -35,7 +35,7 @@ namespace Domain.Services
         {
             var data = DateTime.UtcNow;
 
-            if (!string.IsNullOrEmpty(model.Nome))
+            if (!string.IsNullOrEmpty(model.CodigoBarras))
             {
                 return _repo.Insert(model.asCodigoBarra());
             }
@@ -55,7 +55,7 @@ namespace Domain.Services
                         
             if (!string.IsNullOrEmpty(search) && search != "")
             {
-                result = _CodigoBarra.Query().AsQueryable().Where(p => p.Nome.ToLower().Contains(search.ToLower()));
+                result = _CodigoBarra.Query().AsQueryable().Where(p => p.CodigoBarras.ToLower().Contains(search.ToLower()));
             }
             else
             {
@@ -87,7 +87,7 @@ namespace Domain.Services
             //    model.DataPagamento = data;
             //}
 
-            if (!string.IsNullOrEmpty(model.Nome))
+            if (!string.IsNullOrEmpty(model.CodigoBarras))
             {
                 return _repo.Update(model.asCodigoBarra());
             }
