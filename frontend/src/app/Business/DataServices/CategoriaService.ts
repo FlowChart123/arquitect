@@ -24,7 +24,7 @@ export class CategoriaService extends BaseService {
   }
 
     private readonly baseUrl = environment["endPoint"];
-    private readonly controller='Despesas';
+    private readonly controller='Categoria';
 
     Page(obj: Pager) : Observable<any> {          
         return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Page/`, obj);        

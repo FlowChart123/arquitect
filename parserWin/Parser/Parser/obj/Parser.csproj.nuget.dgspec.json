@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WORK\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj": {}
+    "C:\\work\\vex\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj": {}
   },
   "projects": {
-    "C:\\WORK\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj": {
+    "C:\\work\\vex\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WORK\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj",
+        "projectUniqueName": "C:\\work\\vex\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj",
         "projectName": "Parser",
-        "projectPath": "C:\\WORK\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj",
-        "packagesPath": "C:\\Users\\crsal\\.nuget\\packages\\",
-        "outputPath": "C:\\WORK\\arquitect\\parserWin\\Parser\\Parser\\obj\\",
+        "projectPath": "C:\\work\\vex\\arquitect\\parserWin\\Parser\\Parser\\Parser.csproj",
+        "packagesPath": "C:\\Users\\wbell\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\vex\\arquitect\\parserWin\\Parser\\Parser\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\crsal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

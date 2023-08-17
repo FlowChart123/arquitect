@@ -68,7 +68,7 @@ const routes: Routes = [
         loadChildren: () => import('./DemoPages/Tables/tables-main/tables-main.module').then(m => m.TablesMainModule)
       },
       {
-        path: 'pages/laila',        
+        path: 'pages/laila',         
         loadChildren: () => import('./Layout/laila/laila.module').then(m => m.LailaModule)
       },
       {
@@ -82,6 +82,14 @@ const routes: Routes = [
       {
         path: 'pages/categorias',        
         loadChildren: () => import('./Pages/categoria/categoria.module').then(m => m.CategoriaModule)
+      },
+      {
+        path: 'pages/codigobarras',        
+        loadChildren: () => import('./Pages/codigobarra/codigobarra.module').then(m => m.CodigoBarraModule)
+      },
+      {
+        path: 'pages/pessoas',        
+        loadChildren: () => import('./Pages/pessoa/pessoa.module').then(m => m.PessoaModule)
       },
       {
         path: 'pages/sf',        
