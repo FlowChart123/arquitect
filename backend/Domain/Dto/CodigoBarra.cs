@@ -13,7 +13,14 @@ namespace Domain.Dto
     public class CodigoBarraDto
     {
         public Guid Id { get; set; }
-        public string Nome { get; set; }
+                
+        public string CodigoBarras { get; set; } = null!;
+
+        public decimal? Altura { get; set; }
+
+        public decimal? Largura { get; set; }
+
+        public decimal? Comprimento { get; set; }
 
     }
     public class CodigoBarraResult : CodigoBarraDto
