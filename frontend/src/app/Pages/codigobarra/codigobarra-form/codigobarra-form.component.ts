@@ -82,7 +82,7 @@ export class CodigoBarraFormComponent implements OnInit {
     (      
       {
         id: [this.model.id],
-        nome: [this.model.codigoBarras, [Validators.required]],    
+        codigoBarras: [this.model.codigoBarras, [Validators.required]],    
         // ano: [this.model.ano, [Validators.required]],
         // mes: [this.model.mes, [Validators.required]],
         // diaFechamento: [this.model.diaFechamento, [Validators.required]],
@@ -103,7 +103,7 @@ export class CodigoBarraFormComponent implements OnInit {
 
     var ln =  {      
       id: null,
-    
+      codigoBarras:''
     } as CodigoBarra;
     this.model=ln;
     this.createForm();

@@ -3,6 +3,7 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
 import { PessoaModalComponent } from './pessoa-modal/pessoa-modal.component';
 import { PessoaListComponent } from './pessoa-list/pessoa-list.component';
 import { PessoaService } from 'src/app/Business/DataServices/PessoaService';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
 
 @Component({
@@ -13,14 +14,15 @@ import { PessoaService } from 'src/app/Business/DataServices/PessoaService';
   
 })
 export class PessoaComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: PessoaModalComponent;
+  @ViewChild('dataFormPessoa') dataForm: PessoaModalComponent;
   @ViewChild('dataList') dataList: PessoaListComponent;
 
-  constructor( private principalService: PessoaService ) {    
+  constructor( private principalService: PessoaService,
+    private notifier: NotificationService ) {    
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit').subscribe(p=>{
+    EventEmitterService.get('edit-pessoa').subscribe(p=>{
       this.dataForm.open(p.id);
     })    
   }
@@ -39,6 +41,7 @@ export class PessoaComponent implements OnInit {
     this.principalService.InsertOrUpdate(obj).subscribe(p=>{    
       this.dataList._RefreshData();
       this.dataForm.close();
+      this.notifier.openToast('Informações salvas com sucesso!',"Confirmado!","success");
     });
   }
 }

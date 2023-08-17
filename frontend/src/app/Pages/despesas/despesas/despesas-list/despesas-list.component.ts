@@ -62,7 +62,7 @@ export class DespesasListComponent extends DatagridComponent implements OnInit {
 
   _edit(l)
   {
-    EventEmitterService.get('edit').emit(l);    
+    EventEmitterService.get('edit-despesas').emit(l);    
   }
 
 

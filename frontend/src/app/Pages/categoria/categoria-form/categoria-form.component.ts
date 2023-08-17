@@ -82,13 +82,7 @@ export class CategoriaFormComponent implements OnInit {
     (      
       {
         id: [this.model.id],
-        nome: [this.model.nome, [Validators.required]],    
-        // ano: [this.model.ano, [Validators.required]],
-        // mes: [this.model.mes, [Validators.required]],
-        // diaFechamento: [this.model.diaFechamento, [Validators.required]],
-        // gerarCopiaDespesa: [this.model.gerarCopiaDespesa, [Validators.required]],
-        // mesCopia: [this.model.mesCopia, [Validators.required, Validators.min(1),Validators.max(12)]],
-        // anoCopia: [this.model.anoCopia, [Validators.required, Validators.min(2000)]],
+        nome: [this.model.nome, [Validators.required]],          
       }
     )
   }
@@ -103,7 +97,7 @@ export class CategoriaFormComponent implements OnInit {
 
     var ln =  {      
       id: 0,
-    
+      nome:''
     } as Categoria;
     this.model=ln;
     this.createForm();

@@ -10,13 +10,13 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
   
 })
 export class RushComponent implements OnInit {
-  @ViewChild('dataForm', { static: true }) dataForm: RushModalComponent;
+  @ViewChild('dataFormRush', { static: true }) dataForm: RushModalComponent;
 
   constructor() {    
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit').subscribe(p=>{
+    EventEmitterService.get('edit-rush').subscribe(p=>{
       this.dataForm.open(p.id);
     })    
   }

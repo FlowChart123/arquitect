@@ -61,7 +61,7 @@ export class RushListComponent extends DatagridComponent implements OnInit {
 
   _edit(l)
   {
-    EventEmitterService.get('edit').emit(l);    
+    EventEmitterService.get('edit-rush').emit(l);    
   }
 
 

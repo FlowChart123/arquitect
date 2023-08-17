@@ -3,6 +3,7 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
 import { SFModalComponent } from './sf-modal/sf-modal.component';
 import { SFListComponent } from './sf-list/sf-list.component';
 import { SistemaFinanceiroService } from 'src/app/Business/DataServices/SistemaFinanceiroService';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
 
 @Component({
@@ -13,14 +14,15 @@ import { SistemaFinanceiroService } from 'src/app/Business/DataServices/SistemaF
   
 })
 export class SFComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: SFModalComponent;
+  @ViewChild('dataFormSF') dataForm: SFModalComponent;
   @ViewChild('dataList') dataList: SFListComponent;
 
-  constructor( private principalService: SistemaFinanceiroService ) {    
+  constructor( private principalService: SistemaFinanceiroService,
+    private notifier: NotificationService ) {    
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit').subscribe(p=>{
+    EventEmitterService.get('edit-sf').subscribe(p=>{
       this.dataForm.open(p.id);
     })    
   }
@@ -39,6 +41,7 @@ export class SFComponent implements OnInit {
     this.principalService.InsertOrUpdate(obj).subscribe(p=>{    
       this.dataList._RefreshData();
       this.dataForm.close();
+      this.notifier.openToast('Informações salvas com sucesso!',"Confirmado!","success");
     });
   }
 }

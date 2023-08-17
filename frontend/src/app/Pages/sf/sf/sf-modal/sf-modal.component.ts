@@ -18,7 +18,7 @@ export class SFModalComponent implements OnInit {
   
 
   private modal: NgbModalRef;
-  title='Despesa';
+  title='Sistema Financeiro';
 
   constructor(
     private modalService: NgbModal,   
@@ -32,7 +32,7 @@ export class SFModalComponent implements OnInit {
   open(id) {
     this.elementId=id;
     if (id!=undefined && id!='') {      
-        this.title='Editar registro - sistema financeiro';         
+        this.title='Editar registro - Sistema Financeiro';         
         this.modal = this.modalService.open(this.content, {
             size: 'lg',
             windowClass:'modal-primary modal-large'
@@ -40,7 +40,7 @@ export class SFModalComponent implements OnInit {
     }
     else
     {
-      this.title='Adicionar registro - sistema financeiro';
+      this.title='Adicionar registro - Sistema Financeiro';
       this.modal = this.modalService.open(this.content, {
         size: 'lg',
         windowClass:'modal-primary modal-large'

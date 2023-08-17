@@ -103,7 +103,7 @@ export class PessoaFormComponent implements OnInit {
 
     var ln =  {      
       id: null,
-    
+      nome:''
     } as Pessoa;
     this.model=ln;
     this.createForm();

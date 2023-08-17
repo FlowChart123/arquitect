@@ -63,7 +63,7 @@ export class CodigoBarraListComponent extends DatagridComponent implements OnIni
 
   _edit(l)
   {
-    EventEmitterService.get('edit').emit(l);    
+    EventEmitterService.get('edit-codigobarra').emit(l);    
   }
 
 

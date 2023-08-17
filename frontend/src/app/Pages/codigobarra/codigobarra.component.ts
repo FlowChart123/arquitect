@@ -3,6 +3,7 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
 import { CodigoBarraModalComponent } from './codigobarra-modal/codigobarra-modal.component';
 import { CodigoBarraListComponent } from './codigobarra-list/codigobarra-list.component';
 import { CodigoBarraService } from 'src/app/Business/DataServices/CodigoBarraService';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
 
 @Component({
@@ -13,14 +14,15 @@ import { CodigoBarraService } from 'src/app/Business/DataServices/CodigoBarraSer
   
 })
 export class CodigoBarraComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: CodigoBarraModalComponent;
+  @ViewChild('dataFormCB') dataForm: CodigoBarraModalComponent;
   @ViewChild('dataList') dataList: CodigoBarraListComponent;
 
-  constructor( private principalService: CodigoBarraService ) {    
+  constructor( private principalService: CodigoBarraService,
+    private notifier: NotificationService ) {    
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit').subscribe(p=>{
+    EventEmitterService.get('edit-codigobarra').subscribe(p=>{
       this.dataForm.open(p.id);
     })    
   }
@@ -39,6 +41,7 @@ export class CodigoBarraComponent implements OnInit {
     this.principalService.InsertOrUpdate(obj).subscribe(p=>{    
       this.dataList._RefreshData();
       this.dataForm.close();
+      this.notifier.openToast('Informações salvas com sucesso!',"Confirmado!","success");
     });
   }
 }

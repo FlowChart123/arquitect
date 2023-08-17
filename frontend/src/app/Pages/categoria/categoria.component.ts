@@ -3,6 +3,7 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
 import { CategoriaModalComponent } from './categoria-modal/categoria-modal.component';
 import { CategoriaListComponent } from './categoria-list/categoria-list.component';
 import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
 
 @Component({
@@ -13,14 +14,15 @@ import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService
   
 })
 export class CategoriaComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: CategoriaModalComponent;
+  @ViewChild('dataFormCategorias') dataForm: CategoriaModalComponent;
   @ViewChild('dataList') dataList: CategoriaListComponent;
 
-  constructor( private principalService: CategoriaService ) {    
+  constructor( private principalService: CategoriaService,
+    private notifier: NotificationService ) {    
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit').subscribe(p=>{
+    EventEmitterService.get('edit-categorias').subscribe(p=>{
       this.dataForm.open(p.id);
     })    
   }
@@ -39,6 +41,7 @@ export class CategoriaComponent implements OnInit {
     this.principalService.InsertOrUpdate(obj).subscribe(p=>{    
       this.dataList._RefreshData();
       this.dataForm.close();
+      this.notifier.openToast('Informações salvas com sucesso!',"Confirmado!","success");
     });
   }
 }
