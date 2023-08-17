@@ -14,7 +14,8 @@ namespace Parser
     {
 
         private string path = @"C:\\tmp\\parser\\back";
-        private string destination = @"C:\\tmp\\parser\\back-destination";
+        private string destination = @"";
+        private string destination_a = @"C:\\tmp\\parser\\back-destination";
         public List<string> files = new List<string>();
 
         public frmBackend()
@@ -22,28 +23,7 @@ namespace Parser
             InitializeComponent();
         }
 
-        private void btCheck1_Click(object sender, EventArgs e)
-        {
-
-            if (string.IsNullOrEmpty(this.sleNamespace.Text))
-            {
-                MessageBox.Show("Digige um nome para o novo namespace");
-                return;
-            }
-         
-            this.files.Clear();
-            if (!Directory.Exists(destination))
-            {
-                Directory.CreateDirectory(destination);
-            }
-            else
-            {
-                MessageBox.Show("A pasta de destina não está vazia");
-                return;
-            }
-
-            this.ListDirectory(this.slePasta1, path);
-        }
+        
 
         private void ListDirectory(TreeView treeView, string path)
         {
@@ -60,7 +40,7 @@ namespace Parser
             {
                 string originalDir = directory.Name;
                 string newNameDir = directory.Name.Replace("Categoria", sleNamespace.Text);
-                string Dir = destination + @"\" + newNameDir.ToLower();
+                string Dir = destination + @"\" + newNameDir;
                 Directory.CreateDirectory(Dir);
                 directoryNode.Nodes.Add(CreateDirectoryNode(directory));
             }
@@ -68,7 +48,7 @@ namespace Parser
 
             foreach (var file in directoryInfo.GetFiles())
             {
-                string newname_file = file.Name.Replace("Categoria", sleNamespace.Text.ToLower());
+                string newname_file = file.Name.Replace("Categoria", sleNamespace.Text);
                 string destine = destination + @"\" + file.Directory.Name.Replace("Categoria", sleNamespace.Text) + @"\" + newname_file;
                 //File.Copy(file.FullName, destine);
                 //ao invés de apenas copiar, salvar a string parseada
@@ -90,14 +70,15 @@ namespace Parser
         private string replacer(string s)
         {
             string dest = "";
-            dest = s.Replace("Categoria", this.sleNamespace.Text.ToLower());
+            dest = s.Replace("Categoria", this.sleNamespace.Text);
 
             return dest;
         }
 
         private void btCheck1_Click_1(object sender, EventArgs e)
         {
-
+            this.slePasta1.Nodes.Clear();
+            this.destination = this.destination_a + "-" + this.sleNamespace.Text;
             if (string.IsNullOrEmpty(this.sleNamespace.Text))
             {
                 MessageBox.Show("Digige um nome para o novo namespace");
@@ -116,6 +97,7 @@ namespace Parser
             }
 
             this.ListDirectory(this.slePasta1, path);
+            MessageBox.Show("Prontinho");
         }
     }
 }

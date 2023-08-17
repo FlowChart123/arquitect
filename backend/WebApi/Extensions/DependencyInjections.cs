@@ -37,6 +37,79 @@ namespace WebApi.Extensions
             .AddScoped<IRepositoy<Categoria>, CategoriaRepository>()
             .AddScoped<ICategoriaRepository, CategoriaRepository>()
 
+            .AddScoped<IRepositoy<Bairro>, BairroRepository>()
+            .AddScoped<IBairroRepository, BairroRepository>()
+
+
+            .AddScoped<IRepositoy<CodigoBarra>, CodigoBarraRepository>()
+            .AddScoped<ICodigoBarraRepository, CodigoBarraRepository>()
+
+            .AddScoped<IRepositoy<Documento>, DocumentoRepository>()
+            .AddScoped<IDocumentoRepository, DocumentoRepository>()
+
+
+            .AddScoped<IRepositoy<DocumentoFilialGrupo>, DocumentoFilialGrupoRepository>()
+            .AddScoped<IDocumentoFilialGrupoRepository, DocumentoFilialGrupoRepository>()
+
+            .AddScoped<IRepositoy<DocumentoImposto>, DocumentoImpostoRepository>()
+            .AddScoped<IDocumentoImpostoRepository, DocumentoImpostoRepository>()
+
+            .AddScoped<IRepositoy<DocumentoItem>, DocumentoItemRepository>()
+            .AddScoped<IDocumentoItemRepository, DocumentoItemRepository>()
+
+            .AddScoped<IRepositoy<DocumentoTotal>, DocumentoTotalRepository>()
+            .AddScoped<IDocumentoTotalRepository, DocumentoTotalRepository>()
+
+            .AddScoped<IRepositoy<DocumentoTransportador>, DocumentoTransportadorRepository>()
+            .AddScoped<IDocumentoTransportadorRepository, DocumentoTransportadorRepository>()
+
+            .AddScoped<IRepositoy<Empresa>, EmpresaRepository>()
+            .AddScoped<IEmpresaRepository, EmpresaRepository>()
+
+            .AddScoped<IRepositoy<Endereco>, EnderecoRepository>()
+            .AddScoped<IEnderecoRepository, EnderecoRepository>()
+
+            .AddScoped<IRepositoy<Filial>, FilialRepository>()
+            .AddScoped<IFilialRepository, FilialRepository>()
+
+            .AddScoped<IRepositoy<FilialLastMileGrupo>, FilialLastMileGrupoRepository>()
+            .AddScoped<IFilialLastMileGrupoRepository, FilialLastMileGrupoRepository>()
+
+            .AddScoped<IRepositoy<FilialLastMileGrupoItem>, FilialLastMileGrupoItemRepository>()
+            .AddScoped<IFilialLastMileGrupoItemRepository, FilialLastMileGrupoItemRepository>()
+
+
+            //.AddScoped<IRepositoy<FilialLastMile>, FilialLastMileRepository>()
+            //.AddScoped<FilialLastMileRepository, FilialLastMileRepository>()
+
+            .AddScoped<IRepositoy<Pessoa>, PessoaRepository>()
+            .AddScoped<IPessoaRepository, PessoaRepository>()
+
+            .AddScoped<IRepositoy<PessoaEndereco>, PessoaEnderecoRepository>()
+            .AddScoped<IPessoaEnderecoRepository, PessoaEnderecoRepository>()
+
+            .AddScoped<IRepositoy<PessoaFisica>, PessoaFisicaRepository>()
+            .AddScoped<IPessoaFisicaRepository, PessoaFisicaRepository>()
+
+            .AddScoped<IRepositoy<PessoaJuridica>, PessoaJuridicaRepository>()
+            .AddScoped<IPessoaJuridicaRepository, PessoaJuridicaRepository>()
+
+            .AddScoped<IRepositoy<PessoaOutro>, PessoaOutroRepository>()
+            .AddScoped<IPessoaOutroRepository, PessoaOutroRepository>()
+
+            .AddScoped<IRepositoy<Produto>, ProdutoRepository>()
+            .AddScoped<IProdutoRepository, ProdutoRepository>()
+
+            .AddScoped<IRepositoy<Romaneio>, RomaneioRepository>()
+            .AddScoped<IRomaneioRepository, RomaneioRepository>()
+
+            .AddScoped<IRepositoy<RomaneioCarga>, RomaneioCargaRepository>()
+            .AddScoped<IRomaneioCargaRepository, RomaneioCargaRepository>()
+
+            .AddScoped<IRepositoy<RomaneioDocumento>, RomaneioDocumentoRepository>()
+            .AddScoped<IRomaneioDocumentoRepository, RomaneioDocumentoRepository>()
+
+
             .AddSingleton<GenericListRepository, GenericListRepository>()
 
             .AddScoped<IJWTManager, JWTMAnagerRepo>()
@@ -48,7 +121,31 @@ namespace WebApi.Extensions
             .AddScoped<ISupplementService, SupplementService>()
             .AddScoped<IDespesaService, DespesaService>()
             .AddScoped<ISistemaFinanceiroService, SistemaFinanceiroService>()
-            .AddScoped<ICategoriaService, CategoriaService>();
+            .AddScoped<ICategoriaService, CategoriaService>()
+            .AddScoped<IBairroService, BairroService>()
+            .AddScoped<ICodigoBarraService, CodigoBarraService>()
+            .AddScoped<IDocumentoFilialGrupoService, DocumentoFilialGrupoService>()
+            .AddScoped<IDocumentoImpostoService, DocumentoImpostoService>()
+            .AddScoped<IDocumentoItemService, DocumentoItemService>()
+            .AddScoped<IDocumentoService, DocumentoService>()
+            .AddScoped<IDocumentoTotalService, DocumentoTotalService>()
+            .AddScoped<IDocumentoTransportadorService, DocumentoTransportadorService>()
+            .AddScoped<IEmpresaService, EmpresaService>()
+            .AddScoped<IEnderecoService, EnderecoService>()
+            .AddScoped<IFilialLastMileGrupoItemService, FilialLastMileGrupoItemService>()
+            .AddScoped<IFilialLastMileGrupoService, FilialLastMileGrupoService>()
+            .AddScoped<IFilialLastMileGrupoItemService, FilialLastMileGrupoItemService>()
+            .AddScoped<IFilialService, FilialService>()
+            .AddScoped<IPessoaService, PessoaService>()
+            .AddScoped<IPessoaEnderecoService, PessoaEnderecoService>()
+            .AddScoped<IPessoaFisicaService, PessoaFisicaService>()
+            .AddScoped<IPessoaJuridicaService, PessoaJuridicaService>()
+            .AddScoped<IPessoaOutroService, PessoaOutroService>()
+            .AddScoped<IProdutoService, ProdutoService>()
+            .AddScoped<IRomaneioService, RomaneioService>()
+            .AddScoped<IRomaneioCargaService, RomaneioCargaService>()
+            .AddScoped<IRomaneioDocumentoService, RomaneioDocumentoService>()
+            .AddScoped<IBairroService, BairroService>();
 
 
 
