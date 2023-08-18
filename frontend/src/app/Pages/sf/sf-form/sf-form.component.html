@@ -6,8 +6,8 @@
         <div class="card-body">
           <!-- NOME -->
           <div class="position-relative mb-3">
-            <label for="sleNome" class="form-label">Nome:</label>
-            <input name="nome" id="sleNome" placeholder="Nome da pessoa" type="text" class="form-control"
+            <label for="sleNome" class="form-label">Descrição:</label>
+            <input name="nome" id="sleNome" placeholder="Nome do sistema financeiro" type="text" class="form-control"
               formControlName="nome" required>
 
             <label *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true" class="error-input">
@@ -16,7 +16,7 @@
           </div>
 
           <!-- ANO -->
-          <!-- <div class="position-relative mb-3">
+          <div class="position-relative mb-3">
             <label for="sleAno" class="form-label">Ano:</label>
             <input name="ano" id="sleAno" placeholder="Ano" type="number" class="form-control" formControlName="ano"
               required>
@@ -24,19 +24,19 @@
             <label *ngIf="form.get('ano')?.errors?.['required'] &&   submitted==true" class="error-input">
               Campo obrigatório!
             </label>
-          </div> -->
+          </div>
 
           <!-- MES -->
-          <!-- <div class="position-relative mb-3">
+          <div class="position-relative mb-3">
             <label for="sleMes" class="form-label">Mês:</label>
             <select name="mes" id="sleMes" class="form-select" formControlName="mes">
               <option *ngFor="let l of meses" value="{{l.id}}">{{l.name}}</option>
             </select>
-          </div> -->
+          </div>
 
 
           <!-- DIA FECHAMENTTO -->
-          <!-- <div class="position-relative mb-3">
+          <div class="position-relative mb-3">
             <label for="sleAno" class="form-label">Dia Fechamento:</label>
             <input name="ano" id="sleDiaFechamento" placeholder="Dia de fechamento" type="number" min="1" max="31"
               class="form-control" formControlName="diaFechamento" required>
@@ -44,7 +44,7 @@
             <label *ngIf="form.get('diaFechamento')?.errors?.['required'] &&   submitted==true" class="error-input">
               Campo obrigatório!
             </label>
-          </div> -->
+          </div>
 
 
 
@@ -59,13 +59,31 @@
 
 
           <!-- gerarCopiaDespesa -->
-          <!-- <div class="position-relative form-check">
+          <div class="position-relative form-check">
             <label class="form-label form-check-label">
               <input type="checkbox" class="form-check-input" formControName="gerarCopiaDespesa">
               Gerar cópia de despesa
             </label>
-          </div> -->
+          </div>
 
+          <!-- ANO COPIA-->
+          <div class="position-relative mb-3">
+            <label for="sleAnoCopia" class="form-label">Ano Cópia:</label>
+            <input name="ano" id="sleAnoCopia" placeholder="AnoCopia" type="number" class="form-control" formControlName="anoCopia"
+              required>
+
+            <label *ngIf="form.get('ano')?.errors?.['required'] &&   submitted==true" class="error-input">
+              Campo obrigatório!
+            </label>
+          </div>
+
+          <!-- MES COPIA-->
+          <div class="position-relative mb-3">
+            <label for="sleMesCopia" class="form-label">Mês Cópia:</label>
+            <select name="mesCopia" id="sleMesCopia" class="form-select" formControlName="mesCopia">
+              <option *ngFor="let l of meses" value="{{l.id}}">{{l.name}}</option>
+            </select>
+          </div>
 
         </div>
       </div>

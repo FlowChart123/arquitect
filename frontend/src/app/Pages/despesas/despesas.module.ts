@@ -8,10 +8,10 @@ import { PageTitleModule } from 'src/app/Layout/Components/page-title/page-title
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
-import { DespesasFormComponent } from './despesas/despesas-form/despesas-form.component';
-import { DespesasModalComponent } from './despesas/despesas-modal/despesas-modal.component';
-import { DespesasListComponent } from './despesas/despesas-list/despesas-list.component';
-import { DespesasComponent } from './despesas/despesas.component';
+import { DespesasFormComponent } from './despesas-form/despesas-form.component';
+import { DespesasModalComponent } from './despesas-modal/despesas-modal.component';
+import { DespesasListComponent } from './despesas-list/despesas-list.component';
+import { DespesasComponent } from './despesas.component';
 import { DespesasRoutingModule } from './despesas-routing.module';
 import { SharedModule } from 'src/app/Business/Shared/shared-module/shared.module';
 

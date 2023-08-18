@@ -4,23 +4,23 @@ import { Pager } from 'src/app/Business/Models/pager';
 import { SearchResultGrid } from 'src/app/Business/Models/search-result-grid';
 import { DatagridComponent } from 'src/app/Components/datagrid/datagrid.component';
 import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
-import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService';
+import { SistemaFinanceiroService } from 'src/app/Business/DataServices/SistemaFinanceiroService';
 
 
 
 @Component({
-  selector: 'app-categoria-list',
-  templateUrl: './categoria-list.component.html',
-  styleUrls: ['./categoria-list.component.sass'],
-  providers: [CategoriaService]
+  selector: 'app-sf-list',
+  templateUrl: './sf-list.component.html',
+  styleUrls: ['./sf-list.component.sass'],
+  providers: [SistemaFinanceiroService]
   
 })
-export class CategoriaListComponent extends DatagridComponent implements OnInit {  
+export class SFListComponent extends DatagridComponent implements OnInit {  
 
 
   //Inicializar o subject record$.subscribe(()) para trazer o registros
   constructor(
-    private _supService: CategoriaService
+    private _supService: SistemaFinanceiroService
     ) {
     super();
     
@@ -63,7 +63,7 @@ export class CategoriaListComponent extends DatagridComponent implements OnInit 
 
   _edit(l)
   {
-    this.OnEdit.emit(l);    
+    this.OnEdit.emit(l);  
   }
 
 

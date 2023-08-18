@@ -4,6 +4,7 @@ import { CategoriaModalComponent } from './categoria-modal/categoria-modal.compo
 import { CategoriaListComponent } from './categoria-list/categoria-list.component';
 import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService';
 import { NotificationService } from 'src/app/Business/Services/NotificationService';
+import { BasePageComponent } from 'src/app/Components/base-page/base-page.component';
 
 
 @Component({
@@ -13,18 +14,17 @@ import { NotificationService } from 'src/app/Business/Services/NotificationServi
   providers:[CategoriaService]
   
 })
-export class CategoriaComponent implements OnInit {
-  @ViewChild('dataFormCategorias') dataForm: CategoriaModalComponent;
+export class CategoriaComponent extends BasePageComponent implements OnInit {
+  @ViewChild('dataForm') dataForm: CategoriaModalComponent;
   @ViewChild('dataList') dataList: CategoriaListComponent;
 
   constructor( private principalService: CategoriaService,
-    private notifier: NotificationService ) {    
+    private notifier: NotificationService ) {  
+      super();  
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit-categorias').subscribe(p=>{
-      this.dataForm.open(p.id);
-    })    
+
   }
 
   heading = 'Cadastros Gerais';
@@ -36,6 +36,18 @@ export class CategoriaComponent implements OnInit {
     this.dataForm.open(0);
   }
 
+  Edit(p)
+  {
+    this.dataForm.open(p.id);
+  }
+
+  
+  PrintContent()
+  {
+    super.onPrintByClass('printer');
+  }
+
+  
   Save(obj)
   {
     this.principalService.InsertOrUpdate(obj).subscribe(p=>{    

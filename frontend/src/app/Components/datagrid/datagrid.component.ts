@@ -1,5 +1,5 @@
 import { DecimalPipe } from '@angular/common';
-import { AfterViewInit, Component, OnInit, QueryList, ViewChildren, ChangeDetectorRef } from '@angular/core';
+import { AfterViewInit, Component, EventEmitter, OnInit, QueryList, ViewChildren, ChangeDetectorRef, Output } from '@angular/core';
 import { BehaviorSubject, Observable, Subject, of } from 'rxjs';
 import { debounceTime, delay, delayWhen, switchMap, tap } from 'rxjs/operators';
 import { Pager } from 'src/app/Business/Models/pager';
@@ -7,6 +7,7 @@ import { SearchResultGrid } from 'src/app/Business/Models/search-result-grid';
 import { COUNTRIES } from 'src/app/DemoPages/Tables/dynamic/demo/countries';
 import { DtHeaderDirective } from './dt-header.directive';
 import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
+
 
 
 
@@ -23,7 +24,7 @@ export abstract class DatagridComponent implements OnInit {
   protected _searchTerm;
   private _sortColuumn; //TODO>> Implementar
   private _sortDirection;
-
+  @Output() OnEdit=new EventEmitter<any>();
 
   _pageSize = 10;
   _page = 1;

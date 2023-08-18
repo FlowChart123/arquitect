@@ -4,6 +4,7 @@ import { PessoaModalComponent } from './pessoa-modal/pessoa-modal.component';
 import { PessoaListComponent } from './pessoa-list/pessoa-list.component';
 import { PessoaService } from 'src/app/Business/DataServices/PessoaService';
 import { NotificationService } from 'src/app/Business/Services/NotificationService';
+import { BasePageComponent } from 'src/app/Components/base-page/base-page.component';
 
 
 @Component({
@@ -13,18 +14,17 @@ import { NotificationService } from 'src/app/Business/Services/NotificationServi
   providers:[PessoaService]
   
 })
-export class PessoaComponent implements OnInit {
-  @ViewChild('dataFormPessoa') dataForm: PessoaModalComponent;
+export class PessoaComponent extends BasePageComponent implements OnInit {
+  @ViewChild('dataForm') dataForm: PessoaModalComponent;
   @ViewChild('dataList') dataList: PessoaListComponent;
 
   constructor( private principalService: PessoaService,
     private notifier: NotificationService ) {    
+      super();
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit-pessoa').subscribe(p=>{
-      this.dataForm.open(p.id);
-    })    
+      
   }
 
   heading = 'Cadastros Gerais';
@@ -35,6 +35,17 @@ export class PessoaComponent implements OnInit {
   {    
     this.dataForm.open(0);
   }
+
+  Edit(p)
+  {
+    this.dataForm.open(p.id);
+  }
+  
+  PrintContent()
+  {
+    super.onPrintByClass('printer');
+  }
+
 
   Save(obj)
   {

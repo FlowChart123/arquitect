@@ -71,10 +71,7 @@ const routes: Routes = [
         path: 'pages/laila',         
         loadChildren: () => import('./Layout/laila/laila.module').then(m => m.LailaModule)
       },
-      {
-        path: 'pages/rush',        
-        loadChildren: () => import('./Pages/rush/rush.module').then(m => m.RushModule)
-      },
+     
       {
         path: 'pages/despesas',        
         loadChildren: () => import('./Pages/despesas/despesas.module').then(m => m.DespesasModule)

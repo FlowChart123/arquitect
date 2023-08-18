@@ -4,23 +4,22 @@ import { Pager } from 'src/app/Business/Models/pager';
 import { SearchResultGrid } from 'src/app/Business/Models/search-result-grid';
 import { DatagridComponent } from 'src/app/Components/datagrid/datagrid.component';
 import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
-import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService';
-
+import { DespesasService } from 'src/app/Business/DataServices/DespesasService';
 
 
 @Component({
-  selector: 'app-categoria-list',
-  templateUrl: './categoria-list.component.html',
-  styleUrls: ['./categoria-list.component.sass'],
-  providers: [CategoriaService]
+  selector: 'app-despesas-list',
+  templateUrl: './despesas-list.component.html',
+  styleUrls: ['./despesas-list.component.sass'],
+  providers: [DespesasService]
   
 })
-export class CategoriaListComponent extends DatagridComponent implements OnInit {  
+export class DespesasListComponent extends DatagridComponent implements OnInit {  
 
 
   //Inicializar o subject record$.subscribe(()) para trazer o registros
   constructor(
-    private _supService: CategoriaService
+    private _supService: DespesasService
     ) {
     super();
     

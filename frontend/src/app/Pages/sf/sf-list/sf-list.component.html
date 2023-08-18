@@ -2,14 +2,14 @@
     <div class="card-header-tab card-header">
       <div class="card-header-title font-size-lg text-capitalize fw-normal">
         <i class="header-icon lnr-laptop-phone me-3 text-muted opacity-6"> </i>
-        CADASTRO DE CATEGORIAS
+        CADASTRO DE SISTEMAS FINANCEIROS
       </div>
       <div class="btn-actions-pane-right">
         <div role="group" class="btn-group-sm btn-group form-toolbox" >
           <button class="btn btn-shadow btn-sm btn-primary" (click)="_toggleSelection()" *ngIf="_stateEdit==true">
             Opções
           </button>
-          <button class="btn-shadow btn btn-dark" (click)="_toggleSelection()" *ngIf="_stateEdit==false">Opções</button>
+          <button class="btn-shadow btn btn-dark " (click)="_toggleSelection()" *ngIf="_stateEdit==false">Opções</button>
 
           <button class="btn-shadow btn btn-dark" (click)="refresh()">Atualizar</button>
 
@@ -38,7 +38,9 @@
             <th [hidden]="!_stateEdit" style="width:75px !important"></th>
             <th scope="col" class="text-center" dtHeader [grid]="'primary'"  (sort)="_sort($event)" [field]="'id'">#</th>
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'nome'"  >Nome</th>
-         
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'ano'"  >Ano</th>
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'mes'"  >Mês</th>
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'diaFechamento'"  >Dia Fechamento</th>
           </tr>
         </thead>
         <tbody>
@@ -57,7 +59,15 @@
                 style="width: 20px">
               <ngb-highlight [result]="item.nome" [term]="searchTerm"></ngb-highlight>
             </td>        
-           
+            <td>
+              <ngb-highlight [result]="item.ano" [term]="searchTerm"></ngb-highlight>           
+            </td>  
+            <td>
+              <ngb-highlight [result]="item.mes" [term]="searchTerm"></ngb-highlight>              
+            </td>
+            <td>
+              <ngb-highlight [result]="item.diaFechamento" [term]="searchTerm" ></ngb-highlight>
+            </td>
           </tr>
         </tbody>
       </table>

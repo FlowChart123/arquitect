@@ -63,7 +63,7 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
 
   _edit(l)
   {
-    EventEmitterService.get('edit-pessoa').emit(l);    
+    this.OnEdit.emit(l);
   }
 
 

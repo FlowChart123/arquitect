@@ -41,6 +41,8 @@ const now = new Date();
 export class CategoriaFormComponent implements OnInit {
   
   @Output()  init= new EventEmitter<any>();  
+  
+
   // @ViewChild('dpDataDeCadastro', { static: true }) dpDataDeCadastro: NgbInputDatepicker;
   
   submitted=false;

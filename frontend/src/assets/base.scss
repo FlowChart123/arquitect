@@ -182,3 +182,20 @@
     font-style: italic;
     color: tomato;
 }
+
+.form-toolbox
+{
+    top: -45px;
+    right: 0px;
+    position: absolute;
+}
+.form-toolbox button{
+    height: 33px !important;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}

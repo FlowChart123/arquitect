@@ -7,7 +7,7 @@
           <!-- NOME -->
           <div class="position-relative mb-3">
             <label for="sleNome" class="form-label">Descrição:</label>
-            <input name="nome" id="sleNome" placeholder="Descrição para a despesa" type="text" class="form-control"
+            <input name="nome" id="sleNome" placeholder="Descrição da categoria" type="text" class="form-control"
               formControlName="nome" required>
 
             <label *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true" class="error-input">

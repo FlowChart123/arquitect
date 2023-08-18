@@ -94,6 +94,7 @@ namespace Parser
             string dest = "";
             dest = s.Replace("fff", this.sleNamespace.Text.ToLower())
             .Replace("-namespace-", this.sleNamespace.Text)
+            .Replace("ggg", this.sleNamespace.Text.ToUpper())
             .Replace("-modelfolder-", this.sleModelFolder.Text)
             .Replace("-title-", this.sleTitle.Text)
             .Replace("-titlecap-", this.sleTitle.Text.ToUpper());

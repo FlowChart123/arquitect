@@ -13,6 +13,7 @@ import { CategoriaFormComponent } from '../categoria-form/categoria-form.compone
 export class CategoriaModalComponent implements OnInit {
   @ViewChild('content', { static: true }) content: TemplateRef<NgbModal> ;
   @Output() OnSave=new EventEmitter<any>();
+  
   form: CategoriaFormComponent;
 
   

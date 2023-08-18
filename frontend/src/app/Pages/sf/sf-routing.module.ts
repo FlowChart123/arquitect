@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SFComponent } from './sf/sf.component';
+import { SFComponent } from './sf.component';
 
 
 

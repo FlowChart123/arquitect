@@ -7,7 +7,7 @@
           <!-- CODIGO BARRAS -->
           <div class="position-relative mb-3">
             <label for="sleNome" class="form-label">Código de Barras:</label>
-            <input name="nome" id="sleNome" placeholder="Informe o código de barras" type="text" class="form-control"
+            <input name="nome" id="sleNome" placeholder="Código de barras" type="text" class="form-control"
               formControlName="codigoBarras" required>
 
             <label *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true" class="error-input">

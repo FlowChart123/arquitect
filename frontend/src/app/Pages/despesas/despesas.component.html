@@ -1,8 +1,9 @@
 
 <!-- <app-page-title [heading]="heading" [subheading]="subheading" [icon]="icon" (OnAdd)="Adding()"></app-page-title> -->
-<app-left-toolbox-form (OnAdding)="Adding()"></app-left-toolbox-form>
+<app-left-toolbox-form (OnAdding)="Adding()" (OnPrint)="PrintContent()"></app-left-toolbox-form>
 
-<app-codigobarra-list (OnEdit)="Edit($event)" #dataList></app-codigobarra-list>
+
+<app-despesas-list (OnEdit)="Edit($event)" #dataList></app-despesas-list>
 
 
 
@@ -17,4 +18,4 @@
 </ul>
 <div [ngbNavOutlet]="nav"></div> -->
 
-<app-codigobarra-modal #dataForm (OnSave)="Save($event)"></app-codigobarra-modal>
+<app-despesas-modal #dataForm (OnSave)="Save($event)"></app-despesas-modal>

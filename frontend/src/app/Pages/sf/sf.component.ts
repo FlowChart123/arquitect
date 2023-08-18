@@ -1,30 +1,30 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
-import { CodigoBarraModalComponent } from './codigobarra-modal/codigobarra-modal.component';
-import { CodigoBarraListComponent } from './codigobarra-list/codigobarra-list.component';
-import { CodigoBarraService } from 'src/app/Business/DataServices/CodigoBarraService';
+import { SFModalComponent } from './sf-modal/sf-modal.component';
+import { SFListComponent } from './sf-list/sf-list.component';
+import { SistemaFinanceiroService } from 'src/app/Business/DataServices/SistemaFinanceiroService';
 import { NotificationService } from 'src/app/Business/Services/NotificationService';
 import { BasePageComponent } from 'src/app/Components/base-page/base-page.component';
 
 
 @Component({
-  selector: 'app-codigobarra',
-  templateUrl: './codigobarra.component.html',
-  styleUrls: ['./codigobarra.component.sass'],
-  providers:[CodigoBarraService]
+  selector: 'app-sf',
+  templateUrl: './sf.component.html',
+  styleUrls: ['./sf.component.sass'],
+  providers:[SistemaFinanceiroService]
   
 })
-export class CodigoBarraComponent extends BasePageComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: CodigoBarraModalComponent;
-  @ViewChild('dataList') dataList: CodigoBarraListComponent;
+export class SFComponent extends BasePageComponent implements OnInit {
+  @ViewChild('dataForm') dataForm: SFModalComponent;
+  @ViewChild('dataList') dataList: SFListComponent;
 
-  constructor( private principalService: CodigoBarraService,
-    private notifier: NotificationService ) {    
-      super();
+  constructor( private principalService: SistemaFinanceiroService,
+    private notifier: NotificationService ) {   
+      super(); 
   }
 
   ngOnInit(): void {
- 
+     
   }
 
   heading = 'Cadastros Gerais';
@@ -40,7 +40,7 @@ export class CodigoBarraComponent extends BasePageComponent implements OnInit {
   {
     this.dataForm.open(p.id);
   }
-
+  
   
   PrintContent()
   {

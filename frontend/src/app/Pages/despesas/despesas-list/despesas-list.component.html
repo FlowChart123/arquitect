@@ -2,7 +2,7 @@
     <div class="card-header-tab card-header">
       <div class="card-header-title font-size-lg text-capitalize fw-normal">
         <i class="header-icon lnr-laptop-phone me-3 text-muted opacity-6"> </i>
-        CADASTRO DE CATEGORIAS
+        CADASTRO DE DESPESAS
       </div>
       <div class="btn-actions-pane-right">
         <div role="group" class="btn-group-sm btn-group form-toolbox" >
@@ -17,8 +17,8 @@
         </div>
       </div>
     </div>
-    <form>
-      <div class="p-2">
+    <form class="printer">
+      <div class="p-2 no-print">
         <div class="row">
           <label for="staticEmail" style="margin-left: 22px;" class="col-auto col-form-label">Pesquisa:</label>
           <div class="col-auto" style="padding-left: 0px;">
@@ -38,7 +38,6 @@
             <th [hidden]="!_stateEdit" style="width:75px !important"></th>
             <th scope="col" class="text-center" dtHeader [grid]="'primary'"  (sort)="_sort($event)" [field]="'id'">#</th>
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'nome'"  >Nome</th>
-         
           </tr>
         </thead>
         <tbody>
@@ -56,8 +55,7 @@
               <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg" class="me-2"
                 style="width: 20px">
               <ngb-highlight [result]="item.nome" [term]="searchTerm"></ngb-highlight>
-            </td>        
-           
+            </td>          
           </tr>
         </tbody>
       </table>
