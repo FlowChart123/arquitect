@@ -41,12 +41,12 @@ export class PessoaService extends BaseService {
 
     InsertOrUpdate(obj: Pessoa) : Observable<any> {     
       if (obj.id ) {     
-          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj)
-          .pipe(catchError(this.handleError<Pessoa>()));
+          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj);
+          // .pipe(catchError(this.handleError<Pessoa>()));
       }
       else{        
-        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj)
-        .pipe(catchError(this.handleError<Pessoa>()));
+        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj);
+        // .pipe(catchError(this.handleError<Pessoa>()));
       }
     }
    

@@ -1,12 +1,11 @@
-import { EventEmitter, Component, OnInit, Output, ViewChild, } from '@angular/core';
+import { EventEmitter, Component, OnInit, Output,} from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NgbCalendar } from '@ng-bootstrap/ng-bootstrap';
 
-import { NgbInputDatepicker } from '@ng-bootstrap/ng-bootstrap'; 
-import { validateEvents } from 'angular-calendar/modules/common/util';
 import { GenericListService } from 'src/app/Business/DataServices/GenericListService';
 import { SistemaFinanceiroService } from 'src/app/Business/DataServices/SistemaFinanceiroService';
 import { SistemaFinanceiro } from 'src/app/Business/Models/sistema-financeiro';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
 const now = new Date();
 
@@ -15,45 +14,24 @@ const now = new Date();
   templateUrl: './sf-form.component.html',
   styleUrls: ['./sf-form.component.sass'],
   providers: [SistemaFinanceiroService, GenericListService],
-  styles: [`
-  .custom-day {
-    text-align: center;
-    padding: 0.185rem 0.25rem;
-    display: inline-block;
-    height: 2rem;
-    width: 2rem;
-  }
-
-  .custom-day.focused {
-    background-color: #e6e6e6;
-  }
-
-  .custom-day.range, .custom-day:hover {
-    background-color: rgb(2, 117, 216);
-    color: white;
-  }
-
-  .custom-day.faded {
-    background-color: rgba(2, 117, 216, 0.5);
-  }
-`]
+ 
 })
 export class SFFormComponent implements OnInit {
   
   @Output()  init= new EventEmitter<any>();  
-  // @ViewChild('dpDataDeCadastro', { static: true }) dpDataDeCadastro: NgbInputDatepicker;
+  @Output()  OnCallBack= new EventEmitter<any>();  
   
   submitted=false;
-  form: FormGroup;  
-  // categorias=[];
+  form: FormGroup;    
   meses=[];
-  // tipos_despesas=[];
+  title='';
 
   constructor(
     private principalsService: SistemaFinanceiroService,
     private calendar: NgbCalendar,
     private fb: FormBuilder,
-    private genericLists: GenericListService
+    private genericLists: GenericListService,
+    private notifier: NotificationService
   ) { }
   model:SistemaFinanceiro;
 
@@ -69,9 +47,11 @@ export class SFFormComponent implements OnInit {
   Initialize(id : any){    
     if (id && id!=''){
       this.elementId=id;
+      this.title='EDITAR SISTEMA FINANCEIRO';
       this._get_record(id)
     }
     else{
+      this.title='ADICIONAR SISTEMA FINANCEIRO';
       this._get_newModel();
     }      
 }  
@@ -126,12 +106,37 @@ export class SFFormComponent implements OnInit {
 
   loadSelects()
   {    
-    // this.genericLists.Get('Categorias','').subscribe(p=>{      
-    //   this.categorias=p;
-    // })
     this.meses=this.genericLists.Meses();
-    // this.tipos_despesas=this.genericLists.TiposDespessa();
   }
+  
+  Back()
+  {
+    var res={
+      mode:'back',  
+      result:'---'    
+     }
+     this.OnCallBack.emit(res);
+  }
+
+  Save()
+  {
+    let f = this.form;    
+    this.submitted=true;    
+    if (f.valid==true) {
+      let vr=f.value;       
+      this.principalsService.InsertOrUpdate(vr).subscribe(p=>{   
+         var res={
+          mode:'save',
+          result:'success'
+         }
+         this.OnCallBack.emit(res);
+      }, err=>{      
+        this.notifier.openToast(err.message,"Erro!","error");
+      });
+    }
+  }
+
+  
 
 }
 

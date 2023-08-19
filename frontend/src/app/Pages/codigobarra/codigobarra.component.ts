@@ -1,10 +1,9 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { EventEmitterService } from 'src/app/Business/Services/EventEmitterService';
-import { CodigoBarraModalComponent } from './codigobarra-modal/codigobarra-modal.component';
 import { CodigoBarraListComponent } from './codigobarra-list/codigobarra-list.component';
 import { CodigoBarraService } from 'src/app/Business/DataServices/CodigoBarraService';
 import { NotificationService } from 'src/app/Business/Services/NotificationService';
 import { BasePageComponent } from 'src/app/Components/base-page/base-page.component';
+import { CodigoBarraFormComponent } from './codigobarra-form/codigobarra-form.component';
 
 
 @Component({
@@ -15,7 +14,7 @@ import { BasePageComponent } from 'src/app/Components/base-page/base-page.compon
   
 })
 export class CodigoBarraComponent extends BasePageComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: CodigoBarraModalComponent;
+  @ViewChild('dataForm') dataForm: CodigoBarraFormComponent;
   @ViewChild('dataList') dataList: CodigoBarraListComponent;
 
   constructor( private principalService: CodigoBarraService,
@@ -27,18 +26,19 @@ export class CodigoBarraComponent extends BasePageComponent implements OnInit {
  
   }
 
-  heading = 'Cadastros Gerais';
-  subheading = '';
-  icon = 'pe-7s-drawer icon-gradient bg-happy-itmeo';
+  editMode=false;
 
   Adding()
-  {    
-    this.dataForm.open(0);
+  {        
+    this.editMode = true;
+    this.dataForm.submitted=false;
+    this.dataForm.Initialize(0);
   }
 
   Edit(p)
   {
-    this.dataForm.open(p.id);
+    this.editMode = true;
+    this.dataForm.Initialize(p.id);    
   }
 
   
@@ -46,14 +46,17 @@ export class CodigoBarraComponent extends BasePageComponent implements OnInit {
   {
     super.onPrintByClass('printer');
   }
-
   
-  Save(obj)
+  FormCallBack(obj)
   {
-    this.principalService.InsertOrUpdate(obj).subscribe(p=>{    
+    if (obj.mode=='back'){
+      this.editMode=false;
+    }
+    if (obj.mode=='save' && obj.result=='success') {
       this.dataList._RefreshData();
-      this.dataForm.close();
+      this.editMode = false;
       this.notifier.openToast('Informações salvas com sucesso!',"Confirmado!","success");
-    });
+      }
   }
+  
 }

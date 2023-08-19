@@ -39,12 +39,12 @@ export class CategoriaService extends BaseService {
 
     InsertOrUpdate(obj: Categoria) : Observable<any> {     
       if (obj.id && obj.id>0) {     
-          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj)
-          .pipe(catchError(this.handleError<Categoria>()));
+          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj);
+          // .pipe(catchError(this.handleError<Categoria>()));
       }
       else{        
-        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj)
-        .pipe(catchError(this.handleError<Categoria>()));
+        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj);
+        // .pipe(catchError(this.handleError<Categoria>()));
       }
     }
    

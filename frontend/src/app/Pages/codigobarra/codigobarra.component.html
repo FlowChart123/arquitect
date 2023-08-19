@@ -2,7 +2,7 @@
 <!-- <app-page-title [heading]="heading" [subheading]="subheading" [icon]="icon" (OnAdd)="Adding()"></app-page-title> -->
 <app-left-toolbox-form (OnAdding)="Adding()"></app-left-toolbox-form>
 
-<app-codigobarra-list (OnEdit)="Edit($event)" #dataList></app-codigobarra-list>
+<app-codigobarra-list [hidden]="editMode==true" (OnEdit)="Edit($event)" #dataList></app-codigobarra-list>
 
 
 
@@ -17,4 +17,4 @@
 </ul>
 <div [ngbNavOutlet]="nav"></div> -->
 
-<app-codigobarra-modal #dataForm (OnSave)="Save($event)"></app-codigobarra-modal>
+<app-codigobarra-form [hidden]="editMode==false" #dataForm (OnCallBack)="FormCallBack($event)"></app-codigobarra-form>

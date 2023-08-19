@@ -2,7 +2,7 @@
 <!-- <app-page-title [heading]="heading" [subheading]="subheading" [icon]="icon" (OnAdd)="Adding()"></app-page-title> -->
 <app-left-toolbox-form (OnAdding)="Adding()"></app-left-toolbox-form>
 
-<app-pessoa-list (OnEdit)="Edit($event)" #dataList></app-pessoa-list>
+<app-pessoa-list [hidden]="editMode==true" (OnEdit)="Edit($event)" #dataList></app-pessoa-list>
 
 
 
@@ -17,4 +17,4 @@
 </ul>
 <div [ngbNavOutlet]="nav"></div> -->
 
-<app-pessoa-modal #dataForm (OnSave)="Save($event)"></app-pessoa-modal>
+<app-pessoa-form  [hidden]="editMode==false" #dataForm (OnCallBack)="FormCallBack($event)"></app-pessoa-form>

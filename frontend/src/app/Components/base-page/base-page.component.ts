@@ -13,9 +13,9 @@ export abstract class BasePageComponent implements OnInit {
   }
 
   abstract Edit(l);
-  abstract Adding();
-  abstract Save(obj);
+  abstract Adding();  
   abstract PrintContent();
+  // abstract FormCallBack(obj);
 
   onPrintById(divName) {
     const printContents = document.getElementById(divName).innerHTML;

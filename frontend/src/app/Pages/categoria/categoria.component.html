@@ -3,7 +3,7 @@
 
 <app-left-toolbox-form (OnAdding)="Adding()"></app-left-toolbox-form>
 
-<app-categoria-list (OnEdit)="Edit($event)" #dataList></app-categoria-list>
+<app-categoria-list [hidden]="editMode==true" (OnEdit)="Edit($event)" #dataList></app-categoria-list>
 
 
 
@@ -18,4 +18,4 @@
 </ul>
 <div [ngbNavOutlet]="nav"></div> -->
 
-<app-categoria-modal #dataForm (OnSave)="Save($event)"></app-categoria-modal>
+<app-categoria-form [hidden]="editMode==false" #dataForm (OnCallBack)="FormCallBack($event)"></app-categoria-form>

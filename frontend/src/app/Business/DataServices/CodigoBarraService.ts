@@ -40,12 +40,12 @@ export class CodigoBarraService extends BaseService {
 
     InsertOrUpdate(obj: CodigoBarra) : Observable<any> {     
       if (obj.id ) {     
-          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj)
-          .pipe(catchError(this.handleError<CodigoBarra>()));
+          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj);
+          // .pipe(catchError(this.handleError<CodigoBarra>()));
       }
       else{        
-        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj)
-        .pipe(catchError(this.handleError<CodigoBarra>()));
+        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj);
+        // .pipe(catchError(this.handleError<CodigoBarra>()));
       }
     }
    

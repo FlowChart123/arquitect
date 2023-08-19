@@ -3,7 +3,7 @@
 <app-left-toolbox-form (OnAdding)="Adding()" (OnPrint)="PrintContent()"></app-left-toolbox-form>
 
 
-<app-despesas-list (OnEdit)="Edit($event)" #dataList></app-despesas-list>
+<app-despesas-list [hidden]="editMode==true" (OnEdit)="Edit($event)" #dataList></app-despesas-list>
 
 
 
@@ -18,4 +18,4 @@
 </ul>
 <div [ngbNavOutlet]="nav"></div> -->
 
-<app-despesas-modal #dataForm (OnSave)="Save($event)"></app-despesas-modal>
+<app-despesas-form  [hidden]="editMode==false" #dataForm (OnCallBack)="FormCallBack($event)"></app-despesas-form>

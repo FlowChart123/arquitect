@@ -1,12 +1,10 @@
-import { EventEmitter, Component, OnInit, Output, ViewChild, } from '@angular/core';
+import { EventEmitter, Component, OnInit, Output,} from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NgbCalendar } from '@ng-bootstrap/ng-bootstrap';
-
-import { NgbInputDatepicker } from '@ng-bootstrap/ng-bootstrap'; 
-import { validateEvents } from 'angular-calendar/modules/common/util';
 import { GenericListService } from 'src/app/Business/DataServices/GenericListService';
 import { CodigoBarraService } from 'src/app/Business/DataServices/CodigoBarraService';
 import { CodigoBarra } from 'src/app/Business/Models/codigobarras';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
 const now = new Date();
 
@@ -15,45 +13,23 @@ const now = new Date();
   templateUrl: './codigobarra-form.component.html',
   styleUrls: ['./codigobarra-form.component.sass'],
   providers: [CodigoBarraService, GenericListService],
-  styles: [`
-  .custom-day {
-    text-align: center;
-    padding: 0.185rem 0.25rem;
-    display: inline-block;
-    height: 2rem;
-    width: 2rem;
-  }
-
-  .custom-day.focused {
-    background-color: #e6e6e6;
-  }
-
-  .custom-day.range, .custom-day:hover {
-    background-color: rgb(2, 117, 216);
-    color: white;
-  }
-
-  .custom-day.faded {
-    background-color: rgba(2, 117, 216, 0.5);
-  }
-`]
+ 
 })
 export class CodigoBarraFormComponent implements OnInit {
   
   @Output()  init= new EventEmitter<any>();  
-  // @ViewChild('dpDataDeCadastro', { static: true }) dpDataDeCadastro: NgbInputDatepicker;
-  
+  @Output()  OnCallBack= new EventEmitter<any>();  
+
   submitted=false;
-  form: FormGroup;  
-  // categorias=[];
-  meses=[];
-  // tipos_despesas=[];
+  form: FormGroup;    
+  title='';
 
   constructor(
     private principalsService: CodigoBarraService,
     private calendar: NgbCalendar,
     private fb: FormBuilder,
-    private genericLists: GenericListService
+    private genericLists: GenericListService,
+    private notifier: NotificationService
   ) { }
   model:CodigoBarra;
 
@@ -62,16 +38,15 @@ export class CodigoBarraFormComponent implements OnInit {
     this.loadSelects();
   }
   elementId:any;
-  
-
-  
-
+    
   Initialize(id : any){    
     if (id && id!=''){
       this.elementId=id;
+      this.title='EDITAR CÓDIGO DE BARRA';
       this._get_record(id)
     }
     else{
+      this.title='INSERIR CÓDIGO DE BARRA';
       this._get_newModel();
     }      
 }  
@@ -82,13 +57,7 @@ export class CodigoBarraFormComponent implements OnInit {
     (      
       {
         id: [this.model.id],
-        codigoBarras: [this.model.codigoBarras, [Validators.required]],    
-        // ano: [this.model.ano, [Validators.required]],
-        // mes: [this.model.mes, [Validators.required]],
-        // diaFechamento: [this.model.diaFechamento, [Validators.required]],
-        // gerarCopiaDespesa: [this.model.gerarCopiaDespesa, [Validators.required]],
-        // mesCopia: [this.model.mesCopia, [Validators.required, Validators.min(1),Validators.max(12)]],
-        // anoCopia: [this.model.anoCopia, [Validators.required, Validators.min(2000)]],
+        codigoBarras: [this.model.codigoBarras, [Validators.required]],           
       }
     )
   }
@@ -121,13 +90,38 @@ export class CodigoBarraFormComponent implements OnInit {
 
   loadSelects()
   {    
-    // this.genericLists.Get('Categorias','').subscribe(p=>{      
-    //   this.categorias=p;
-    // })
-    // this.meses=this.genericLists.Meses();
-    // this.tipos_despesas=this.genericLists.TiposDespessa();
+
   }
 
+  
+  Back()
+  {
+    var res={
+      mode:'back',  
+      result:'---'    
+     }
+     this.OnCallBack.emit(res);
+  }
+
+  Save()
+  {
+    let f = this.form;    
+    this.submitted=true;    
+    if (f.valid==true) {
+      let vr=f.value;       
+      this.principalsService.InsertOrUpdate(vr).subscribe(p=>{   
+         var res={
+          mode:'save',
+          result:'success'
+         }
+         this.OnCallBack.emit(res);
+      }, err=>{      
+        this.notifier.openToast(err.message,"Erro!","error");
+      });
+    }
+  }
+
+  
 }
 
 
