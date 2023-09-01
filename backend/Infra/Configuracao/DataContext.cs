@@ -636,10 +636,7 @@ namespace Infra.Configuracao
                 entity.Property(e => e.Id).ValueGeneratedNever();
                 entity.Property(e => e.DataCadastro)
                     .HasDefaultValueSql("(getdate())")
-                    .HasColumnType("datetime");
-                entity.Property(e => e.Fantasia)
-                    .HasMaxLength(80)
-                    .IsUnicode(false);
+                    .HasColumnType("datetime");              
                 entity.Property(e => e.Nome)
                     .HasMaxLength(80)
                     .IsUnicode(false);

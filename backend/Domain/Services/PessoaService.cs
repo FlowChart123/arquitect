@@ -79,17 +79,19 @@ namespace Domain.Services
 
         public Pessoa Update(PessoaUpdateCommand model)
         {
-            var data = DateTime.UtcNow;
-            //model.DataAlteracao = data;
-
-            //if (model.Pago)
-            //{
-            //    model.DataPagamento = data;
-            //}
-
+                        
             if (!string.IsNullOrEmpty(model.Nome))
             {
-                return _repo.Update(model.asPessoa());
+                var res = _repo.Load(model.Id);
+                if (res != null)
+                {
+                    res.Nome = model.Nome;
+                    return _repo.Update(res);
+                }
+                else
+                {
+                    throw new Exception(message: $"Registro com id {model.Id} não pode ser encontrado para alteração!");
+                }
             }
             else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
         }

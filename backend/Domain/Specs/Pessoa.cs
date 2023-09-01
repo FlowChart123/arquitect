@@ -16,6 +16,7 @@ namespace Domain.Specs
             {
                Id = tmp.Id,
                Nome = tmp.Nome,
+               DataCadastro = tmp.DataCadastro,
             };
         }
 
@@ -25,7 +26,7 @@ namespace Domain.Specs
             {
                 Id = tmp.Id,
                 Nome = tmp.Nome,
-
+                DataCadastro=tmp.DataCadastro,
             };
         }
         public static Pessoa asPessoa(this PessoaUpdateCommand tmp)
@@ -34,6 +35,7 @@ namespace Domain.Specs
             {
                 Id = tmp.Id,
                 Nome = tmp.Nome,
+                DataCadastro = tmp.DataCadastro
             };
         }
 

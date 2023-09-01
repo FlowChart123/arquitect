@@ -8,11 +8,10 @@ public partial class Pessoa : BaseEntity
     public DateTime DataCadastro { get; set; }
     public virtual ICollection<Documento> DocumentoDestinatarios { get; } = new List<Documento>();
     public virtual ICollection<Documento> DocumentoEmitentes { get; } = new List<Documento>();
-    public virtual ICollection<Documento> DocumentoRemetentes { get; } = new List<Documento>();
-    public string Fantasia { get; set; } = null!;
+    public virtual ICollection<Documento> DocumentoRemetentes { get; } = new List<Documento>();    
     public Guid Id { get; set; }
-
     public string Nome { get; set; } = null!;
+
     public virtual ICollection<PessoaEndereco> PessoaEnderecos { get; } = new List<PessoaEndereco>();
 
     public virtual PessoaFisica? PessoaFisica { get; set; }

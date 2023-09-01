@@ -34,9 +34,6 @@ namespace WebApi.Extensions
             .AddScoped<IRepositoy<SistemaFinanceiro>, SistemaFinanceiroRepository>()
             .AddScoped<ISistemaFinanceiroRepository, SistemaFinanceiroRepository>()
 
-            .AddScoped<IRepositoy<Categoria>, CategoriaRepository>()
-            .AddScoped<ICategoriaRepository, CategoriaRepository>()
-
             .AddScoped<IRepositoy<Bairro>, BairroRepository>()
             .AddScoped<IBairroRepository, BairroRepository>()
 
@@ -121,7 +118,6 @@ namespace WebApi.Extensions
             .AddScoped<ISupplementService, SupplementService>()
             .AddScoped<IDespesaService, DespesaService>()
             .AddScoped<ISistemaFinanceiroService, SistemaFinanceiroService>()
-            .AddScoped<ICategoriaService, CategoriaService>()
             .AddScoped<IBairroService, BairroService>()
             .AddScoped<ICodigoBarraService, CodigoBarraService>()
             .AddScoped<IDocumentoFilialGrupoService, DocumentoFilialGrupoService>()
