@@ -39,12 +39,12 @@ export class DespesasService extends BaseService {
 
     InsertOrUpdate(obj: Despesa) : Observable<any> {     
       if (obj.id && obj.id>0) {     
-          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj)
-          .pipe(catchError(this.handleError<Despesa>()));
+          return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj);
+          // .pipe(catchError(this.handleError<Despesa>()));
       }
       else{        
-        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj)
-        .pipe(catchError(this.handleError<Despesa>()));
+        return this.httpClient.post<any>(`${this.baseUrl}/${this.controller}/Insert`, obj);
+        // .pipe(catchError(this.handleError<Despesa>()));
       }
     }
    

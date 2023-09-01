@@ -9,10 +9,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 import { SharedModule } from 'src/app/Business/Shared/shared-module/shared.module';
-import { SFComponent } from './sf/sf.component';
-import { SFListComponent } from './sf/sf-list/sf-list.component';
-import { SFModalComponent } from './sf/sf-modal/sf-modal.component';
-import { SFFormComponent } from './sf/sf-form/sf-form.component';
+import { SFComponent } from './sf.component';
+import { SFListComponent } from './sf-list/sf-list.component';
+import { SFModalComponent } from './sf-modal/sf-modal.component';
+import { SFFormComponent } from './sf-form/sf-form.component';
 import { SFRoutingModule } from './sf-routing.module';
 
 

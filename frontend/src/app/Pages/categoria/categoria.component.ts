@@ -3,6 +3,9 @@ import { EventEmitterService } from 'src/app/Business/Services/EventEmitterServi
 import { CategoriaModalComponent } from './categoria-modal/categoria-modal.component';
 import { CategoriaListComponent } from './categoria-list/categoria-list.component';
 import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService';
+import { NotificationService } from 'src/app/Business/Services/NotificationService';
+import { BasePageComponent } from 'src/app/Components/base-page/base-page.component';
+import { CategoriaFormComponent } from './categoria-form/categoria-form.component';
 
 
 @Component({
@@ -12,33 +15,49 @@ import { CategoriaService } from 'src/app/Business/DataServices/CategoriaService
   providers:[CategoriaService]
   
 })
-export class CategoriaComponent implements OnInit {
-  @ViewChild('dataForm') dataForm: CategoriaModalComponent;
+export class CategoriaComponent extends BasePageComponent implements OnInit {
+  @ViewChild('dataForm') dataForm: CategoriaFormComponent;
   @ViewChild('dataList') dataList: CategoriaListComponent;
 
-  constructor( private principalService: CategoriaService ) {    
+  constructor( private principalService: CategoriaService,
+    private notifier: NotificationService ) {  
+      super();  
   }
 
   ngOnInit(): void {
-    EventEmitterService.get('edit').subscribe(p=>{
-      this.dataForm.open(p.id);
-    })    
+
   }
 
-  heading = 'Cadastros Gerais';
-  subheading = '';
-  icon = 'pe-7s-drawer icon-gradient bg-happy-itmeo';
+  editMode=false;
 
   Adding()
-  {    
-    this.dataForm.open(0);
+  {        
+    this.editMode = true;
+    this.dataForm.submitted=false;
+    this.dataForm.Initialize(0);
   }
 
-  Save(obj)
+  Edit(p)
   {
-    this.principalService.InsertOrUpdate(obj).subscribe(p=>{    
+    this.editMode = true;
+    this.dataForm.Initialize(p.id);    
+  }
+
+  
+  PrintContent()
+  {
+    super.onPrintByClass('printer');
+  }
+  
+  FormCallBack(obj)
+  {
+    if (obj.mode=='back'){
+      this.editMode=false;
+    }
+    if (obj.mode=='save' && obj.result=='success') {
       this.dataList._RefreshData();
-      this.dataForm.close();
-    });
+      this.editMode = false;
+      this.notifier.openToast('Informações salvas com sucesso!',"Confirmado!","success");
+      }
   }
 }

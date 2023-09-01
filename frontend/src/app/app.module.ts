@@ -112,6 +112,10 @@ import { PageTitleModule } from './Layout/Components/page-title/page-title.modul
 
 
 
+
+
+
+
 const RxJS = [LoaderInterceptor, HTTPStatus];
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -167,6 +171,10 @@ const DEFAULT_DROPZONE_CONFIG: DropzoneConfigInterface = {
     LoginComponent,
     RegisterBoxedComponent,
     RegisterComponent,
+    
+    
+    
+    
     
 
     // Tables

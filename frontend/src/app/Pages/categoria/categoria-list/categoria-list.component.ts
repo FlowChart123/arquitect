@@ -63,7 +63,7 @@ export class CategoriaListComponent extends DatagridComponent implements OnInit 
 
   _edit(l)
   {
-    EventEmitterService.get('edit').emit(l);    
+    this.OnEdit.emit(l);    
   }
 
 

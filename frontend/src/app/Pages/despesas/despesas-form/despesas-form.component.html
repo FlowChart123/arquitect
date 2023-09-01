@@ -1,0 +1,122 @@
+<div class="row">
+
+  <div class="card-hover-shadow-2x mb-3 card">
+    <div class="card-header">{{title}}
+
+    </div>
+    <div class="card-body">            
+      
+
+  <form [formGroup]="form" (submit)="save()" *ngIf="form!=null"   >
+    <div class="col-md-6" style="float: left;">
+      <div class="main-card mb-3 card">
+        <div class="card-body">                    
+            <!-- NOME -->
+            <div class="position-relative mb-3">
+              <label for="sleNome" class="form-label">Descrição:</label>
+              <input name="nome" id="sleNome" placeholder="Descrição da despesa" type="text" class="form-control" formControlName="nome" required>
+
+              <label *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true"
+                class="error-input">
+                Campo obrigatório!
+              </label>
+            </div>
+
+           <!-- ANO -->
+           <div class="position-relative mb-3">
+            <label for="sleAno" class="form-label">Ano:</label>
+            <input name="ano" id="sleAno" placeholder="Ano" type="number"  class="form-control" formControlName="ano" required>
+
+            <label *ngIf="form.get('ano')?.errors?.['required'] &&   submitted==true"
+              class="error-input">
+              Campo obrigatório!
+            </label>
+          </div>
+
+           <!-- MES -->          
+          <div class="position-relative mb-3" >                                                                     
+            <label for="sleMes" class="form-label">Mês:</label>
+            <select name="mes" id="sleMes" class="form-select" formControlName="mes">
+              <option *ngFor="let l of meses" value="{{l.id}}">{{l.name}}</option>
+            </select>
+          </div> 
+
+
+
+          <!-- IDCATEGORIA -->
+            <div class="position-relative mb-3" >                                                                     
+              <label for="sleCategoria" class="form-label">Categoria:</label>
+              <select name="idCategoria" id="sleCategoria" class="form-select" formControlName="idCategoria">
+                <option *ngFor="let l of categorias" value="{{l.id}}">{{l.nome}}</option>
+              </select>
+            </div>                                
+          
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-6" style="float: left;">     
+      <div class="main-card mb-3 card" style="margin-left: 12px;">
+        <div class="card-body">
+       
+
+            <!-- PAGO -->
+            <div class="position-relative form-check">
+              <label class="form-label form-check-label">
+                <input type="checkbox" class="form-check-input" formControName="pago">
+                Despesa paga
+              </label>
+            </div>
+
+
+            <!-- TIPODESPESA -->
+            <div class="position-relative mb-3">                                                                     
+              <label for="sleTipoDespesa" class="form-label">Tipo de Despesa:</label>
+              <select name="tipoDespesa" id="sleTipoDespesa" class="form-select" formControlName="tipoDespesa">
+                <option *ngFor="let l of tipos_despesas" value="{{l.id}}">{{l.name}}</option>
+              </select>
+            </div> 
+            
+            <!-- VENCIMENTO -->
+            <!-- <div class="input-group">
+              <input class="form-control"  maxlength="10" ngbDatepicker #dpDataDeCadastro="ngbDatepicker" required mask="00/00/0000" />
+              <div class="input-group-addon" (click)="dpDataDeCadastro.toggle()">
+                <i class="fa fa-calendar"></i>
+              </div>
+            </div> -->
+
+
+            <div class="position-relative mb-3">
+              <label for="sleDataVencimento" class="form-label">Vencimento:</label>
+              <input name="dataVencimento" id="sleDataVencimento" placeholder="Data de vencimento" type="date" class="form-control" formControlName="dataVencimento" required>
+
+              <label *ngIf="form.get('dataVencimento')?.errors?.['required'] &&   submitted==true"
+                class="error-input">
+                Campo obrigatório!
+              </label>
+            </div>
+
+            <!-- VALOR -->
+            <div class="position-relative mb-3">
+              <label for="sleValor" class="form-label">Valor:</label>
+              <input name="valor" id="sleValor" placeholder="Digite o valor" type="number" class="form-control" formControlName="valor" required>
+
+              <label *ngIf="form.get('valor')?.errors?.['required'] &&  submitted==true"
+                class="error-input">
+                Campo obrigatório!
+              </label>
+            </div>
+        </div>
+      </div>
+    </div>      
+  </form>
+  
+    </div>
+
+
+    <div class="d-block text-end card-footer">
+        <button class="me-2 btn btn-link btn-sm" (click)="Back()">Cancelar</button>
+        <button class="btn-shadow-primary btn btn-primary btn-lg" (click)="Save()">Salvar</button>
+     </div>
+   </div>
+</div>
