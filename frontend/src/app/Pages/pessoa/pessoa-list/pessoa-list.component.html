@@ -38,7 +38,7 @@
             <th [hidden]="!_stateEdit" style="width:75px !important"></th>
             <!-- <th scope="col" class="text-center" dtHeader [grid]="'primary'"  (sort)="_sort($event)" [field]="'id'">#</th> -->
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'nome'"  >Nome</th>
-         
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'datacadastro'"  >Data de Cadastro</th>         
           </tr>
         </thead>
         <tbody>
@@ -52,10 +52,11 @@
             </th>
 
             <!-- <th scope="row" class="text-center">{{ item.id }}</th> -->
-            <td>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg" class="me-2"
-                style="width: 20px">
+            <td>           
               <ngb-highlight [result]="item.nome" [term]="searchTerm"></ngb-highlight>
+            </td>        
+            <td>           
+              <ngb-highlight [result]="item.dataCadastro | date :'dd/MM/yyyy'" [term]="searchTerm"></ngb-highlight>
             </td>        
            
           </tr>

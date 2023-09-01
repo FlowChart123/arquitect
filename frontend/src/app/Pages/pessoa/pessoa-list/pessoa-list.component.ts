@@ -35,8 +35,7 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
     //Em caso de vaios retornos utilizar o mergeMap!.
     let order=orderby == "" ? "nome":orderby;
     let dir=orderdir == "" ? "asc":orderdir;
-
-    console.log(order,dir);
+    
     let tmp = { items: [], total: 0 } as SearchResultGrid;
     let searcht = this._searchTerm != undefined ? this._searchTerm : '';
     let input = { page: this._page, size: this._pageSize, orderBy: order, orderDirection: dir, search: searcht } as Pager;

@@ -67,19 +67,13 @@ const routes: Routes = [
         path: 'tables/bootstrap',
         loadChildren: () => import('./DemoPages/Tables/tables-main/tables-main.module').then(m => m.TablesMainModule)
       },
-      {
-        path: 'pages/laila',         
-        loadChildren: () => import('./Layout/laila/laila.module').then(m => m.LailaModule)
-      },
+   
      
       {
         path: 'pages/despesas',        
         loadChildren: () => import('./Pages/despesas/despesas.module').then(m => m.DespesasModule)
       },
-      {
-        path: 'pages/categorias',        
-        loadChildren: () => import('./Pages/categoria/categoria.module').then(m => m.CategoriaModule)
-      },
+     
       {
         path: 'pages/codigobarras',        
         loadChildren: () => import('./Pages/codigobarra/codigobarra.module').then(m => m.CodigoBarraModule)
