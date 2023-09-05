@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Documento : BaseEntity
+public partial class Documento
 {
     public Guid Id { get; set; }
 
@@ -40,6 +40,8 @@ public partial class Documento : BaseEntity
     public virtual DocumentoTotal? DocumentoTotal { get; set; }
 
     public virtual DocumentoTransportador? DocumentoTransportador { get; set; }
+
+    public virtual ICollection<DocumentoVolume> DocumentoVolumes { get; } = new List<DocumentoVolume>();
 
     public virtual Pessoa Emitente { get; set; } = null!;
 

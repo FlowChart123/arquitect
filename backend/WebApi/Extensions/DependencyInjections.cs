@@ -4,7 +4,7 @@
 //using Domain.Interfaces.IUsuarioSistemaFinanceiro;
 using Infra.Repositorio;
 
-using Domain.Interfaces.InterfaceServicos;
+
 using Domain.Servicos;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -24,18 +24,12 @@ namespace WebApi.Extensions
     {
 
         //  REPOSITORIOS
-        public static IServiceCollection RegisterRepositories(this IServiceCollection services) => services    
-            .AddScoped<IRepositoy<Supplement>,SupplementRepository>()
-            .AddScoped<ISupplement, SupplementRepository>()
+        public static IServiceCollection RegisterRepositories(this IServiceCollection services) => services                
+            //.AddScoped<ISupplement, SupplementRepository>()
 
-            .AddScoped<IRepositoy<Despesa>, DespesaRepository>()
-            .AddScoped<IDespesaRepository, DespesaRepository>()
 
-            .AddScoped<IRepositoy<SistemaFinanceiro>, SistemaFinanceiroRepository>()
-            .AddScoped<ISistemaFinanceiroRepository, SistemaFinanceiroRepository>()
-
-            .AddScoped<IRepositoy<Bairro>, BairroRepository>()
-            .AddScoped<IBairroRepository, BairroRepository>()
+            //.AddScoped<IRepositoy<Bairro>, BairroRepository>()
+            //.AddScoped<IBairroRepository, BairroRepository>()
 
 
             .AddScoped<IRepositoy<CodigoBarra>, CodigoBarraRepository>()
@@ -109,15 +103,12 @@ namespace WebApi.Extensions
 
             .AddSingleton<GenericListRepository, GenericListRepository>()
 
-            .AddScoped<IJWTManager, JWTMAnagerRepo>()
-            .AddScoped<ISupplement, SupplementRepository>();
+            .AddScoped<IJWTManager, JWTMAnagerRepo>();
+            
 
 
         //SERVICOS
         public static IServiceCollection RegisterServices(this IServiceCollection services) => services
-            .AddScoped<ISupplementService, SupplementService>()
-            .AddScoped<IDespesaService, DespesaService>()
-            .AddScoped<ISistemaFinanceiroService, SistemaFinanceiroService>()
             .AddScoped<IBairroService, BairroService>()
             .AddScoped<ICodigoBarraService, CodigoBarraService>()
             .AddScoped<IDocumentoFilialGrupoService, DocumentoFilialGrupoService>()

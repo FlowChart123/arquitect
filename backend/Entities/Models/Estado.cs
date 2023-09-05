@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Estado : BaseEntity
+public partial class Estado
 {
     public int Id { get; set; }
 
@@ -19,7 +19,7 @@ public partial class Estado : BaseEntity
 
     public virtual ICollection<FilialLastMile> FilialLastMiles { get; } = new List<FilialLastMile>();
 
-    public virtual Pais IdPaisNavigation { get; set; } = null!;
+    public virtual Pai IdPaisNavigation { get; set; } = null!;
 
     public virtual ICollection<TransportadorLastMile> TransportadorLastMiles { get; } = new List<TransportadorLastMile>();
 }

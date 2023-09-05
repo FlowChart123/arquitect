@@ -1,16 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
+using Entities.Model2;
 
 namespace Entities.Models;
 
-public partial class Pessoa : BaseEntity
+public partial class Pessoa
 {
-    public DateTime DataCadastro { get; set; }
-    public virtual ICollection<Documento> DocumentoDestinatarios { get; } = new List<Documento>();
-    public virtual ICollection<Documento> DocumentoEmitentes { get; } = new List<Documento>();
-    public virtual ICollection<Documento> DocumentoRemetentes { get; } = new List<Documento>();    
     public Guid Id { get; set; }
+
     public string Nome { get; set; } = null!;
+
+    public DateTime DataCadastro { get; set; }
+
+    public virtual ICollection<AppRouteUserPessoa> AppRouteUserPessoas { get; } = new List<AppRouteUserPessoa>();
+
+    public virtual Cliente? Cliente { get; set; }
+
+    public virtual ICollection<DocumentoCte> DocumentoCteExpedidors { get; } = new List<DocumentoCte>();
+
+    public virtual ICollection<DocumentoCte> DocumentoCteRecebedors { get; } = new List<DocumentoCte>();
+
+    public virtual ICollection<Documento> DocumentoDestinatarios { get; } = new List<Documento>();
+
+    public virtual ICollection<Documento> DocumentoEmitentes { get; } = new List<Documento>();
+
+    public virtual ICollection<Documento> DocumentoRemetentes { get; } = new List<Documento>();
+
+    public virtual ICollection<Motoristum> Motorista { get; } = new List<Motoristum>();
 
     public virtual ICollection<PessoaEndereco> PessoaEnderecos { get; } = new List<PessoaEndereco>();
 

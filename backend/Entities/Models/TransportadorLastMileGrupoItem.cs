@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class TransportadorLastMileGrupoItem : BaseEntity
+public partial class TransportadorLastMileGrupoItem
 {
     public Guid Id { get; set; }
 

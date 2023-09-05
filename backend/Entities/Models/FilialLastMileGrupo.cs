@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class FilialLastMileGrupo : BaseEntity
+public partial class FilialLastMileGrupo
 {
     public Guid Id { get; set; }
 

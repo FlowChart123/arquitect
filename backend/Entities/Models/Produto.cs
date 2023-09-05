@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Produto : BaseEntity
+public partial class Produto
 {
     public Guid Id { get; set; }
 
@@ -12,6 +12,10 @@ public partial class Produto : BaseEntity
     public string Codigo { get; set; } = null!;
 
     public string Descricao { get; set; } = null!;
+
+    public DateTime DataCadastro { get; set; }
+
+    public bool Ativo { get; set; }
 
     public virtual ICollection<DocumentoItem> DocumentoItems { get; } = new List<DocumentoItem>();
 

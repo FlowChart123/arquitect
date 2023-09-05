@@ -14,7 +14,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Infra.Abstract
 {
-    public abstract class RepositoryBase<TEntity> : IRepositoy<TEntity> where TEntity : BaseEntity 
+    public abstract class RepositoryBase<TEntity> : IRepositoy<TEntity> where TEntity : class 
     {
         private readonly DbContextOptions<DataContext> _OptionsBuilder;
         

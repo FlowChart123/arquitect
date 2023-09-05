@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Transportador : BaseEntity
+public partial class Transportador
 {
     public Guid Id { get; set; }
 
@@ -12,6 +12,8 @@ public partial class Transportador : BaseEntity
     public string? Rntrc { get; set; }
 
     public DateTime? RntrcValidade { get; set; }
+
+    public DateTime? DataVerificacao { get; set; }
 
     public DateTime? DataCadastro { get; set; }
 

@@ -178,3 +178,5 @@ C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.dll
 C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.pdb
 C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\work\vex\arquitect\backend\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+C:\work\vex\arquitect\backend\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache

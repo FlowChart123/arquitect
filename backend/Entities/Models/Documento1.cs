@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Documento1 : BaseEntity
+public partial class Documento1
 {
     public Guid Id { get; set; }
 
@@ -13,11 +13,17 @@ public partial class Documento1 : BaseEntity
 
     public DateTime DataEntrada { get; set; }
 
-    public bool? Ativo { get; set; }
+    public bool Ativo { get; set; }
 
     public virtual Documento Documento { get; set; } = null!;
 
+    public virtual ICollection<DocumentoCte> DocumentoCtes { get; } = new List<DocumentoCte>();
+
     public virtual DocumentoFilialGrupo? DocumentoFilialGrupo { get; set; }
+
+    public virtual ICollection<DocumentoFrete> DocumentoFretes { get; } = new List<DocumentoFrete>();
+
+    public virtual ICollection<DocumentoVolume1> DocumentoVolume1s { get; } = new List<DocumentoVolume1>();
 
     public virtual RomaneioDocumento? RomaneioDocumento { get; set; }
 

@@ -1,5 +1,4 @@
-﻿using Domain.Interfaces.InterfaceServicos;
-using Domain.Interfaces.IUsuarioSistemaFinanceiro;
+﻿
 using Entities.Models;
 using System;
 using System.Collections.Generic;

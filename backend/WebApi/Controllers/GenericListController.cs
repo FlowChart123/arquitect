@@ -25,15 +25,6 @@ namespace WebApi.Controllers
             _repo = repo;
         }
 
-        [HttpGet("Categorias")]
-        [Produces("application/json")]
-        [AllowAnonymous]
-        public  IActionResult Get()
-        {
-            var result = _repo.Categorias();
-            return Ok(result);
-
-        }
     }
 }
 

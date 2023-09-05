@@ -17,7 +17,7 @@ namespace Domain.Dto
     {
         public string Name { get; set; }
     }
-    public class SupplementUpdateCommand : Supplement
+    public class SupplementUpdateCommand : Bairro
     {
     }
 }

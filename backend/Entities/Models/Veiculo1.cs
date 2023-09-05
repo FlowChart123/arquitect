@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Veiculo1 : BaseEntity
+public partial class Veiculo1
 {
     public Guid Id { get; set; }
 
@@ -11,7 +11,11 @@ public partial class Veiculo1 : BaseEntity
 
     public Guid? VeiculoId { get; set; }
 
+    public Guid? MotoristaId { get; set; }
+
     public DateTime? DataCadastro { get; set; }
+
+    public virtual Motoristum? Motorista { get; set; }
 
     public virtual ICollection<RomaneioCarga> RomaneioCargas { get; } = new List<RomaneioCarga>();
 

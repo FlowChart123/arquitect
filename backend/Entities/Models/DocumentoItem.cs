@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class DocumentoItem : BaseEntity
+public partial class DocumentoItem
 {
     public Guid Id { get; set; }
 
-    public Guid DocumentoPadraoId { get; set; }
+    public Guid DocumentoId { get; set; }
 
     public Guid ProdutoId { get; set; }
 
@@ -41,7 +41,7 @@ public partial class DocumentoItem : BaseEntity
 
     public decimal? QTrib { get; set; }
 
-    public virtual Documento DocumentoPadrao { get; set; } = null!;
+    public virtual Documento Documento { get; set; } = null!;
 
     public virtual Produto Produto { get; set; } = null!;
 }

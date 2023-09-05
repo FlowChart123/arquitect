@@ -3,15 +3,13 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Transportador1 : BaseEntity
+public partial class Transportador1
 {
     public Guid Id { get; set; }
 
-    public Guid TransportadorId { get; set; }
-
     public Guid TenantId { get; set; }
 
-    public Guid TitularId { get; set; }
+    public Guid TransportadorId { get; set; }
 
     public int? TipoContaId { get; set; }
 

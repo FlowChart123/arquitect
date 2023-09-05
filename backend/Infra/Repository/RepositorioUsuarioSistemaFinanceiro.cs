@@ -1,4 +1,4 @@
-﻿using Domain.Interfaces.IUsuarioSistemaFinanceiro;
+﻿
 using Entities.Models;
 using Infra.Configuracao;
 

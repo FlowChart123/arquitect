@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Entities.Model2;
 
 namespace Entities.Models;
 
-public partial class Veiculo : BaseEntity
+public partial class Veiculo
 {
     public Guid Id { get; set; }
 
@@ -34,6 +35,8 @@ public partial class Veiculo : BaseEntity
     public int? Eixos { get; set; }
 
     public DateTime DataCadastro { get; set; }
+
+    public virtual ICollection<AppRouteUserVeiculo> AppRouteUserVeiculos { get; } = new List<AppRouteUserVeiculo>();
 
     public virtual Pessoa? Proprietario { get; set; }
 

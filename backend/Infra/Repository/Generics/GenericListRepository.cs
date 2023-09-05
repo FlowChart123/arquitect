@@ -24,10 +24,6 @@ namespace Infra.Repository.Generics
             this._context = new DataContext(_OptionsBuilder);
         }
 
-        public IEnumerable<Categoria> Categorias()
-        {
-            return _context.Categoria.ToList().OrderBy(p => p.Nome);
-        }
         
     }
 }

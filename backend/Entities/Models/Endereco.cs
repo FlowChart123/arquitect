@@ -3,11 +3,9 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Endereco : BaseEntity
+public partial class Endereco
 {
     public Guid Id { get; set; }
-
-    public string TipoEndereco { get; set; } = null!;
 
     public string Tipo { get; set; } = null!;
 

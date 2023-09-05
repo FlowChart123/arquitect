@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Entities.Models;
 
-public partial class Romaneio : BaseEntity
+public partial class Romaneio
 {
     public Guid Id { get; set; }
 
@@ -14,6 +14,8 @@ public partial class Romaneio : BaseEntity
     public DateTime DataCadastro { get; set; }
 
     public virtual RomaneioCarga? RomaneioCarga { get; set; }
+
+    public virtual ICollection<RomaneioChave> RomaneioChaves { get; } = new List<RomaneioChave>();
 
     public virtual ICollection<RomaneioDocumento> RomaneioDocumentos { get; } = new List<RomaneioDocumento>();
 
