@@ -1,9 +1,8 @@
-import { Pessoa } from "./pessoa";
+import { PessoaFisicaComplemento } from "./pessoaFisicaComplemento";
 
 
 export interface PessoaFisica  {
     id: string;
-    cpf: string;
-    rg: string | null;
-    idNavigation: Pessoa;
+    cpf: string;    
+    pessoaFisicaComplemento: PessoaFisicaComplemento | null;
 }

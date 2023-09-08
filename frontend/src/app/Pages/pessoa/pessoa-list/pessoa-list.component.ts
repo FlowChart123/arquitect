@@ -24,7 +24,7 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
     ) {
     super();
     
-    super.records$.subscribe(p=>{
+    super.records$.subscribe(p=>{      
       this.data=p;
     })
 
@@ -45,6 +45,7 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
         x._selected=false;
         tmp.items.push(x);
       })
+      console.log(p);
     })
     return of(tmp);
   }
@@ -53,12 +54,9 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
 
   /************ AÇÕES DE INTERAÇÃO ************ */  
   
-
-
   ngOnInit(): void {
     
   }
-
 
   _edit(l)
   {
@@ -77,7 +75,12 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
       }
   }
 
-
+  getTipoPessoa(isFis)
+  {
+    if (isFis==true)
+      return "Física";
+    else return "Jurídica";
+  }
 
   /********************************************* */
 }

@@ -1,6 +1,6 @@
 
 <!-- <app-page-title [heading]="heading" [subheading]="subheading" [icon]="icon" (OnAdd)="Adding()"></app-page-title> -->
-<app-left-toolbox-form (OnAdding)="Adding()"></app-left-toolbox-form>
+<app-left-toolbox-form (OnAdding)="Adding()" *ngIf="editMode==false"></app-left-toolbox-form>
 
 <app-pessoa-list [hidden]="editMode==true" (OnEdit)="Edit($event)" #dataList></app-pessoa-list>
 

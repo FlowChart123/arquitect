@@ -4,87 +4,213 @@
     <div class="card-header">{{title}}
 
     </div>
-    <div class="card-body">            
+    <div class="card-body">
+
+
+      <form [formGroup]="form" (submit)="save()" *ngIf="form!=null">
+        <div class="col-md-12" style="float: left;">
+          
+            
+              <!-- NOME -->
+              <div class="position-relative mb-3 col-sm-6">
+                <label for="sleNome" class="form-label">Nome:</label>
+                <input name="nome" id="sleNome" placeholder="Nome da pessoa" type="text" class="form-control"
+                  formControlName="nome" required>
+
+                <label *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true" class="error-input">
+                  Campo obrigatório!
+                </label>
+              </div>
+              
+              <h6 class="subheading">DADOS DE PESSOA FÍSICA</h6>
+              <!-- PESSOA FISICA -->
+              <div formGroupName="pessoaFisica">
+
+                <div class="position-relative mb-3 col-sm-3" style="float: left; ">
+                  <label for="sleCpf" class="form-label">CPF:</label>
+                  <input name="cpf" id="sleCpf" placeholder="CPF" type="text" class="form-control"
+                    formControlName="cpf" required>
+
+                  <label *ngIf="form.get('pessoaFisica.cpf')?.errors?.['required'] &&  submitted==true" class="error-input">
+                    Campo obrigatório!
+                  </label>
+                </div>
+
+                <!-- PESSOA FISICA COMPLEMENTO -->
+                <ng-container formGroupName="pessoaFisicaComplemento">
+                  <div class="position-relative mb-3 col-sm-3" style="float: left; ">
+                    <label for="sleRG" class="form-label">RG:</label>
+                    <input name="sleRG" id="sleRG" placeholder="RG" type="text" class="form-control"
+                      formControlName="rg" required>
+  
+                    <label *ngIf="form.get('pessoaFisica.pessoaFisicaComplemento.rg')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório! 
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left; ">
+                    <label for="sleRgEmissaoData" class="form-label">RG Emissão:</label>
+                    <input name="nome" id="sleRgEmissaoData" placeholder="RG Emissão" type="date" class="form-control"
+                      formControlName="rgEmissaoData" value="{{ model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoData | date:'yyyy-MM-dd' }}" >
+  
+                    <label *ngIf="form.get('rgEmissaoData')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left; ">
+                    <label for="slergEmissaoUF" class="form-label">RG UF:</label>
+                    <input name="rgEmissaoUF" id="slergEmissaoUF" placeholder="RG UF" type="text" class="form-control"
+                      formControlName="rgEmissaoUF" >
+  
+                    <label *ngIf="form.get('rgEmissaoUF')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+
+                  <div class="position-relative mb-3 col-sm-6" style="float: left;">
+                    <label for="slergEmissaoMunicipio" class="form-label">RG Município:</label>
+                    <input name="rgEmissaoUF" id="slergEmissaoMunicipio" placeholder="RG Municipio" type="text" class="form-control"
+                      formControlName="rgEmissaoMunicipio" >
+  
+                    <label *ngIf="form.get('rgEmissaoMunicipio')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;" >
+                    <label for="slenascimentoData" class="form-label">Data Nascimento:</label>
+                    <input name="nascimentoData" id="slenascimentoData" placeholder="Data Nascimento" type="date" class="form-control"
+                      formControlName="nascimentoData" >
+  
+                    <label *ngIf="form.get('nascimentoData')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slenascimentoUf" class="form-label">UF Nascimento:</label>
+                    <input name="nascimentoUf" id="slenascimentoUf" placeholder="Data Nascimento" type="text" class="form-control"
+                      formControlName="nascimentoUf" >
+  
+                    <label *ngIf="form.get('nascimentoUf')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-6" style="float: left;">
+                    <label for="slenascimentoMunicipio" class="form-label">Nasc. Município:</label>
+                    <input name="nascimentoMunicipio" id="slenascimentoMunicipio" placeholder="Nascimento Município" type="text" class="form-control"
+                      formControlName="nascimentoMunicipio" >
+  
+                    <label *ngIf="form.get('nascimentoMunicipio')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-6" style="float: left;">
+                    <label for="slenomePai" class="form-label">Nome Pai:</label>
+                    <input name="nomePai" id="slenomePai" placeholder="Nome Pai" type="text" class="form-control"
+                      formControlName="nomePai" >
+  
+                    <label *ngIf="form.get('nomePai')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-6" style="float: left;">
+                    <label for="slenomeMae" class="form-label">Nome Mãe:</label>
+                    <input name="nomeMae" id="slenomeMae" placeholder="Nome Mãe" type="text" class="form-control"
+                      formControlName="nomeMae" >
+  
+                    <label *ngIf="form.get('nomeMae')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slecnh" class="form-label">CNH:</label>
+                    <input name="cnh" id="slecnh" placeholder="CNH" type="text" class="form-control"
+                      formControlName="cnh" >
+  
+                    <label *ngIf="form.get('cnh')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slecnhEmissao" class="form-label">CNH Emissão:</label>
+                    <input name="cnh" id="slecnhEmissao" placeholder="CNH Emissão" type="date" class="form-control"
+                      formControlName="cnhEmissao" >
+  
+                    <label *ngIf="form.get('cnhEmissao')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slecnhValidade" class="form-label">CNH Validade:</label>
+                    <input name="cnhValidade" id="slecnhValidade" placeholder="CNH Validade" type="date" class="form-control"
+                      formControlName="cnhValidade" >
+  
+                    <label *ngIf="form.get('cnhValidade')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slecnhCategoria" class="form-label">CNH Categoria:</label>
+                    <input name="cnhCategoria" id="slecnhCategoria" placeholder="CNH Categoria" type="text" class="form-control"
+                      formControlName="cnhCategoria" >
+  
+                    <label *ngIf="form.get('cnhCategoria')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slecnhPrimeiraHabilitacao" class="form-label">CNH 1a. Habilitação:</label>
+                    <input name="cnhPrimeiraHabilitacao" id="slecnhPrimeiraHabilitacao" placeholder="CNH 1a. Habilitação" type="date" class="form-control"
+                      formControlName="cnhPrimeiraHabilitacao" >
+  
+                    <label *ngIf="form.get('cnhPrimeiraHabilitacao')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                  <div class="position-relative mb-3 col-sm-3" style="float: left;">
+                    <label for="slenacionalidade" class="form-label">Nacionalidade:</label>
+                    <input name="nacionalidade" id="slenacionalidade" placeholder="Nacionalidade" type="text" class="form-control"
+                      formControlName="nacionalidade" >
+  
+                    <label *ngIf="form.get('nacionalidade')?.errors?.['required'] &&  submitted==true" class="error-input">
+                      Campo obrigatório!
+                    </label>
+                  </div>
+
+                </ng-container>
+              </div>
+
+
+          
+            
+          
+        </div>
+        
+
+      </form>
+
+
       
-
-  <form [formGroup]="form" (submit)="save()" *ngIf="form!=null">
-    <div class="col-md-6" style="float: left;">
-      <div class="main-card mb-3 card">
-        <div class="card-body">
-          <!-- NOME -->
-          <div class="position-relative mb-3">
-            <label for="sleNome" class="form-label">Nome:</label>
-            <input name="nome" id="sleNome" placeholder="Nome da pessoa" type="text" class="form-control"
-              formControlName="nome" required>
-
-            <label *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true" class="error-input">
-              Campo obrigatório!
-            </label>
-          </div>
-
-          <!-- ANO -->
-          <!-- <div class="position-relative mb-3">
-            <label for="sleAno" class="form-label">Ano:</label>
-            <input name="ano" id="sleAno" placeholder="Ano" type="number" class="form-control" formControlName="ano"
-              required>
-
-            <label *ngIf="form.get('ano')?.errors?.['required'] &&   submitted==true" class="error-input">
-              Campo obrigatório!
-            </label>
-          </div> -->
-
-          <!-- MES -->
-          <!-- <div class="position-relative mb-3">
-            <label for="sleMes" class="form-label">Mês:</label>
-            <select name="mes" id="sleMes" class="form-select" formControlName="mes">
-              <option *ngFor="let l of meses" value="{{l.id}}">{{l.name}}</option>
-            </select>
-          </div> -->
-
-
-          <!-- DIA FECHAMENTTO -->
-          <!-- <div class="position-relative mb-3">
-            <label for="sleAno" class="form-label">Dia Fechamento:</label>
-            <input name="ano" id="sleDiaFechamento" placeholder="Dia de fechamento" type="number" min="1" max="31"
-              class="form-control" formControlName="diaFechamento" required>
-
-            <label *ngIf="form.get('diaFechamento')?.errors?.['required'] &&   submitted==true" class="error-input">
-              Campo obrigatório!
-            </label>
-          </div> -->
-
-
-
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6" style="float: left;">
-      <div class="main-card mb-3 card" style="margin-left: 12px;">
-        <div class="card-body">
-
-
-          <!-- gerarCopiaDespesa -->
-          <!-- <div class="position-relative form-check">
-            <label class="form-label form-check-label">
-              <input type="checkbox" class="form-check-input" formControName="gerarCopiaDespesa">
-              Gerar cópia de despesa
-            </label>
-          </div> -->
-
-
-        </div>
-      </div>
-    </div>
-  </form>
-
     </div>
 
 
     <div class="d-block text-end card-footer">
-        <button class="me-2 btn btn-link btn-sm" (click)="Back()">Cancelar</button>
-        <button class="btn-shadow-primary btn btn-primary btn-lg" (click)="Save()">Salvar</button>
-     </div>
-   </div>
+      <button class="me-2 btn btn-link btn-sm" (click)="Back()">Cancelar</button>
+      <button class="btn-shadow-primary btn btn-primary btn-lg" (click)="Save()">Salvar</button>
+    </div>
+  </div>
 </div>

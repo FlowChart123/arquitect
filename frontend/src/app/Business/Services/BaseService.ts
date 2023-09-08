@@ -23,7 +23,7 @@ export class BaseService {
         this.notificationService.openToast("Favor logue no sistema .", "Logar","error");       
       }
       else
-      {
+      {        
         this.notificationService.openToast(error.message, "Ops!","error");         
         if (next!=null)
         {
