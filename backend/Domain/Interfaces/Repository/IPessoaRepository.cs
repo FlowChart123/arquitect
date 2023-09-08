@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces.Repository
 {
-    public interface IPessoaRepository
+    public interface IPessoaRepository 
     {        
         public IList<PessoaResult> Query();
+     
     }
 }

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.Metadata;
 using System.Reflection.Emit;
-using Entities.Model2;
+//using Entities.IdentityModels;
 
 
 /*
@@ -37,13 +37,17 @@ dotnet new ef- templates
 
 namespace Infra.Configuracao
 {
-    public partial class DataContext : IdentityDbContext<ApplicationUser> 
+    public  class DataContext : IdentityDbContext<ApplicationUser> 
     {
         public DataContext(DbContextOptions options) : base(options)
         {
+            ChangeTracker.AutoDetectChangesEnabled = false;
+            ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
 
+
+        
         #region Dbsets
 
 
@@ -57,17 +61,17 @@ namespace Infra.Configuracao
 
         public virtual DbSet<AppRouteUserVeiculo> AppRouteUserVeiculos { get; set; }
 
-        public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
+        //public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
 
-        public virtual DbSet<AspNetRoleClaim> AspNetRoleClaims { get; set; }
+        //public virtual DbSet<AspNetRoleClaim> AspNetRoleClaims { get; set; }
 
-        public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
+        //public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
 
-        public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
+        //public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
 
-        public virtual DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
+        //public virtual DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
 
-        public virtual DbSet<AspNetUserToken> AspNetUserTokens { get; set; }
+        //public virtual DbSet<AspNetUserToken> AspNetUserTokens { get; set; }
 
         public virtual DbSet<Bairro> Bairros { get; set; }
 
@@ -266,6 +270,10 @@ namespace Infra.Configuracao
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            
+            modelBuilder.Entity<ApplicationUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
+
             modelBuilder.Entity<AppRouteStatus>(entity =>
             {
                 entity.ToTable("AppRouteStatus");
@@ -354,45 +362,45 @@ namespace Infra.Configuracao
                     .HasConstraintName("FK_AppRouteUserVeiculo_Veiculo");
             });
 
-            modelBuilder.Entity<AspNetRole>(entity =>
-            {
-                entity.Property(e => e.Name).HasMaxLength(256);
-                entity.Property(e => e.NormalizedName).HasMaxLength(256);
-            });
+            //modelBuilder.Entity<AspNetRole>(entity =>
+            //{
+            //    entity.Property(e => e.Name).HasMaxLength(256);
+            //    entity.Property(e => e.NormalizedName).HasMaxLength(256);
+            //});
 
-            modelBuilder.Entity<AspNetRoleClaim>(entity =>
-            {
-                entity.Property(e => e.RoleId).HasMaxLength(450);
+            //modelBuilder.Entity<AspNetRoleClaim>(entity =>
+            //{
+            //    entity.Property(e => e.RoleId).HasMaxLength(450);
 
-                entity.HasOne(d => d.Role).WithMany(p => p.AspNetRoleClaims).HasForeignKey(d => d.RoleId);
-            });
+            //    entity.HasOne(d => d.Role).WithMany(p => p.AspNetRoleClaims).HasForeignKey(d => d.RoleId);
+            //});
 
-            modelBuilder.Entity<AspNetUser>(entity =>
-            {
-                entity.Property(e => e.Email).HasMaxLength(256);
-                entity.Property(e => e.NormalizedEmail).HasMaxLength(256);
-                entity.Property(e => e.NormalizedUserName).HasMaxLength(256);
-                entity.Property(e => e.UserName).HasMaxLength(256);
-                entity.Property(e => e.UsrCpf).HasColumnName("USR_CPF");
+            //modelBuilder.Entity<AspNetUser>(entity =>
+            //{
+            //    entity.Property(e => e.Email).HasMaxLength(256);
+            //    entity.Property(e => e.NormalizedEmail).HasMaxLength(256);
+            //    entity.Property(e => e.NormalizedUserName).HasMaxLength(256);
+            //    entity.Property(e => e.UserName).HasMaxLength(256);
+            //    entity.Property(e => e.UsrCpf).HasColumnName("USR_CPF");
 
-                entity.HasMany(d => d.Roles).WithMany(p => p.Users)
-                    .UsingEntity<Dictionary<string, object>>(
-                        "AspNetUserRole",
-                        r => r.HasOne<AspNetRole>().WithMany().HasForeignKey("RoleId"),
-                        l => l.HasOne<AspNetUser>().WithMany().HasForeignKey("UserId"),
-                        j =>
-                        {
-                            j.HasKey("UserId", "RoleId");
-                            j.ToTable("AspNetUserRoles");
-                        });
-            });
+            //    //entity.HasMany(d => d.Roles).WithMany(p => p.Users)
+            //    //    .UsingEntity<Dictionary<string, object>>(
+            //    //        "AspNetUserRole",
+            //    //        r => r.HasOne<AspNetRole>().WithMany().HasForeignKey("RoleId"),
+            //    //        l => l.HasOne<AspNetUser>().WithMany().HasForeignKey("UserId"),
+            //    //        j =>
+            //    //        {
+            //    //            j.HasKey("UserId", "RoleId");
+            //    //            j.ToTable("AspNetUserRoles");
+            //    //        });
+            //});
 
-            modelBuilder.Entity<AspNetUserClaim>(entity =>
-            {
-                entity.Property(e => e.UserId).HasMaxLength(450);
+            //modelBuilder.Entity<AspNetUserClaim>(entity =>
+            //{
+            //    entity.Property(e => e.UserId).HasMaxLength(450);
 
-                entity.HasOne(d => d.User).WithMany(p => p.AspNetUserClaims).HasForeignKey(d => d.UserId);
-            });
+            //    entity.HasOne(d => d.User).WithMany(p => p.AspNetUserClaims).HasForeignKey(d => d.UserId);
+            //});
 
             modelBuilder.Entity<AspNetUserLogin>(entity =>
             {
@@ -1804,8 +1812,7 @@ namespace Infra.Configuracao
                 entity.Property(e => e.RgEmissaoUf)
                     .HasMaxLength(2)
                     .IsUnicode(false)
-                    .HasColumnName("RgEmissaoUF");
-
+                    .HasColumnName("RgEmissaoUF");                
                 entity.HasOne(d => d.IdNavigation).WithOne(p => p.PessoaFisicaComplemento)
                     .HasForeignKey<PessoaFisicaComplemento>(d => d.Id)
                     .HasConstraintName("FK_PessoaFisicaComplemento_PessoaFisica");
@@ -2259,9 +2266,8 @@ namespace Infra.Configuracao
                     .IsUnicode(false);
             });
 
-            OnModelCreatingPartial(modelBuilder);
+            base.OnModelCreating(modelBuilder);
         }
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
         public string GetOverlapConnection()
         {

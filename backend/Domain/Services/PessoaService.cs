@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Helpers.Extensions;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace Domain.Services
 {
@@ -18,35 +19,28 @@ namespace Domain.Services
     public class PessoaService  : IPessoaService
     {
         private readonly IRepositoy<Pessoa> _repo;
-        private readonly IPessoaRepository _Pessoa;
+        private readonly IPessoaRepository _pessoa;
+        private readonly IRepositoy<PessoaFisica> _pessoa_fisica;
+        private readonly IRepositoy<PessoaFisicaComplemento> _pessoa_fisica_complemento;
 
-        public PessoaService(IRepositoy<Pessoa> repo, IPessoaRepository sup)
+        public PessoaService(IPessoaRepository pessoa, IRepositoy<Pessoa> repo, IRepositoy<PessoaFisica> pessoa_fisica,
+            IRepositoy<PessoaFisicaComplemento> pessoa_fisica_complemento)
         {
+            _pessoa = pessoa;
             _repo = repo;
-            _Pessoa = sup;
+            _pessoa_fisica = pessoa_fisica;
+            _pessoa_fisica_complemento = pessoa_fisica_complemento;
         }
 
         public void Delete(Guid id)
         {
-            throw new NotImplementedException();
+            _repo.Delete(null, id);
         }
-
-        public Pessoa Insert(PessoaInsertCommand model)
-        {
-            var data = DateTime.UtcNow;
-
-            if (!string.IsNullOrEmpty(model.Nome))
-            {
-                return _repo.Insert(model.asPessoa());
-            }
-            else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
-        }
-      
-
+            
         public Task<PessoaResult> Load(Guid id)
-        {            
-            var res = _repo.Load(id);
-            return Task.FromResult(res.asPessoaResult());
+        {
+            var res = _repo.Load(null, id);
+            return Task.FromResult( res.asPessoaResult());
         }
 
         public Task<ResultPage<PessoaResult>> Page(int page, int size, string? ordeBy="", string? orderDirection = "", string? search = "")
@@ -55,11 +49,11 @@ namespace Domain.Services
                         
             if (!string.IsNullOrEmpty(search) && search != "")
             {
-                result = _Pessoa.Query().AsQueryable().Where(p => p.Nome.ToLower().Contains(search.ToLower()));
+                result = _pessoa.Query().AsQueryable().Where(p => p.Nome.ToLower().Contains(search.ToLower()));
             }
             else
             {
-                result = _Pessoa.Query().AsQueryable();
+                result = _pessoa.Query().AsQueryable();
             }
             
             if (!string.IsNullOrEmpty(ordeBy))
@@ -77,33 +71,57 @@ namespace Domain.Services
             return Task.FromResult(tmp);
         }
 
-        public Pessoa Update(PessoaUpdateCommand model)
+        public PessoaResult Insert(PessoaInsertCommand model)
         {
                         
             if (!string.IsNullOrEmpty(model.Nome))
             {
-                var res = _repo.Load(model.Id);
-                if (res != null)
+                var res = model.asPessoa();
+                var pessoa = _repo.Insert(res);
+                if (pessoa.PessoaFisica != null)
                 {
-                    res.Nome = model.Nome;
-                    return _repo.Update(res);
+                    
+                    pessoa.PessoaFisica.Id = pessoa.Id;
+                    var pessoaFisica = _pessoa_fisica.InsertOrUpdate(pessoa.PessoaFisica);                    
+                    if (pessoaFisica.PessoaFisicaComplemento!=null)
+                    {
+                        pessoaFisica.PessoaFisicaComplemento.Id = pessoa.Id;
+                        var pfc = _pessoa_fisica_complemento.InsertOrUpdate(pessoaFisica.PessoaFisicaComplemento);
+                    }
                 }
-                else
-                {
-                    throw new Exception(message: $"Registro com id {model.Id} não pode ser encontrado para alteração!");
-                }
+
+                return pessoa.asPessoaResult();
             }
             else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
         }
 
-
-
         
         public Task<IQueryable<PessoaResult>> List()
         {
-            return Task.FromResult(_Pessoa.Query().AsQueryable());
+            return Task.FromResult(_pessoa.Query().AsQueryable());
         }
 
+        public PessoaResult Update(PessoaUpdateCommand model)
+        {
+            if (!string.IsNullOrEmpty(model.Nome))
+            {
+                var res = model.asPessoa();
+                var pessoa = _repo.Update(res);
+                if (pessoa.PessoaFisica != null)
+                {
 
+                    pessoa.PessoaFisica.Id = pessoa.Id;
+                    var pessoaFisica = _pessoa_fisica.InsertOrUpdate(pessoa.PessoaFisica);
+                    if (pessoaFisica.PessoaFisicaComplemento != null)
+                    {
+                        pessoaFisica.PessoaFisicaComplemento.Id = pessoa.Id;
+                        var pfc = _pessoa_fisica_complemento.InsertOrUpdate(pessoaFisica.PessoaFisicaComplemento);
+                    }
+                }
+
+                return pessoa.asPessoaResult();
+            }
+            else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
+        }
     }
 }

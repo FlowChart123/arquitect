@@ -16,32 +16,17 @@ namespace Infra.Abstract
 {
     public abstract class RepositoryBase<TEntity> : IRepositoy<TEntity> where TEntity : class 
     {
-        private readonly DbContextOptions<DataContext> _OptionsBuilder;
-        
+
         protected DataContext _context { get; set; }
-        
-        public RepositoryBase()
+        private readonly IUnitOfWork _unit;
+    
+        public RepositoryBase(IUnitOfWork unit)
         {
-            _OptionsBuilder = new DbContextOptions<DataContext>();
-            this._context = new DataContext(_OptionsBuilder);
+            this._unit = unit;
+            this._context = unit.GetContext();
         }
-
-        public virtual async void Delete(int id)
-        {
-            var entity =  Load(id);
-            _context.Entry(entity).State = EntityState.Deleted;
-            _context.SaveChanges();
-        }
-
-        public virtual TEntity Insert(TEntity entity)
-        {            
-            _context.Add(entity);
-            _context.SaveChanges();
-            return entity;
-
-        }
-
-        public virtual async Task<ResultPage<TEntity>> List(Expression<Func<TEntity, bool>> filter = null, string[] includes = null, int? page = 1, int? limit = null)
+               
+        public virtual Task<ResultPage<TEntity>> List(Expression<Func<TEntity, bool>> filter = null, string[] includes = null, int? page = 1, int? limit = null)
         {
 
             ResultPage<TEntity> tmp = new ResultPage<TEntity>();
@@ -58,8 +43,8 @@ namespace Infra.Abstract
                 if (limit > 0 && page == null)
                 {
                     tmp.TotalItems = query.Count();
-                    tmp.Items = query.Take((int)limit).ToList().AsQueryable();
-                    return tmp;
+                    tmp.Items = query.Take((int)limit).AsNoTracking().ToList().AsQueryable();
+                    return Task.FromResult(tmp);
                 }
                 else if (limit > 0 && page >= 1)
                 {
@@ -67,8 +52,8 @@ namespace Infra.Abstract
                     int qtd = Convert.ToInt32(limit);
 
                     tmp.TotalItems = query.Count();
-                    tmp.Items = query.Skip(start).Take((int)limit).ToList().AsQueryable();
-                    return tmp;
+                    tmp.Items = query.Skip(start).Take((int)limit).AsNoTracking().ToList().AsQueryable();
+                    return Task.FromResult(tmp);
                 }
                 else
                 {
@@ -78,48 +63,17 @@ namespace Infra.Abstract
             else
             {
                 tmp.TotalItems = query.Count();
-                tmp.Items = query.ToList().AsQueryable();
-                return tmp;
+                tmp.Items = query.AsNoTracking().ToList().AsQueryable();
+                return Task.FromResult(tmp);
             }
 
         }
 
-        public  TEntity Load(int id, string[]? includes = null)
-        {
-            var model = _context.Set<TEntity>().Find(id);
-            if (model == null) return null;
-            _context.Entry(model).State = EntityState.Detached;
-            return model;
-        }
-
-        public TEntity Load(Guid id, string[]? includes = null)
-        {
-            var model = _context.Set<TEntity>().Find(id);
-            if (model == null) return null;
-            _context.Entry(model).State = EntityState.Detached;
-            return model;
-        }
-
-
-        public virtual void Save()
-        {
-            _context.SaveChanges();
-        }
-
-        public virtual TEntity Update(TEntity entity)
-        {
-            _context.Entry(entity).State = EntityState.Modified;            
-            _context.Update(entity);
-            _context.SaveChanges();
-            return entity;
-        }
-
         public virtual void UpdateChildCollection<Tparent, Tid, Tchild>(Tparent dbItem, Tparent newItem, Func<Tparent, IEnumerable<Tchild>> selector, Func<Tchild, Tid> idSelector) where Tchild : class
-       {            
-
+        {
+             
             var dbItems = selector(dbItem).ToList();
             var newItems = selector(newItem).ToList();
-
             if (dbItems == null && newItems == null)
                 return;
 
@@ -136,24 +90,19 @@ namespace Infra.Abstract
             toAdd.ForEach(i => _context.Set<Tchild>().Add(i.Value));
         }
 
-        public virtual void InsertOrUpdate(TEntity entity)
+        public abstract TEntity InsertOrUpdate(TEntity entity);
+
+        public abstract void Delete(int? id, Guid guid);
+
+        public abstract TEntity Load(int? id, Guid? guid);
+
+        public void Save()
         {
-            var obj = _context.Entry(entity);
-            if (obj==null)
-            {
-                Insert(entity);
-            }
-            else
-            {
-                Update(entity);
-            }
             _context.SaveChanges();
         }
 
+        public abstract TEntity Insert(TEntity entity);
 
-        public void Delete(Guid id)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract TEntity Update(TEntity entity);        
     }
 }

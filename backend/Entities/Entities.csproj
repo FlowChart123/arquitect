@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model2\" />
+    <Folder Include="IdentityModels\" />
   </ItemGroup>
 
 </Project>

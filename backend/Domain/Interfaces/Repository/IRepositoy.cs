@@ -12,15 +12,15 @@ namespace Domain.Interfaces.Repository
 {
     public interface IRepositoy<TEntity> 
     {
-        public Task<ResultPage<TEntity>> List(Expression<Func<TEntity, bool>> filter = null, string[] includes = null, int? page = 1, int? limit = null);
-        public TEntity Load(int id, string[]? includes = null);
-        public TEntity Load(Guid id, string[]? includes = null);
+        public Task<ResultPage<TEntity>> List(Expression<Func<TEntity, bool>> filter = null, string[] includes = null, int? page = 1, int? limit = null);       
+        public void UpdateChildCollection<Tparent, Tid, Tchild>(Tparent dbItem, Tparent newItem, Func<Tparent, IEnumerable<Tchild>> selector, Func<Tchild, Tid> idSelector) where Tchild : class;
+        public TEntity InsertOrUpdate(TEntity entity);
         public TEntity Insert(TEntity entity);
         public TEntity Update(TEntity entity);
-        public void Delete(int id);
-        public void Delete(Guid id);
-        public void InsertOrUpdate(TEntity entity);
-        public void UpdateChildCollection<Tparent, Tid, Tchild>(Tparent dbItem, Tparent newItem, Func<Tparent, IEnumerable<Tchild>> selector, Func<Tchild, Tid> idSelector) where Tchild : class;       
-        void Save();
+        public TEntity Load(int? id, Guid? guid);
+        public void Delete(int? id, Guid guid);
+        public void Save();
+
     }
 }
+

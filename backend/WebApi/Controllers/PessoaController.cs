@@ -55,39 +55,34 @@ namespace WebApi.Controllers
         }
 
 
-
         [HttpPost("Insert")]
         [AllowAnonymous]
-        public IActionResult Post([FromBody] PessoaInsertCommand model)
-        {
-            if (!ModelState.IsValid)
+        public IActionResult Insert([FromBody] PessoaInsertCommand model)
+        {           
+            try
             {
-                return BadRequest(ModelState);
+                var res = _servico.Insert(model);
+                return Ok(res);
             }
-
-            var res = _servico.Insert(model);
-            return Ok(res);            
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("Update")]
         [AllowAnonymous]
-        public IActionResult Put([FromBody] PessoaUpdateCommand model)
+        public IActionResult Update([FromBody] PessoaUpdateCommand model)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return BadRequest(ModelState);
+                var res = _servico.Update(model);
+                return Ok(res);
             }
-
-            var modelo = _servico.Load(model.Id);
-
-            if (modelo == null)
+            catch (Exception ex)
             {
-                return NotFound();
+                return BadRequest(ex.Message);
             }
-
-            var res = _servico.Update(model);
-
-            return Ok(res);
         }
 
         [HttpDelete("Delete/{id}")]
@@ -104,12 +99,3 @@ namespace WebApi.Controllers
         }
     }
 }
-
-
-
-/*possiveis retornos
- * 
- * 
- * //return CreatedAtAction("Get", new { id = model.Id}, model);
- * 
- */

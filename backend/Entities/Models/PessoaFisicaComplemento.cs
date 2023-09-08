@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models;
 
@@ -36,6 +37,6 @@ public partial class PessoaFisicaComplemento
     public DateTime? CnhPrimeiraHabilitacao { get; set; }
 
     public string? Nacionalidade { get; set; }
-
-    public virtual PessoaFisica IdNavigation { get; set; } = null!;
+    
+    public virtual PessoaFisica? IdNavigation { get; set; } = null!;
 }
