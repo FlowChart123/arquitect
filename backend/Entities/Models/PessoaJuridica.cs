@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities.Models;
 
@@ -15,7 +16,8 @@ public partial class PessoaJuridica
 
     public string? InscricaoMunicipal { get; set; }
 
-    public virtual Pessoa IdNavigation { get; set; } = null!;
+    [NotMapped]
+    public virtual Pessoa? IdNavigation { get; set; } = null!;
 
     public virtual PessoaJuridicaComplemento? PessoaJuridicaComplemento { get; set; }
 }

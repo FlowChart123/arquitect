@@ -61,7 +61,7 @@ namespace Infra.Repositorio
 
         public override Pessoa Load(int? id, Guid? guid)
         {
-            var model = _context.Pessoas.Where(p => p.Id == guid).Include("PessoaFisica").Include("PessoaFisica.PessoaFisicaComplemento").AsNoTracking().FirstOrDefault();
+            var model = _context.Pessoas.Where(p => p.Id == guid).Include("PessoaFisica").Include("PessoaJuridica").Include("PessoaFisica.PessoaFisicaComplemento").AsNoTracking().FirstOrDefault();
             if (model == null) return null;
             //_context.Pessoas.Entry(model).State = EntityState.Detached;
             return model;
