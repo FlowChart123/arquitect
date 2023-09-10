@@ -19,7 +19,8 @@ namespace Domain.Specs
                 DataCadastro = tmp.DataCadastro,
                 IsFisica = tmp.PessoaFisica != null ? true : false,
                 DocNum = tmp.PessoaFisica != null ? tmp.PessoaFisica.Cpf : tmp.PessoaJuridica != null ? tmp.PessoaJuridica.Cnpj : "",
-                pessoaFisica = tmp.PessoaFisica!=null ? tmp.PessoaFisica : null
+                pessoaFisica = tmp.PessoaFisica!=null ? tmp.PessoaFisica : null,
+                pessoaJuridica = tmp.PessoaJuridica != null ? tmp.PessoaJuridica : null
             };
         }
 
@@ -36,7 +37,10 @@ namespace Domain.Specs
             {
                 p.PessoaFisica = tmp.pessoaFisica;
             }
-
+            if (tmp.pessoaJuridica != null)
+            {
+                p.PessoaJuridica = tmp.pessoaJuridica;
+            }
             return p;
         }
 
@@ -52,6 +56,10 @@ namespace Domain.Specs
             if (tmp.pessoaFisica != null)
             {
                 p.PessoaFisica = tmp.pessoaFisica;
+            }
+            if (tmp.pessoaJuridica != null)
+            {
+                p.PessoaJuridica = tmp.pessoaJuridica;
             }
 
             return p;

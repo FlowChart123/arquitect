@@ -31,6 +31,7 @@ namespace WebApi.Extensions
             .AddScoped<IPessoaRepository, PessoaRepository>()
             .AddScoped<IRepositoy<Pessoa>, PessoaRepository>()
             .AddScoped<IRepositoy<PessoaFisica>, PessoaFisicaRepository>()
+            .AddScoped<IRepositoy<PessoaJuridica>, PessoaJuridicaRepository>()
             .AddScoped<IRepositoy<PessoaFisicaComplemento>, PessoaFisicaComplementoRepository>()
             .AddSingleton<GenericListRepository, GenericListRepository>()
             .AddScoped<IJWTManager, JWTMAnagerRepo>();
