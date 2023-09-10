@@ -14,6 +14,8 @@ import { PessoaListComponent } from './pessoa-list/pessoa-list.component';
 import { PessoaModalComponent } from './pessoa-modal/pessoa-modal.component';
 import { PessoaFormComponent } from './pessoa-form/pessoa-form.component';
 import { PessoaRoutingModule } from './pessoa-routing.module';
+import { LabelPessoaFisicaComponent } from './components/label-pessoa-fisica/label-pessoa-fisica.component';
+import { LabelPessoaJuridicaComponent } from './components/label-pessoa-juridica/label-pessoa-juridica.component';
 
 
 
@@ -22,7 +24,9 @@ import { PessoaRoutingModule } from './pessoa-routing.module';
     PessoaComponent,
     PessoaListComponent,
     PessoaModalComponent,
-    PessoaFormComponent  , 
+    PessoaFormComponent,
+    LabelPessoaFisicaComponent,
+    LabelPessoaJuridicaComponent  , 
     
   ],
   imports: [

@@ -34,7 +34,8 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/slick-carousel/slick/slick.min.js",
               "node_modules/apexcharts/dist/apexcharts.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/js/jquery-input-mask.js"
             ],
             "vendorChunk": true,
             "extractLicenses": false,

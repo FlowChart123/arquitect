@@ -39,6 +39,14 @@ export class PessoaService extends BaseService {
           
     }
 
+    Delete(ids: any): Observable<any> {
+      const url = `${this.baseUrl}/${this.controller}/Delete`;
+      return this.httpClient.post<any>(url, ids, { headers: this.getAuthHeaders() })
+        .pipe(catchError(this.handleError<any>()));
+        
+    }
+
+
     InsertOrUpdate(obj: Pessoa) : Observable<any> {     
       if (obj.id ) {     
           return this.httpClient.put<any>(`${this.baseUrl}/${this.controller}/Update`, obj)
