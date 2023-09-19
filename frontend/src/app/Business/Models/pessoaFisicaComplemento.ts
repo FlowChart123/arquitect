@@ -3,7 +3,7 @@ export interface PessoaFisicaComplemento  {
     id: string; 
     rg: string | null;
     rgEmissaoData: any;
-    rgEmissaoUF: string;
+    rgEmissaoUf: string;
     rgEmissaoMunicipio: string;
     nascimentoData: any;
     nascimentoUf: string;
