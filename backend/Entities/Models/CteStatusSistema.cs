@@ -11,5 +11,5 @@ public partial class CteStatusSistema
 
     public bool Ativo { get; set; }
 
-    public virtual ICollection<DocumentoCte> DocumentoCtes { get; } = new List<DocumentoCte>();
+    public virtual ICollection<DocumentoEletronico> DocumentoEletronicos { get; } = new List<DocumentoEletronico>();
 }

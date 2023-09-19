@@ -7,6 +7,8 @@ public partial class DocumentoCte
 {
     public Guid Id { get; set; }
 
+    public Guid DocumentoId { get; set; }
+
     public Guid DocumentoFreteId { get; set; }
 
     public Guid TomadorServicoId { get; set; }
@@ -14,10 +16,6 @@ public partial class DocumentoCte
     public Guid? ExpedidorId { get; set; }
 
     public Guid? RecebedorId { get; set; }
-
-    public int? CteStatusSistemaId { get; set; }
-
-    public int? CteStatusSefazId { get; set; }
 
     public int MunicipioInicioTransporteId { get; set; }
 
@@ -37,13 +35,9 @@ public partial class DocumentoCte
 
     public string? CaracteristicaTransporte { get; set; }
 
-    public string? CaracteristicaServico { get; set; }
+    public string? CaraacteristicaServico { get; set; }
 
-    public string? Recibo { get; set; }
-
-    public virtual CteStatusSefaz? CteStatusSefaz { get; set; }
-
-    public virtual CteStatusSistema? CteStatusSistema { get; set; }
+    public virtual Documento1 Documento { get; set; } = null!;
 
     public virtual ICollection<DocumentoEletronico> DocumentoEletronicos { get; } = new List<DocumentoEletronico>();
 
@@ -54,8 +48,6 @@ public partial class DocumentoCte
     public virtual Empresa FilialDestino { get; set; } = null!;
 
     public virtual Filial FilialOrigem { get; set; } = null!;
-
-    public virtual Documento1 IdNavigation { get; set; } = null!;
 
     public virtual Modal Modal { get; set; } = null!;
 

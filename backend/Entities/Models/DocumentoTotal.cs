@@ -7,7 +7,7 @@ public partial class DocumentoTotal
 {
     public Guid Id { get; set; }
 
-    public decimal? ValorNota { get; set; }
+    public decimal? ValorDaNota { get; set; }
 
     public decimal? PesoLiquido { get; set; }
 

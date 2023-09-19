@@ -7,15 +7,13 @@ public partial class Endereco
 {
     public Guid Id { get; set; }
 
-    public string? Tipo { get; set; }
+    public string Tipo { get; set; } = null!;
 
-    public string? Logradouro { get; set; }
+    public string Logradouro { get; set; } = null!;
 
     public string? Numero { get; set; }
 
     public string? Complemento { get; set; }
-
-    public string? Referencia { get; set; }
 
     public string? Cep { get; set; }
 
@@ -34,8 +32,6 @@ public partial class Endereco
     public double? Latitude { get; set; }
 
     public double? Longitude { get; set; }
-
-    public string? EnderecoDocumento { get; set; }
 
     public DateTime? DataCadastro { get; set; }
 

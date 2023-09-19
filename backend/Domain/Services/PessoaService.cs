@@ -75,7 +75,7 @@ namespace Domain.Services
             return Task.FromResult(tmp);
         }
 
-        public PessoaResult InsertGroup(PessoaInsertCommand model)
+        public PessoaResult Insert(PessoaInsertCommand model)
         {
                         
             if (!string.IsNullOrEmpty(model.Nome))
@@ -103,7 +103,14 @@ namespace Domain.Services
             }
             else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
         }
-        public PessoaResult UpdateGroup(PessoaUpdateCommand model)
+
+        
+        public Task<IQueryable<PessoaResult>> List()
+        {
+            return Task.FromResult(_pessoa.Query().AsQueryable());
+        }
+
+        public PessoaResult Update(PessoaUpdateCommand model)
         {
             if (!string.IsNullOrEmpty(model.Nome))
             {
@@ -131,32 +138,5 @@ namespace Domain.Services
             }
             else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
         }
-        public PessoaResult Insert(PessoaInsertCommand model)
-        {
-            if (!string.IsNullOrEmpty(model.Nome))
-            {
-                var res = model.asPessoa();
-                var pessoa = _repo.Insert(res);
-                return pessoa.asPessoaResult();
-            }
-            else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
-        }
-        public PessoaResult Update(PessoaUpdateCommand model)
-        {
-            if (!string.IsNullOrEmpty(model.Nome))
-            {
-                var res = model.asPessoa();
-                var pessoa = _repo.Update(res);
-                return pessoa.asPessoaResult();
-            }
-            else throw new Exception("Campo nome está nulo"); //passar para classe de validacao no modelo
-        }
-
-        public Task<IQueryable<PessoaResult>> List()
-        {
-            return Task.FromResult(_pessoa.Query().AsQueryable());
-        }
-
-       
     }
 }

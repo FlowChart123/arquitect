@@ -9,7 +9,7 @@ public partial class CteStatusSefaz
 
     public string Descricao { get; set; } = null!;
 
-    public virtual ICollection<DocumentoCte> DocumentoCtes { get; } = new List<DocumentoCte>();
+    public virtual ICollection<DocumentoEletronico> DocumentoEletronicos { get; } = new List<DocumentoEletronico>();
 
     public virtual ICollection<LoteEletronico> LoteEletronicos { get; } = new List<LoteEletronico>();
 }

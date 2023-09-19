@@ -41,11 +41,11 @@ namespace Infra.Repositorio
                              
         public override Pessoa InsertOrUpdate(Pessoa entity)
         {
-            _context.Pessoas.Entry(entity).State = EntityState.Detached;            
+            _context.Pessoas.Entry(entity).State = EntityState.Detached;
+            entity.DataCadastro = DateTime.Now;
+
             if (entity.Id != Guid.Empty)
-            {
-                var original = Load(null,entity.Id);
-                entity.DataCadastro = original.DataCadastro;
+            {                
                 _context.Pessoas.Entry(entity).State = EntityState.Modified;
             }
             else
@@ -63,7 +63,7 @@ namespace Infra.Repositorio
         {
             var model = _context.Pessoas.Where(p => p.Id == guid).Include("PessoaFisica").Include("PessoaJuridica").Include("PessoaFisica.PessoaFisicaComplemento").AsNoTracking().FirstOrDefault();
             if (model == null) return null;
-            _context.Pessoas.Entry(model).State = EntityState.Detached;
+            //_context.Pessoas.Entry(model).State = EntityState.Detached;
             return model;
         }
 
@@ -76,7 +76,6 @@ namespace Infra.Repositorio
 
         public override Pessoa Insert(Pessoa entity)
         {
-            entity.DataCadastro = DateTime.Now;
             var result = InsertOrUpdate(entity);
             return result;
         }

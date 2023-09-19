@@ -1,4 +1,4 @@
-﻿using Entities.IdentityModels;
+﻿using Entities.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;

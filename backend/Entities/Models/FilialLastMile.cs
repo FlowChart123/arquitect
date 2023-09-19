@@ -28,4 +28,6 @@ public partial class FilialLastMile
     public virtual Filial Filial { get; set; } = null!;
 
     public virtual ICollection<FilialLastMileGrupoItem> FilialLastMileGrupoItems { get; } = new List<FilialLastMileGrupoItem>();
+
+    public virtual Municipio? Municipio { get; set; }
 }
