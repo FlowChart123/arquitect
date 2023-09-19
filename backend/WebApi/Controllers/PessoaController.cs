@@ -85,17 +85,17 @@ namespace WebApi.Controllers
             }
         }
 
-        [HttpPost("Delete")]
+        [HttpDelete("Delete/{id}")]
         [AllowAnonymous]
-        public  IActionResult Delete([FromBody] Guid[] id)
+        public  IActionResult Delete([FromRoute] Guid id)
         {
-            
-            foreach (var c in id)
+            if (!ModelState.IsValid)
             {
-                _servico.Delete(c);
+                return BadRequest(ModelState);
             }
-            
-            return Ok($"${id.Length} registro(s) excluído(s)!");
+
+            _servico.Delete(id);
+            return Ok($"Registro ${id} excluido!");
         }
     }
 }

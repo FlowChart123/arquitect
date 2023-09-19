@@ -12,19 +12,13 @@ namespace Domain.Dto
 
     public class PessoaJuridicaDto
     {
-        
-        public string Cnpj { get; set; } = null!;
-
-        public string? Fantasia { get; set; }
-
-        public string InscricaoEstadual { get; set; } = null!;
-
-        public string? InscricaoMunicipal { get; set; }                
+        public Guid Id { get; set; }
+        public string Nome { get; set; }
 
     }
     public class PessoaJuridicaResult : PessoaJuridicaDto
     {
-        public Guid Id { get; set; }
+        
     }
 
     public class PessoaJuridicaInsertCommand : PessoaJuridicaDto
@@ -33,6 +27,6 @@ namespace Domain.Dto
     }
     public class PessoaJuridicaUpdateCommand : PessoaJuridicaDto
     {
-        public Guid Id { get; set; }
+        
     }
 }

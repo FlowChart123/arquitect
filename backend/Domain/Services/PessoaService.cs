@@ -21,18 +21,14 @@ namespace Domain.Services
         private readonly IRepositoy<Pessoa> _repo;
         private readonly IPessoaRepository _pessoa;
         private readonly IRepositoy<PessoaFisica> _pessoa_fisica;
-        private readonly IRepositoy<PessoaJuridica> _pessoa_juridica;
         private readonly IRepositoy<PessoaFisicaComplemento> _pessoa_fisica_complemento;
 
-        public PessoaService(IPessoaRepository pessoa, IRepositoy<Pessoa> repo, 
-            IRepositoy<PessoaFisica> pessoa_fisica,
-            IRepositoy<PessoaJuridica> pessoa_juridica,
+        public PessoaService(IPessoaRepository pessoa, IRepositoy<Pessoa> repo, IRepositoy<PessoaFisica> pessoa_fisica,
             IRepositoy<PessoaFisicaComplemento> pessoa_fisica_complemento)
         {
             _pessoa = pessoa;
             _repo = repo;
             _pessoa_fisica = pessoa_fisica;
-            _pessoa_juridica = pessoa_juridica;
             _pessoa_fisica_complemento = pessoa_fisica_complemento;
         }
 
@@ -53,7 +49,7 @@ namespace Domain.Services
                         
             if (!string.IsNullOrEmpty(search) && search != "")
             {
-                result = _pessoa.Query().AsQueryable().Where(p => p.Nome.ToLower().Contains(search.ToLower()) || p.DocNum.Contains(search) );
+                result = _pessoa.Query().AsQueryable().Where(p => p.Nome.ToLower().Contains(search.ToLower()));
             }
             else
             {
@@ -93,11 +89,6 @@ namespace Domain.Services
                         var pfc = _pessoa_fisica_complemento.InsertOrUpdate(pessoaFisica.PessoaFisicaComplemento);
                     }
                 }
-                if (pessoa.PessoaJuridica!=null)
-                {
-                    pessoa.PessoaJuridica.Id = pessoa.Id;
-                    var pj = _pessoa_juridica.InsertOrUpdate(pessoa.PessoaJuridica);
-                }
 
                 return pessoa.asPessoaResult();
             }
@@ -127,12 +118,6 @@ namespace Domain.Services
                         var pfc = _pessoa_fisica_complemento.InsertOrUpdate(pessoaFisica.PessoaFisicaComplemento);
                     }
                 }
-                if (pessoa.PessoaJuridica != null)
-                {
-                    pessoa.PessoaJuridica.Id = pessoa.Id;
-                    var pj = _pessoa_juridica.InsertOrUpdate(pessoa.PessoaJuridica);
-                }
-
 
                 return pessoa.asPessoaResult();
             }

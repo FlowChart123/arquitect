@@ -22,21 +22,17 @@ namespace Domain.Dto
         public bool IsFisica { get; set; }        
         public string? DocNum { get; set; }  
         public PessoaFisica? pessoaFisica { get; set; }
-        public PessoaJuridica? pessoaJuridica { get; set; }
-
     }
 
     public class PessoaInsertCommand 
     {
         public string? Nome { get; set; }
         public PessoaFisica? pessoaFisica { get; set; }
-        public PessoaJuridica? pessoaJuridica { get; set; }
     }
 
     public class PessoaUpdateCommand : PessoaDto
     {
         public Guid Id { get; set; }
         public PessoaFisica? pessoaFisica { get; set; }
-        public PessoaJuridica? pessoaJuridica { get; set; }
     }   
 }
