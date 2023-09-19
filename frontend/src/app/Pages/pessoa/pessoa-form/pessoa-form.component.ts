@@ -1,4 +1,4 @@
-import { EventEmitter, Component, OnInit, Output, ViewChild, AfterViewInit, } from '@angular/core';
+import { EventEmitter, Component, OnInit, Output, ViewChild, } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NgbCalendar } from '@ng-bootstrap/ng-bootstrap';
 import { formatDate } from '@angular/common';
@@ -10,16 +10,16 @@ import { PessoaFisica } from 'src/app/Business/Models/pessoaFisica';
 import { PessoaFisicaComplemento } from 'src/app/Business/Models/pessoaFisicaComplemento';
 import { NotificationService } from 'src/app/Business/Services/NotificationService';
 
-declare var $:any;
 const now = new Date();
 
 @Component({
   selector: 'app-pessoa-form',
   templateUrl: './pessoa-form.component.html',
   styleUrls: ['./pessoa-form.component.sass'],
-  providers: [PessoaService, GenericListService],  
+  providers: [PessoaService, GenericListService],
+  
 })
-export class PessoaFormComponent implements OnInit, AfterViewInit {
+export class PessoaFormComponent implements OnInit {
   
   @Output()  init= new EventEmitter<any>();  
   @Output()  OnCallBack= new EventEmitter<any>();  
@@ -35,9 +35,6 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
     private genericLists: GenericListService,
     private notifier: NotificationService
   ) { }
-  ngAfterViewInit(): void {
-   
-  }
   model:Pessoa;
 
   ngOnInit(): void {
@@ -50,7 +47,6 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
   
 
   Initialize(id : any){    
-    this.submitted=false;
     if (id && id!=''){
       this.elementId=id;
       this.title='EDITAR - PESSOA';
@@ -76,7 +72,7 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
       {
         id: [this.model.id],
         nome: [this.model.nome, [Validators.required]],    
-        pessoaFisica: this.model.pessoaFisica!=null ? this.fb.group(
+        pessoaFisica: this.fb.group(
           {
             cpf: [this.model.pessoaFisica.cpf],            
             pessoaFisicaComplemento: this.fb.group(
@@ -84,7 +80,7 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
                   id: [this.model.pessoaFisica.pessoaFisicaComplemento.id], 
                   rg: [this.model.pessoaFisica.pessoaFisicaComplemento.rg,[Validators.required]],
                   rgEmissaoData: [formatDate(_rgEmissao, 'yyyy-MM-dd', 'en')],
-                  rgEmissaoUf: [this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoUf, [Validators.required]],
+                  rgEmissaoUF: [this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoUF],
                   rgEmissaoMunicipio: [this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoMunicipio],
                   nascimentoData: [formatDate(_nascimentoData, 'yyyy-MM-dd', 'en')],
                   nascimentoUf: [this.model.pessoaFisica.pessoaFisicaComplemento.nascimentoUf],
@@ -100,49 +96,9 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
               }
             )
           }
-        ): this.fb.group({ 
-          cpf:[''],
-          id: ['00000000-0000-0000-0000-000000000000'], //coloquei o id zerado para nao ter que criar uma casse dto para insercao
-          pessoaFisicaComplemento:{
-            id: ['00000000-0000-0000-0000-000000000000'], 
-            rg: [''],
-            rgEmissaoData: [new Date()],
-            rgEmissaoUf: ['', [Validators.required]],
-            rgEmissaoMunicipio: [''],
-            nascimentoData:[''],
-            nascimentoUf: [''],
-            nascimentoMunicipio: [''],
-            nomePai: [''],
-            nomeMae: [''],
-            cnh: [''],
-            cnhEmissao: [new Date()],
-            cnhValidade: [new Date()],
-            cnhCategoria: [''],
-            cnhPrimeiraHabilitacao: [new Date()],
-            nacionalidade: ['']
-          }
-        }),
-        pessoaJuridica: this.model.pessoaJuridica!=null ?  this.fb.group(
-          {            
-            cnpj: [this.model.pessoaJuridica.cnpj, [Validators.required]],
-            fantasia: [this.model.pessoaJuridica.fantasia, [Validators.required]],
-            inscricaoEstadual: [this.model.pessoaJuridica.inscricaoEstadual],
-            inscricaoMunicipal: [this.model.pessoaJuridica.inscricaoMunicipal],
-          }
-        ) : this.fb.group ({
-          id: ['00000000-0000-0000-0000-000000000000',[Validators.required]],
-          cnpj: [''],
-          fantasia: [''],
-          inscricaoEstadual: [''],
-          inscricaoMunicipal: ['']
-        }),
+        )
       }
     )
-        
-    setTimeout(() => {
-      $('#sleCnpj').mask('00.000.000/0000-00', {reverse: true});  
-    }, 500);
-        
   }
   
   get f() {
@@ -163,7 +119,7 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
           id: '00000000-0000-0000-0000-000000000000', 
           rg: '',
           rgEmissaoData: new Date(),
-          rgEmissaoUf: '',
+          rgEmissaoUF: '',
           rgEmissaoMunicipio: '',
           nascimentoData:'',
           nascimentoUf: '',
@@ -177,13 +133,6 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
           cnhPrimeiraHabilitacao: new Date(),
           nacionalidade: ''
         }
-      },
-      pessoaJuridica:{
-        id: '00000000-0000-0000-0000-000000000000',
-        cnpj: '',
-        fantasia: '',
-        inscricaoEstadual: '',
-        inscricaoMunicipal: ''
       }
     } as Pessoa;
     this.model=ln;
@@ -192,8 +141,8 @@ export class PessoaFormComponent implements OnInit, AfterViewInit {
 
   _get_record(id)
   {
-      this.principalsService.Load(this.elementId).subscribe(p=>{          
-        console.log(p);  
+      this.principalsService.Load(this.elementId).subscribe(p=>{    
+        console.log(p);    
         this.model=p;
         this.createForm();
       })

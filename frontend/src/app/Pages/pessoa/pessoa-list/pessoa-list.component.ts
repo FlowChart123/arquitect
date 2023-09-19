@@ -66,23 +66,21 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
 
   _remove(obj)
   {  
-      let selecionados = this.data.filter(p=>{
-        return p._selected==true;
-      });
-      console.group(selecionados);
-
-      let ids=[];
-      selecionados.forEach(p=>{
-        ids.push(p.id);
-      });
-      console.log(ids);
-      this._supService.Delete(ids).subscribe(p=>{
-        console.log(p);
-        this.refresh();
-      })
+      if (obj==null)
+      {
+        //remover items selecionados
+      }
+      else{
+        //remover item específico
+      }
   }
 
-  
+  getTipoPessoa(isFis)
+  {
+    if (isFis==true)
+      return "Física";
+    else return "Jurídica";
+  }
 
   /********************************************* */
 }

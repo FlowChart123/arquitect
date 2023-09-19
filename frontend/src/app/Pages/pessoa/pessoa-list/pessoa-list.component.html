@@ -22,7 +22,7 @@
         <div class="row">
           <label for="staticEmail" style="margin-left: 22px;" class="col-auto col-form-label">Pesquisa:</label>
           <div class="col-auto" style="padding-left: 0px;">
-            <input type="text" style="margin-left: 0px !important;" id="sleSearch" class="form-control ms-2" name="searchTerm" [(ngModel)]="searchTerm" placeholder="Digite para pesquisar...">
+            <input type="text" style="margin-left: 0px !important;" class="form-control ms-2" name="searchTerm" [(ngModel)]="searchTerm" placeholder="Digite para pesquisar...">
             <span class="ms-3" *ngIf="loading$ | async" style="position: absolute; right: 100px; margin-top: -30px;">Carregando...</span>
           </div>
         </div>
@@ -39,10 +39,10 @@
             <!-- <th scope="col" class="text-center" dtHeader [grid]="'primary'"  (sort)="_sort($event)" [field]="'id'">#</th> -->
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'nome'"  >Nome</th>
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'datacadastro'"  >Data de Cadastro</th>         
-            <!-- <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'isFisica'"  >Tipo Pessoa</th>          -->
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'isFisica'"  >Tipo Pessoa</th>         
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'docnum'"  >Doc.</th>         
-            <th scope="col" >Detalhes</th>       
-            <th scope="col ">Opções</th>  
+            <th scope="col" >Opções</th>       
+            <th scope="col "></th>  
           </tr>
         </thead>
         <tbody>
@@ -61,15 +61,47 @@
             <td>           
               <ngb-highlight [result]="item.dataCadastro | date :'dd/MM/yyyy'" [term]="searchTerm"></ngb-highlight>
             </td> 
-            <!-- <td>           
+            <td>           
               <ngb-highlight [result]="getTipoPessoa(item.isFisica) " [term]="searchTerm"></ngb-highlight>
-            </td>     -->
+            </td>    
             <td>           
               <ngb-highlight [result]="item.docNum " [term]="searchTerm"></ngb-highlight>
             </td>        
-           <td>            
-              <app-label-pessoa-fisica *ngIf="item.pessoaFisica && item.pessoaFisica.pessoaFisicaComplemento" [item]="item" ></app-label-pessoa-fisica>
-              <app-label-pessoa-juridica *ngIf="item.pessoaFisica && item.pessoaJuridica" [item]="item" ></app-label-pessoa-juridica>
+           <td>
+              <div class="btn-group" ngbDropdown *ngIf="item.pessoaFisica && item.pessoaFisica.pessoaFisicaComplemento">
+                <button type="button" ngbDropdownToggle class="mb-2 me-2 btn btn-primary">Detalhes</button>
+                <div ngbDropdownMenu class="dropdown-menu-lg">
+                  <div class="dropdown-menu-header">
+                    <div class="dropdown-menu-header-inner bg-primary">
+                      <div class="menu-header-image" style="background-image: url('./assets/images/dropdown-header/abstract1.jpg');"></div>
+                      <div class="menu-header-content"><h5 class="menu-header-title">{{item.nome}}</h5><h6 class="menu-header-subtitle"> Pessoa {{getTipoPessoa(item.isFisica) }}</h6></div>
+                    </div>
+                  </div>
+                  <ul class="nav flex-column">
+                    <li class="nav-item-header nav-item">CNH</li>
+                    
+                    <li class="nav-item">
+                      <a [routerLink]="" class="nav-link">CNH No.
+                        <div class="ms-auto badge rounded-pill bg-info">{{item.pessoaFisica.pessoaFisicaComplemento.cnh}}</div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a [routerLink]="" class="nav-link">Categoria
+                        <div class="ms-auto badge rounded-pill bg-info">{{item.pessoaFisica.pessoaFisicaComplemento.cnhCategoria}}</div>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a [routerLink]="" class="nav-link">Emissão
+                        <div class="ms-auto badge rounded-pill bg-info">{{item.pessoaFisica.pessoaFisicaComplemento.cnhEmissao | date:'dd/MM/yyyy'}}</div>
+                      </a>
+                    </li>                  
+                    <li class="nav-item-divider nav-item"></li>
+                    <li class="nav-item-btn nav-item">
+                      <button class="btn-wide btn-shadow btn btn-danger btn-sm">Mais detalhes...</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
            </td>
            <td>            
             <a class="btn" (click)="_edit(item)"> <i class="fa fa-fw fa-pencil" aria-hidden="true" style="float: left; cursor: pointer;"></i></a>
