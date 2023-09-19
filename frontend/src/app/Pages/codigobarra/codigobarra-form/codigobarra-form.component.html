@@ -1,0 +1,41 @@
+<div class="row">
+
+  <div class="card-hover-shadow-2x mb-3 card">
+    <div class="card-header">{{title}}
+
+    </div>
+    <div class="card-body">            
+      
+
+  <form [formGroup]="form" (submit)="save()" *ngIf="form!=null">
+    <div class="col-md-12" style="float: left;">
+      <div class="main-card mb-3 card">
+        <div class="card-body">
+          <!-- CODIGO BARRAS -->
+          <div class="position-relative mb-3">
+            <label for="sleNome" class="form-label">Código de Barras:</label>
+            <input name="nome" id="sleNome" placeholder="Código de barras" type="text" class="form-control"
+              formControlName="codigoBarras" required>
+
+            <label *ngIf="form.get('codigoBarras')?.errors?.['required'] &&  submitted==true" class="error-input">
+              Campo obrigatório!
+            </label>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </form>
+
+    </div>
+
+
+    <div class="d-block text-end card-footer">
+        <button class="me-2 btn btn-link btn-sm" (click)="Back()">Cancelar</button>
+        <button class="btn-shadow-primary btn btn-primary btn-lg" (click)="Save()">Salvar</button>
+     </div>
+   </div>
+</div>
