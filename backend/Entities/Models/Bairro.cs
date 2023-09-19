@@ -14,6 +14,4 @@ public partial class Bairro
     public DateTime? DataCadastro { get; set; }
 
     public virtual ICollection<FilialLastMile> FilialLastMiles { get; } = new List<FilialLastMile>();
-
-    public virtual Municipio Municipio { get; set; } = null!;
 }

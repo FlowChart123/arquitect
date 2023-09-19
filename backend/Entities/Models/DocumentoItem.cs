@@ -19,9 +19,9 @@ public partial class DocumentoItem
 
     public string? CEan { get; set; }
 
-    public int? UCom { get; set; }
+    public string? UCom { get; set; }
 
-    public int? QCom { get; set; }
+    public decimal? QCom { get; set; }
 
     public decimal? VUnCom { get; set; }
 

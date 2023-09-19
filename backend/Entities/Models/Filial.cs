@@ -13,6 +13,8 @@ public partial class Filial
 
     public int? FilialPaiId { get; set; }
 
+    public string? SenhaCertificado { get; set; }
+
     public DateTime DataCadastro { get; set; }
 
     public bool Ativo { get; set; }

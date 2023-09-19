@@ -15,6 +15,8 @@ public partial class Tenant
 
     public bool Ativo { get; set; }
 
+    public virtual ICollection<ChaveValor> ChaveValors { get; } = new List<ChaveValor>();
+
     public virtual ICollection<Ciot> Ciots { get; } = new List<Ciot>();
 
     public virtual ICollection<ClienteCodigo> ClienteCodigos { get; } = new List<ClienteCodigo>();

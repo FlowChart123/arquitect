@@ -17,10 +17,6 @@ public partial class DocumentoEletronico
 
     public DateTime? DataCadastro { get; set; }
 
-    public virtual CteStatusSefaz? CteStatusSefaz { get; set; }
-
-    public virtual CteStatusSistema? CteStatusSistema { get; set; }
-
     public virtual DocumentoCte Documento { get; set; } = null!;
 
     public virtual LoteEletronico? LoteEletronico { get; set; }

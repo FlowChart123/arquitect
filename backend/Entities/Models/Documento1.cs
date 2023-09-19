@@ -7,9 +7,9 @@ public partial class Documento1
 {
     public Guid Id { get; set; }
 
-    public Guid DocumentoId { get; set; }
-
     public Guid TenantId { get; set; }
+
+    public Guid DocumentoId { get; set; }
 
     public DateTime DataEntrada { get; set; }
 
@@ -17,11 +17,9 @@ public partial class Documento1
 
     public virtual Documento Documento { get; set; } = null!;
 
-    public virtual ICollection<DocumentoCte> DocumentoCtes { get; } = new List<DocumentoCte>();
+    public virtual DocumentoCte? DocumentoCte { get; set; }
 
     public virtual DocumentoFilialGrupo? DocumentoFilialGrupo { get; set; }
-
-    public virtual ICollection<DocumentoFrete> DocumentoFretes { get; } = new List<DocumentoFrete>();
 
     public virtual ICollection<DocumentoVolume1> DocumentoVolume1s { get; } = new List<DocumentoVolume1>();
 

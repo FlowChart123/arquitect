@@ -14,4 +14,6 @@ public partial class CodigoBarra
     public decimal? Largura { get; set; }
 
     public decimal? Comprimento { get; set; }
+
+    public decimal? Peso { get; set; }
 }

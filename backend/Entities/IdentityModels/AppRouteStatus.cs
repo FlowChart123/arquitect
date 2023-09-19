@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace Entities.IdentityModels;
 
 public partial class AppRouteStatus

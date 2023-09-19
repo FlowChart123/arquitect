@@ -29,10 +29,6 @@ public partial class DtMdfe
 
     public bool Ativo { get; set; }
 
-    public virtual Municipio CidadeFinalTransporte { get; set; } = null!;
-
-    public virtual Municipio CidadeInicioTransporte { get; set; } = null!;
-
     public virtual Dt Dt { get; set; } = null!;
 
     public virtual ICollection<DtMdfeDtRomaneio> DtMdfeDtRomaneios { get; } = new List<DtMdfeDtRomaneio>();

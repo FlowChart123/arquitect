@@ -28,7 +28,7 @@ namespace Domain.Dto
 
     public class PessoaInsertCommand 
     {
-        public string? Nome { get; set; }
+        public string? Nome { get; set; }        
         public PessoaFisica? pessoaFisica { get; set; }
         public PessoaJuridica? pessoaJuridica { get; set; }
     }
@@ -36,6 +36,7 @@ namespace Domain.Dto
     public class PessoaUpdateCommand : PessoaDto
     {
         public Guid Id { get; set; }
+        public string? Doc { get; set; }
         public PessoaFisica? pessoaFisica { get; set; }
         public PessoaJuridica? pessoaJuridica { get; set; }
     }   

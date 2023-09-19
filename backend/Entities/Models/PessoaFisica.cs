@@ -9,7 +9,7 @@ public partial class PessoaFisica
 
     public string Cpf { get; set; } = null!;
 
-    public virtual Pessoa? IdNavigation { get; set; } = null!;
+    public virtual Pessoa IdNavigation { get; set; } = null!;
 
     public virtual PessoaFisicaComplemento? PessoaFisicaComplemento { get; set; }
 }
