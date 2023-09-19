@@ -1,0 +1,36 @@
+
+<div class="btn-group" ngbDropdown >
+    <button type="button" ngbDropdownToggle class="mb-2 me-2 btn btn-primary" [disabled]="!item.pessoaFisica">Fisica</button>
+
+    <div ngbDropdownMenu class="dropdown-menu-lg"  *ngIf="item.pessoaFisica && item.pessoaFisica.pessoaFisicaComplemento">
+      <div class="dropdown-menu-header">
+        <div class="dropdown-menu-header-inner bg-primary">
+          <div class="menu-header-image" style="background-image: url('./assets/images/dropdown-header/abstract1.jpg');"></div>
+          <div class="menu-header-content"><h5 class="menu-header-title">{{item.nome}}</h5><h6 class="menu-header-subtitle"> Pessoa {{getTipoPessoa(item.isFisica) }}</h6></div>
+        </div>
+      </div>
+      <ul class="nav flex-column">
+        <li class="nav-item-header nav-item">CNH</li>
+        
+        <li class="nav-item">
+          <a [routerLink]="" class="nav-link">CNH No.
+            <div class="ms-auto badge rounded-pill bg-info">{{item.pessoaFisica.pessoaFisicaComplemento.cnh}}</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="" class="nav-link">Categoria
+            <div class="ms-auto badge rounded-pill bg-info">{{item.pessoaFisica.pessoaFisicaComplemento.cnhCategoria}}</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="" class="nav-link">Emissão
+            <div class="ms-auto badge rounded-pill bg-info">{{item.pessoaFisica.pessoaFisicaComplemento.cnhEmissao | date:'dd/MM/yyyy'}}</div>
+          </a>
+        </li>                  
+        <li class="nav-item-divider nav-item"></li>
+        <li class="nav-item-btn nav-item">
+          <button class="btn-wide btn-shadow btn btn-danger btn-sm">Mais detalhes...</button>
+        </li>
+      </ul>
+    </div>
+  </div>

@@ -32,13 +32,15 @@ export class PessoaComponent extends BasePageComponent implements OnInit {
   {        
     this.editMode = true;
     this.dataForm.submitted=false;
+    
     this.dataForm.Initialize(0);
   }
 
   Edit(p)
   {
     this.editMode = true;
-    this.dataForm.Initialize(p.id);    
+   
+    this.dataForm.Initialize(p.id);   
   }
 
   

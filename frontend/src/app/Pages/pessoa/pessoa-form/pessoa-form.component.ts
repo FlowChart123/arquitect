@@ -9,6 +9,7 @@ import { Pessoa } from 'src/app/Business/Models/pessoa';
 import { PessoaFisica } from 'src/app/Business/Models/pessoaFisica';
 import { PessoaFisicaComplemento } from 'src/app/Business/Models/pessoaFisicaComplemento';
 import { NotificationService } from 'src/app/Business/Services/NotificationService';
+import { GenericValidator } from 'src/app/Business/Validators/CpfValidator';
 
 const now = new Date();
 
@@ -27,6 +28,27 @@ export class PessoaFormComponent implements OnInit {
   submitted=false;
   form: FormGroup;    
   title='';
+  mode='zero';
+  editMode=false;
+
+  SetDocMode()
+  {
+    let t = this.form.controls['doc'].value;
+   
+
+     if (t.length==11)
+    {
+      this.mode='CPF';
+    }
+    else if (t.length==14){
+      this.mode='CNPJ';
+    }
+    else 
+    {
+      this.mode='OUTROS';
+    }
+  }
+
 
   constructor(
     private principalsService: PessoaService,
@@ -35,6 +57,13 @@ export class PessoaFormComponent implements OnInit {
     private genericLists: GenericListService,
     private notifier: NotificationService
   ) { }
+<<<<<<< Updated upstream
+=======
+
+  ngAfterViewInit(): void {
+    
+  }
+>>>>>>> Stashed changes
   model:Pessoa;
 
   ngOnInit(): void {
@@ -46,31 +75,35 @@ export class PessoaFormComponent implements OnInit {
 
   
 
+<<<<<<< Updated upstream
   Initialize(id : any){    
+=======
+  Initialize(id: any){        
+    this.submitted=false;
+    
+    //let id = localStorage.getItem('editId');
+>>>>>>> Stashed changes
     if (id && id!=''){
       this.elementId=id;
       this.title='EDITAR - PESSOA';
+      this.editMode=true;
       this._get_record(id)
     }
     else{
       this.title='INSERIR - PESSOA';
+      this.editMode=false;
       this._get_newModel();
     }      
 }  
 
   createForm()
   {
-
-    let _rgEmissao=this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoData ? this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoData : new Date();
-    let _nascimentoData = this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoData ? this.model.pessoaFisica.pessoaFisicaComplemento.rgEmissaoData : new Date();
-    let _cnhEmissao = this.model.pessoaFisica.pessoaFisicaComplemento.cnhEmissao ? this.model.pessoaFisica.pessoaFisicaComplemento.cnhEmissao : new Date();
-    let _cnhValidade = this.model.pessoaFisica.pessoaFisicaComplemento.cnhValidade ? this.model.pessoaFisica.pessoaFisicaComplemento.cnhValidade : new Date();
-    let _cnhPHabilitacao = this.model.pessoaFisica.pessoaFisicaComplemento.cnhPrimeiraHabilitacao ? this.model.pessoaFisica.pessoaFisicaComplemento.cnhPrimeiraHabilitacao : new Date();
-
+       
     this.form = this.fb.group
     (      
       {
         id: [this.model.id],
+<<<<<<< Updated upstream
         nome: [this.model.nome, [Validators.required]],    
         pessoaFisica: this.fb.group(
           {
@@ -99,6 +132,13 @@ export class PessoaFormComponent implements OnInit {
         )
       }
     )
+=======
+        nome: [this.model.nome, [Validators.required]],  
+        doc: [this.model.docNum, [Validators.required,GenericValidator.isValidCpf(), GenericValidator.isValidCnpj()]],               
+      }
+    )
+   
+>>>>>>> Stashed changes
   }
   
   get f() {
@@ -111,6 +151,7 @@ export class PessoaFormComponent implements OnInit {
 
     var ln =  {      
       id: null,
+<<<<<<< Updated upstream
       nome:'',
       pessoaFisica: {
         cpf:'',        
@@ -134,6 +175,10 @@ export class PessoaFormComponent implements OnInit {
           nacionalidade: ''
         }
       }
+=======
+      nome:'',       
+      docNum:''    
+>>>>>>> Stashed changes
     } as Pessoa;
     this.model=ln;
     this.createForm();
@@ -141,11 +186,26 @@ export class PessoaFormComponent implements OnInit {
 
   _get_record(id)
   {
+<<<<<<< Updated upstream
       this.principalsService.Load(this.elementId).subscribe(p=>{    
         console.log(p);    
         this.model=p;
         this.createForm();
       })
+=======
+    this.principalsService.Load(this.elementId).subscribe(p=>{                  
+      this.model=p;      
+      if (this.model.pessoaFisica)
+      {
+        
+      }
+      else
+      {
+        
+      }
+      this.createForm();
+    })
+>>>>>>> Stashed changes
   }
 
 
@@ -168,6 +228,7 @@ export class PessoaFormComponent implements OnInit {
   {
     let f = this.form;    
     this.submitted=true;    
+    console.log(f.errors);
     if (f.valid==true) {
       let vr=f.value;     
       this.principalsService.InsertOrUpdate(vr).subscribe(p=>{   

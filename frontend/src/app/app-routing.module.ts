@@ -79,7 +79,8 @@ const routes: Routes = [
         loadChildren: () => import('./Pages/codigobarra/codigobarra.module').then(m => m.CodigoBarraModule)
       },
       {
-        path: 'pages/pessoas',        
+        path: 'pages/pessoas',    
+        canActivate:[AuthGuard],    
         loadChildren: () => import('./Pages/pessoa/pessoa.module').then(m => m.PessoaModule)
       },
       {

@@ -39,10 +39,17 @@
             <!-- <th scope="col" class="text-center" dtHeader [grid]="'primary'"  (sort)="_sort($event)" [field]="'id'">#</th> -->
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'nome'"  >Nome</th>
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'datacadastro'"  >Data de Cadastro</th>         
+<<<<<<< Updated upstream
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'isFisica'"  >Tipo Pessoa</th>         
             <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'docnum'"  >Doc.</th>         
             <th scope="col" >Opções</th>       
             <th scope="col "></th>  
+=======
+            <!-- <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'isFisica'"  >Tipo Pessoa</th>          -->
+            <th scope="col"  dtHeader  (sort)="_sort($event)" [grid]="'primary'" [field]="'docnum'"  >Documento</th>         
+            <th scope="col" >Detalhes</th>       
+            <th scope="col ">Opções</th>  
+>>>>>>> Stashed changes
           </tr>
         </thead>
         <tbody>
@@ -67,6 +74,7 @@
             <td>           
               <ngb-highlight [result]="item.docNum " [term]="searchTerm"></ngb-highlight>
             </td>        
+<<<<<<< Updated upstream
            <td>
               <div class="btn-group" ngbDropdown *ngIf="item.pessoaFisica && item.pessoaFisica.pessoaFisicaComplemento">
                 <button type="button" ngbDropdownToggle class="mb-2 me-2 btn btn-primary">Detalhes</button>
@@ -102,6 +110,11 @@
                   </ul>
                 </div>
               </div>
+=======
+           <td>            
+              <app-label-pessoa-fisica  [item]="item" ></app-label-pessoa-fisica>
+              <app-label-pessoa-juridica  [item]="item" ></app-label-pessoa-juridica>
+>>>>>>> Stashed changes
            </td>
            <td>            
             <a class="btn" (click)="_edit(item)"> <i class="fa fa-fw fa-pencil" aria-hidden="true" style="float: left; cursor: pointer;"></i></a>
@@ -111,7 +124,7 @@
       </table>
       <div class="card-footer pb-0">
         <div class="d-flex w-100 justify-content-between">
-          <ngb-pagination [collectionSize]="total$ | async " [(page)]="page" [pageSize]="pageSize"></ngb-pagination>
+          <ngb-pagination [collectionSize]="total$ | async " [(page)]="page" [pageSize]="pageSize" [maxSize]="5"></ngb-pagination>
           <select class="custom-select form-select" style="width: auto" name="pageSize" [(ngModel)]="pageSize">
             <option [ngValue]="5">5 itens por página</option>
             <option [ngValue]="10">10 itens por página</option>

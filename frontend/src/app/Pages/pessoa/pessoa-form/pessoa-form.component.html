@@ -1,13 +1,15 @@
 <div class="row">
 
   <div class="card-hover-shadow-2x mb-3 card">
-    <div class="card-header">{{title}}
+    <div class="card-header">
+      {{title}}
 
     </div>
     <div class="card-body">
 
-
+      <!-- mask="(999) 000-0000"  -->
       <form [formGroup]="form" (submit)="save()" *ngIf="form!=null">
+<<<<<<< Updated upstream
         <div class="col-md-12" style="float: left;">
           
             
@@ -200,11 +202,54 @@
           
         </div>
         
+=======
+
+        <div class="row">
+          <div class="col-md-4" style="float: left;">
+            <mat-form-field class="col-md-11">
+              <input matInput placeholder="Documento" formControlName="doc" required [readonly]="editMode==true"
+                *ngIf="editMode==true">
+              <input matInput placeholder="Documento" mask="00000000000000" formControlName="doc" required
+                (change)="SetDocMode()" *ngIf="editMode==false">
+              <mat-hint *ngIf="form.get('doc')?.errors?.['required'] &&  submitted==true">Informe o documento - apenas
+                números</mat-hint>
+              <mat-hint *ngIf="form.get('doc')?.errors?.['cpf'] &&  submitted==true">CPF inválido!</mat-hint>
+              <mat-hint *ngIf="form.get('doc')?.errors?.['cnpj'] &&  submitted==true">CNPJ inválido!</mat-hint>
+            </mat-form-field>
+
+          </div>
+
+          <div class="col-md-4" style="float: left;">
+            <mat-form-field class="col-md-11">
+              <input matInput placeholder="Nome" formControlName="nome" required>
+              <mat-hint *ngIf="form.get('nome')?.errors?.['required'] &&  submitted==true">Informe o nome da
+                pessoa</mat-hint>
+            </mat-form-field>
+
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div *ngIf="editMode==false">
+            <app-pessoa-fisica-complementos *ngIf="mode=='CPF'"></app-pessoa-fisica-complementos>
+            <app-pessoa-juridica-complementos *ngIf="mode=='CNPJ'"></app-pessoa-juridica-complementos>
+            <app-pessoa-outros *ngIf="mode=='OUTROS'"></app-pessoa-outros>
+          </div>
+
+        </div>
+
+>>>>>>> Stashed changes
 
       </form>
 
 
+<<<<<<< Updated upstream
       
+=======
+
+
+>>>>>>> Stashed changes
     </div>
 
 

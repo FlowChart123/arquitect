@@ -56,7 +56,7 @@ export class PessoaModalComponent implements OnInit {
   initForm(frm)
   {
     this.form=frm;
-    this.form.Initialize(this.elementId);
+    this.form.Initialize(frm.id);
   }
 
   save()

@@ -33,8 +33,8 @@ export abstract class DatagridComponent implements OnInit {
   data=[];
 
   private _search$ = new Subject<void>();
-  private _results$ = new BehaviorSubject<any[]>([]);
-  private _total$ = new BehaviorSubject<number>(0);
+   _results$ = new BehaviorSubject<any[]>([]);
+   _total$ = new BehaviorSubject<number>(0);
   private _loading$ = new BehaviorSubject<boolean>(true);
 
   private _order="";
@@ -70,12 +70,11 @@ export abstract class DatagridComponent implements OnInit {
       switchMap(() => this._search(this._order,this._dir)),
       delay(200),
       tap(() => this._loading$.next(false))
-    ).subscribe(result => {      
+    ).subscribe(result => {            
       this._results$.next(result.items);
-      this._total$.next(result.total);
+      this._total$.next(result.total);    
     });
     this._search$.next();
-
   }
 
   _RefreshData()

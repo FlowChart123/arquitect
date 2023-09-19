@@ -40,13 +40,20 @@ export class PessoaListComponent extends DatagridComponent implements OnInit {
     let searcht = this._searchTerm != undefined ? this._searchTerm : '';
     let input = { page: this._page, size: this._pageSize, orderBy: order, orderDirection: dir, search: searcht } as Pager;
     this._supService.Page(input).subscribe(p => {
-      tmp.total = p.totalItems;
+      console.log(p);
+      tmp.total = p.totalItems;      
       p.items.forEach(x => {
         x._selected=false;
         tmp.items.push(x);
-      })
-      console.log(p);
+      })      
+      
+      
+      this._results$.next(tmp.items);
+      this._total$.next(tmp.total);      
     })
+
+
+    
     return of(tmp);
   }
  

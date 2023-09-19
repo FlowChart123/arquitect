@@ -4,17 +4,10 @@
 
 <app-pessoa-list [hidden]="editMode==true" (OnEdit)="Edit($event)" #dataList></app-pessoa-list>
 
-
-
 <!-- TABMODELO -->
-<!-- <ul ngbNav #nav="ngbNav" class="nav-tabs tabs-animated tabs-animated-shadow">    
-  <li ngbNavItem>
-    <a ngbNavLink><span>CATEGORIAS</span></a>
-    <ng-template ngbNavContent>        
-      
-    </ng-template>
-  </li>
-</ul>
-<div [ngbNavOutlet]="nav"></div> -->
 
-<app-pessoa-form  [hidden]="editMode==false" #dataForm (OnCallBack)="FormCallBack($event)"></app-pessoa-form>
+<app-pessoa-form  #dataForm (OnCallBack)="FormCallBack($event)" [hidden]="editMode==false"></app-pessoa-form>    
+
+
+
+

@@ -25,4 +25,5 @@ export interface Pessoa  {
     transportador: Transportador | null;
     transportador1: Transportador1 | null;
     veiculos: Veiculo[];
+    docNum:string;
 }
